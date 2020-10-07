@@ -1,0 +1,100 @@
+{
+	"dev": {
+
+		"src" : "./src/",
+		"dist" : "./dist/",
+
+		"scss" : {
+			"src": "./src/scss/*.+(scss|sass)",
+			"dist": "./dist/assets/css"
+		}, 
+		"js" : {
+			"src": "./src/js/*.js",
+			"dist": "./dist/assets/js"
+		}, 
+		"img" : {
+			"src": "./src/img/**/*.+(png|jpg|jpeg|gif|svg)",
+			"dist": "./dist/assets/img",
+			"imagemin": {
+		  		"interlaced": true
+			}
+		},
+		"kit" : {
+			"src": "./src/*.kit",
+			"dist": "./dist/"
+		},
+		"font" : {
+			"src": "./src/fonts/**/*.+(woff|woff2|eot|ttf|otf|svg)",
+			"dist": "./dist/assets/fonts"
+		},
+		"file" : {
+			"base" : "./src/files",
+			"src": "./src/files/**/*",
+			"dist": "./dist/assets/files"
+		}
+	},
+
+	"prod" : {
+
+		"src" : "./src/",
+		"dist" : "./dist/",
+
+		"scss" : {
+			"src": "./src/scss/*.+(scss|sass)",
+			"dist": "./dist/assets/css"
+		}, 
+		"js" : {
+			"src": "./src/js/*.js",
+			"dist": "./dist/assets/js"
+		}, 
+		"img" : {
+			"src": "./src/img/**/*.+(png|jpg|jpeg|gif|svg)",
+			"dist": "./dist/assets/img",
+			"imagemin": {
+		  		"interlaced": true
+			}
+		},
+		"kit" : {
+			"src": "./src/*.kit",
+			"dist": "./dist/"
+		},
+		"font" : {
+			"src": "./src/fonts/**/*.+(woff|woff2|eot|ttf|otf|svg)",
+			"dist": "./dist/assets/fonts"
+		},
+		"file" : {
+			"base" : "./src/files",
+			"src": "./src/files/**/*",
+			"dist": "./dist/assets/files"
+		}
+	},
+
+	"isdev": false,
+
+	"ssh": { 
+		"enable": true,
+		"remotebase": "/var/www/clients/client1/web1/sub_dev/",
+		"remotefolder": "gulp-test/",
+		"config": {
+			"ignoreErrors": false,
+			"sshConfig": {
+				"host": "server1.oktodigital.com",
+				"port": 22,
+				"username": "c1devAdmin",
+				"password": "h1yYUD!xCd0"
+			}
+		}
+	},
+
+	"ftp": {
+		"enable": false,
+		"remotebase": "/public_html/",
+		"remotefolder": "",
+		"config": {
+			"host": "",
+			"port": 21,
+			"user": "",
+			"password": ""
+		}
+	}
+}
