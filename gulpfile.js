@@ -22,6 +22,9 @@ var autoprefixer = require('gulp-autoprefixer');
 var cssnano = require('gulp-cssnano');
 var sourcemaps = require('gulp-sourcemaps');
 
+//GFONTS
+var googleWebFonts = require('gulp-google-webfonts');
+
 // IMAGES
 var imagemin = require('gulp-imagemin');
 
@@ -180,6 +183,19 @@ gulp.task('fonts', function() {
 		.pipe( bSync.reload({stream: true}) );
 })
 // resources: https://www.npmjs.com/search?q=font
+
+var options = {
+	fontsDir: 'Poppins/',
+	cssDir: 'Poppins/css',
+	cssFilename: 'setting.css'
+};
+
+gulp.task('gfonts', function () {
+	return gulp.src('./src/fonts/fonts.list')
+		.pipe(googleWebFonts(options))
+		.pipe(gulp.dest('./src/fonts/'))
+		;
+});
 
 // --------------------------------
 // COPY OTHER FILES

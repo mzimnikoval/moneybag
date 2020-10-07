@@ -1,31 +1,22 @@
-@import 'abstracts/variables';
+@import 
+	'abstracts/variables',
+	'abstracts/functions',
+	'abstracts/mixins';
 
-body {
-	font-size: $base-font-size !important;
-	background: #000;
-	color: #fff;
-}
-
-$spacer: 1rem;
-$spacers: (
-  5: ($spacer * 2),
-  6: ($spacer * 2.5),
-  7: ($spacer * 3),
-  8: ($spacer * 3.5),
-  9: ($spacer * 4),
-  10: ($spacer * 4.5),
-  11: ($spacer * 5),
-  12: ($spacer * 5.5),
-);
-
-@import '../vendor/bootstrap/scss/bootstrap';
+/*
+Importing all vendors for application
+*/
+@import 
+	'../vendor/bootstrap/scss/bootstrap',
+	'../vendor/fontawesome/scss/fontawesome.scss',
+	'../vendor/fontawesome/scss/solid.scss',
+	'../vendor/fontawesome/scss/regular.scss',
+	'../vendor/fontawesome/scss/light.scss',
+	'../vendor/fontawesome/scss/brands.scss';
 
 
-.user {
-  @extend %fa-icon;
-  @extend .far;
-
-  &:before {
-    content: fa-content($fa-var-user);
-  }
-}
+@import 
+	'base/base',
+	'base/helpers',
+	'base/fonts',
+	'base/typography';

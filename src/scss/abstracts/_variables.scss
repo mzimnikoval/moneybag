@@ -1,11 +1,8 @@
+// --------------------------------
+// Web specific variables
+// --------------------------------
 
-$base-font-size:        16px; 
+$base-font-size:        10px; 
 
-$fa-font-path:          "../../fonts/Fontawesome";
+$fa-font-path:          "../fonts/Fontawesome";
 
-@import "../../vendor/fontawesome/scss/fontawesome.scss";
-@import "../../vendor/fontawesome/scss/solid.scss";
-@import "../../vendor/fontawesome/scss/regular.scss";
-@import "../../vendor/fontawesome/scss/light.scss";
-@import "../../vendor/fontawesome/scss/duotone.scss";
-@import "../../vendor/fontawesome/scss/brands.scss";

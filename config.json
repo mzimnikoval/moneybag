@@ -5,7 +5,7 @@
 		"dist" : "./dist/",
 
 		"scss" : {
-			"src": "./src/scss/*.+(scss|sass)",
+			"src": "./src/scss/**/*.+(scss|sass)",
 			"dist": "./dist/assets/css"
 		}, 
 		"js" : {

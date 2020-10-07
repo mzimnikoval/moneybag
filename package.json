@@ -32,7 +32,9 @@
     "jshint-stylish": "^2.2.1",
     "vinyl-ftp": "^0.6.1"
   },
-  "dependencies": {},
+  "dependencies": {
+    "gulp-google-webfonts": "^4.0.0"
+  },
   "browserslist": [
     "defaults"
   ]
