@@ -2,14 +2,27 @@
 // Web specific mixins
 // --------------------------------
 
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1170px
+) !default;
+
 $spacer: 1rem;
 $spacers: (
-	5: ($spacer * 2),
-	6: ($spacer * 2.5),
-	7: ($spacer * 3),
-	8: ($spacer * 3.5),
-	9: ($spacer * 4),
-	10: ($spacer * 4.5),
-	11: ($spacer * 5),
-	12: ($spacer * 5.5),
+	1: ($spacer * 1),
+	2: ($spacer * 1.5),
+	3: ($spacer * 2),
+	4: ($spacer * 2.5),
+	5: ($spacer * 3),
+	6: ($spacer * 3.5),
+	7: ($spacer * 4),
+	8: ($spacer * 4.5),
+	9: ($spacer * 5),
+	10: ($spacer * 5.5),
+	11: ($spacer * 6),
+	12: ($spacer * 6.5),
+	13: ($spacer * 7),
+	14: ($spacer * 7.5)
 );

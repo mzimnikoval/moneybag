@@ -1,0 +1,28 @@
+// --------------------------------
+// Image block settings
+// --------------------------------
+
+.image-block {
+  
+
+    @include media-breakpoint-up(lg) {
+        min-width: 50rem;
+    }
+
+    &__box {
+
+        border-radius: 2.4rem;
+    
+        &--dark {
+            background-color: $color-secondary;
+
+            h3, li {
+                color: $white;
+            }
+        }
+        &--light {
+            background-color: $color-bg-light;
+        }
+    }
+
+}

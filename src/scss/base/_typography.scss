@@ -1,0 +1,56 @@
+// --------------------------------
+// Typography settings
+// --------------------------------
+
+h1 {
+    font-size: 9.1rem;
+}
+
+h2 {
+   font-size: 6rem; 
+}
+
+h3 {
+   font-size: 4rem;
+   margin-bottom: 2.5rem;
+}
+
+h4 {
+    font-size: 3.2rem; 
+}
+
+p, ul li, .btn {
+    font-size: 1.6rem;
+}
+
+ul {
+    margin-bottom: 4rem;
+}
+
+ul.custom-icon {
+    list-style: none;
+    padding: 0;
+
+    li {
+        padding-left: 1.3rem;
+        line-height: 1.6rem;
+        margin-bottom: 2rem;
+    }
+
+    &__check {
+        li:before {
+            @extend %fa-icon;
+            @extend .fas;
+
+            content: fa-content($fa-var-check);
+            font-size: 1.3rem;
+            color: $color-primary;
+            display: inline-block;
+            margin-left: -1.3rem; /* same as padding-left set on li */
+            width: 3rem; /* same as padding-left set on li */
+        }
+    }
+  }
+  
+  
+  

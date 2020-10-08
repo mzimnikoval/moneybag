@@ -1,6 +1,15 @@
-.button {
-	border: 1px solid red;
-	border-radius: 2px;
-	transform: scale(0.6);
-	transform: scale(0.7);
+// --------------------------------
+// Buttons settings
+// --------------------------------
+
+.btn {
+	height: 6rem;
+	line-height: 6rem;
+	border-radius: .4rem;
+	padding: 0 4rem;
+
+	&-primary {
+		border-color: $color-primary;
+		background-color: $color-primary;
+	}
 }
