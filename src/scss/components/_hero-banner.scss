@@ -1,0 +1,83 @@
+// --------------------------------
+// Hero banner settings
+// -------------------------------- 
+
+.hero-banner {
+    position: relative;
+
+    background-image: url('../img/hero-banner-bg.svg');
+    background-size: cover;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+
+    padding: 30rem 0 50rem;
+
+    h1 {
+        color: $white;
+    }
+}
+
+.review-wrap {
+    position: absolute;
+    bottom: -7rem;
+    margin-left: 1.5rem;
+
+    &__box {
+        width: 30rem;
+        border-radius: 1.2rem;
+        padding: 4.5rem 3rem;
+        background-color: $white;
+        position: relative;
+        z-index: 3;
+        text-align: center;
+
+        &__avatars-box {
+            position: absolute;
+            top: -3rem;
+            margin-left: -6.5rem;
+            transform: translateX(50%);
+        }
+
+        &__stars {
+            margin: 2.5rem 0 2rem;
+
+            background-color: rgba($color-review-stars, .15);
+            display: inline-block;
+            padding: .7rem 1.5rem;
+            border-radius: 1.2rem;
+
+            &__value {
+                font-size: 1.6rem;
+                font-weight: 700;
+                color: $color-review-stars;
+                margin: 0 .5rem 0 0;
+            }
+            &__icons {
+
+                .icon {
+                    @extend %fa-icon;
+                    @extend .fas;                    
+
+                    &:before {
+                        content: fa-content($fa-var-star);
+                        font-size: 1.2rem;
+                        color: $color-review-stars;
+                        display: inline-block;
+                        vertical-align: bottom;
+                    }
+                }
+            }
+        }
+
+        p {
+            margin-bottom: 0;
+            text-align: center;
+        }
+    }
+    &__bg-element {
+        position: absolute;
+        right: -7.6rem;
+        bottom: -7.6rem;
+        z-index: 1;
+    }
+}

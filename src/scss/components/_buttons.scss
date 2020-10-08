@@ -8,8 +8,14 @@
 	border-radius: .4rem;
 	padding: 0 4rem;
 
+	font-size: 1.4rem;
+
 	&-primary {
 		border-color: $color-primary;
 		background-color: $color-primary;
+	}
+	&-outline-secondary {
+		color: $white;
+		border-color: rgba($white, .15);
 	}
 }
