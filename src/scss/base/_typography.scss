@@ -9,6 +9,10 @@ h1 {
 
 h2 {
    font-size: 6rem; 
+
+   &.light {
+       font-weight: 300;
+   }
 }
 
 h3 {
@@ -18,6 +22,10 @@ h3 {
 
 h4 {
     font-size: 3.2rem; 
+}
+
+a {
+    color: $color-primary;
 }
 
 p, ul li, .btn {
@@ -32,10 +40,18 @@ ul.custom-icon {
     list-style: none;
     padding: 0;
 
+    &.m-xl li {
+        margin-bottom: 3rem;
+    }
+
     li {
         padding-left: 1.3rem;
         line-height: 1.6rem;
         margin-bottom: 2rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 
     &__check {
