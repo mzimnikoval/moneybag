@@ -1,0 +1,23 @@
+// --------------------------------
+// Forms settings
+// --------------------------------
+
+
+.form-group {
+    margin-bottom: 3rem;
+
+    label {
+        font-size: 1.6rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+    .form-control {
+        height: 6rem;
+        border: none;
+        border-radius: .4rem;
+        background-color: $color-bg-light;
+        padding: 0 0 0 2.5rem;
+        font-size: 1.6rem;
+    }
+
+}
