@@ -32,6 +32,18 @@ p, ul li, .btn {
     font-size: 1.6rem;
 }
 
+p {
+    line-height: 3.2rem;
+}
+
+.text {
+
+    &--light {
+        color: $color-grey;
+    }
+
+}
+
 ul {
     margin-bottom: 4rem;
 }
