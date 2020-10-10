@@ -1,0 +1,72 @@
+// --------------------------------
+// Tabs settings
+// --------------------------------
+
+$progress-bar__bg-color:            $color-light-grey;
+$progress-bar__progress-color:      $color-primary;
+
+.nav {
+
+    .nav-link {
+        font-size: 1.6rem;
+        color: #7A8EA6;
+        padding: 1.5rem 2.5rem;
+        border-radius: .4rem;
+
+        &.completed {
+            color: #121A47;
+            
+            .icon {
+                @extend %fa-icon;
+                @extend .fas;
+
+                color: $color-success;
+
+                &:before {
+                    content: fa-content($fa-var-check-circle);
+                }
+            }
+        }
+
+        &.active {
+            background-color: rgba(#B3C2D3,.2);
+            color: #121A47;
+        }
+    }
+}
+
+.tab-content {
+
+    padding: 10rem 0 0;
+
+}
+
+.progress-bar {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: .4rem;
+    background-color: #E7EBF1;
+
+    &__progress {
+        background-color: $progress-bar__progress-color;
+        display: block;
+        height: .4rem;
+    }
+
+}
+
+
+.steps {
+    font-size: 1.8rem;
+    color: #90A3B8;
+    margin: 0 0 1.5rem;
+
+    &__name {
+
+    }
+
+
+}

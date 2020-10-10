@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- @css : assets/css/screen.min.css -->
+	<!-- @title : Money Bag -->
+	<!-- @import "kit/_head.kit" -->
+</head>
+<body>
+	<main class="register-steps">
+		<div class="container-fluid">
+            <div class="row">
+                <div class="col-2 bg-color--white px-7 py-11">
+                    <img src="assets/img/mini_logo.svg" alt="" class="img-fluid mb-7 ml-3">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link completed" id="osobne-informacie-tab" data-toggle="pill" href="#osobne-informacie" role="tab" aria-controls="osobne-informacie" aria-selected="true"><span class="icon mr-1"></span>Osobné informácie</a>
+                        <a class="nav-link active" id="kontaktne-udaje-tab" data-toggle="pill" href="#kontaktne-udaje" role="tab" aria-controls="kontaktne-udaje" aria-selected="false">Kontaktné údaje</a>
+                        <a class="nav-link" id="bankove-spojenie-tab" data-toggle="pill" href="#bankove-spojenie" role="tab" aria-controls="bankove-spojenie" aria-selected="false">Bankové spojenie</a>
+                        <a class="nav-link" id="prihlasovacie-udaje-tab" data-toggle="pill" href="#prihlasovacie-udaje" role="tab" aria-controls="prihlasovacie-udaje" aria-selected="false">Prihlasovacie údaje</a>
+                        <a class="nav-link" id="dokumenty-tab" data-toggle="pill" href="#dokumenty" role="tab" aria-controls="dokumenty" aria-selected="false">Dokumenty</a>
+                    </div>
+                </div>
+                <div class="col-10 bg-color--light">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="osobne-informacie" role="tabpanel" aria-labelledby="osobne-informacie-tab">
+                            <!-- @import "kit/veritel/_reg-first-step.kit" -->
+                        </div>
+                        <div class="tab-pane fade" id="kontaktne-udaje" role="tabpanel" aria-labelledby="kontaktne-udaje-tab">
+                            <!-- @import "kit/veritel/_reg-second-step.kit" -->
+                        </div>
+                        <div class="tab-pane fade" id="bankove-spojenie" role="tabpanel" aria-labelledby="bankove-spojenie-tab">
+                            <!-- @import "kit/veritel/_reg-third-step.kit" -->
+                        </div>
+                        <div class="tab-pane fade" id="prihlasovacie-udaje" role="tabpanel" aria-labelledby="prihlasovacie-udaje-tab">
+                            <!-- @import "kit/veritel/_reg-fourth-step.kit" -->
+                        </div>
+                        <div class="tab-pane fade" id="dokumenty" role="tabpanel" aria-labelledby="dokumenty-tab">
+                            <!-- @import "kit/veritel/_reg-fifth-step.kit" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</div>
+	</main>
+
+    <!-- @import "kit/_footer.kit" -->
+</body>
+</html>

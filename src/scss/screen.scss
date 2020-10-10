@@ -24,7 +24,11 @@ Importing all vendors for application
 @import 'layout/header';
 
 @import 
+	'components/alerts',
+	'components/blocks',
 	'components/buttons',
 	'components/forms',
 	'components/hero-banner',
-	'components/blocks';
+	'components/tabs';
+
+@import 'pages/register-steps';

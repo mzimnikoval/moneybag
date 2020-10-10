@@ -1,0 +1,19 @@
+// --------------------------------
+// Helpers settings
+// --------------------------------
+
+// Bg colors
+
+.bg-color {
+
+    &--light-grey {
+        background-color: $color-light-grey;
+    }
+    &--light {
+        background-color: $color-bg-light-100;
+    }
+    &--white {
+        background-color: $white;
+    }
+
+}

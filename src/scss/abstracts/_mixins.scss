@@ -27,3 +27,10 @@ $spacers: (
 	14: ($spacer * 7.5),
 	15: ($spacer * 8)
 );
+
+$form-grid-gutter-width:			3rem !default;
+$custom-control-indicator-size: 	2rem;
+
+$custom-range-track-height: 		.3rem;
+$custom-range-track-bg:				$color-light-grey;
+$custom-range-thumb-width:			1.5rem;

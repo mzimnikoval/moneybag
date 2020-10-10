@@ -1,5 +1,5 @@
 // --------------------------------
-// Image block settings
+// Blocks settings
 // --------------------------------
 
 .image-block {
@@ -28,6 +28,7 @@
 }
 
 .content-block {
+    border-radius: .4rem;
 
     &--light {
         background-color: $color-bg-light;
@@ -35,4 +36,9 @@
 
 
 
+}
+
+.inner-block {
+    margin: -8rem -4rem 0 4rem;
+    border-radius: .4rem;
 }

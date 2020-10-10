@@ -3,7 +3,7 @@
 	font-style: normal;
 	font-weight: 300;
 	font-display: auto;
-	src: local('Poppins Light'), local('Poppins-Light'), url(Poppins/Poppins-normal-300.woff) format('woff');
+	src: local('Poppins Light'), local('Poppins-Light'), url(../fonts/Poppins/Poppins-normal-300.woff) format('woff');
 	unicode-range: U+0-10FFFF;
 }
 
@@ -12,7 +12,7 @@
 	font-style: normal;
 	font-weight: 400;
 	font-display: auto;
-	src: local('Poppins Regular'), local('Poppins-Regular'), url(Poppins/Poppins-normal-400.woff) format('woff');
+	src: local('Poppins Regular'), local('Poppins-Regular'), url(../fonts/Poppins/Poppins-normal-400.woff) format('woff');
 	unicode-range: U+0-10FFFF;
 }
 
@@ -21,7 +21,7 @@
 	font-style: normal;
 	font-weight: 700;
 	font-display: auto;
-	src: local('Poppins Bold'), local('Poppins-Bold'), url(Poppins/Poppins-normal-700.woff) format('woff');
+	src: local('Poppins Bold'), local('Poppins-Bold'), url(../fonts/Poppins/Poppins-normal-700.woff) format('woff');
 	unicode-range: U+0-10FFFF;
 }
 

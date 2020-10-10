@@ -1,0 +1,46 @@
+// --------------------------------
+// Alerts settings
+// --------------------------------
+
+$color-alert-succes: $color-success;
+$color-alert-info: $color-primary;
+
+.alert {
+    display: flex;
+    align-items: center;
+    padding: 0 2.5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    min-height: 6rem;
+
+    border: none;
+    border-radius: .4rem;
+
+    margin: 0 0 3rem;
+
+    .icon {
+        @extend %fa-icon;
+        @extend .fas;
+
+        margin: 0 1.5rem 0 0;
+        font-size: 2rem;
+    }
+
+    &-success {
+        color: $color-alert-succes;
+        background-color: rgba( $color-alert-succes, .1);
+
+        .icon:before {
+            content: fa-content($fa-var-check-circle);
+        }
+    }
+
+    &-info {
+        color: $color-alert-info;
+        background-color: rgba( $color-alert-info, .1);
+
+        .icon:before {
+            content: fa-content($fa-var-info-circle);
+        }
+    }
+}
