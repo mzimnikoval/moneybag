@@ -29,10 +29,16 @@ $circle-icon-background: $color-light-grey-200;
             border-radius: 50%;
         }
 
+        &:before {
+            font-size: 1.8rem;
+        }
 
         &--upload:before {
-            content: fa-content($fa-var-cloud-upload-alt);
-            font-size: 1.8rem;
+            content: fa-content($fa-var-cloud-upload-alt);            
+        }
+
+        &--time:before {
+            content: fa-content($fa-var-hourglass-half);
         }
     }
 }
