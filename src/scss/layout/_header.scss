@@ -64,3 +64,23 @@ header {
 
     
 }
+
+
+.row-header {
+
+    .icon {
+        @extend %fa-icon;
+        @extend .fas;  
+
+        margin: 0 2.5rem 0 0;
+
+        &--financie:before {
+            content: fa-content($fa-var-bell);
+            font-size: 2.8rem;
+            color: $notification-icon-color;
+            display: inline-block;
+        }
+
+    }
+
+}

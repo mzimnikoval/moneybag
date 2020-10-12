@@ -8,37 +8,115 @@ $circle-icon-background: $color-light-grey-200;
 
     padding-left: $sidebar-width;
 
+    &.no-register {
 
-    .icon {
-        margin: 0 0 2rem;
+        .icon {
+            margin: 0 0 2rem;
+    
+            @extend %fa-icon;
+            @extend .fas;    
+    
+            &--circle {
+                height: 8rem;
+                width: 8rem;    
+    
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+    
+                background-color: rgba($circle-icon-background,.2);
+                color: $circle-icon-background;
+                
+                border-radius: 50%;
+            }
+    
+            &:before {
+                font-size: 1.8rem;
+            }
+    
+            &--upload:before {
+                content: fa-content($fa-var-cloud-upload-alt);            
+            }
+    
+            &--time:before {
+                content: fa-content($fa-var-hourglass-half);
+            }
+        }  
 
-        @extend %fa-icon;
-        @extend .fas;    
+    }
 
-        &--circle {
-            height: 8rem;
-            width: 8rem;    
+    &__box {
+        height: 11.5rem;
 
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
+        display: flex;
+        align-items: center;
 
-            background-color: rgba($circle-icon-background,.2);
-            color: $circle-icon-background;
-            
-            border-radius: 50%;
+        padding: 0 3rem;
+        border-radius: .8rem;
+
+        h6 {
+            font-size: 2.4rem;
+            line-height: 2.4rem;
+            color: #101C51;
+
+            margin: 0 0 1rem;
         }
 
-        &:before {
-            font-size: 1.8rem;
+        p {
+            line-height: 1.6rem;
+            margin-bottom: 0;
         }
 
-        &--upload:before {
-            content: fa-content($fa-var-cloud-upload-alt);            
-        }
+        .icon {
+            margin: 0 2rem 0 0;
+    
+            @extend %fa-icon;
+            @extend .fas;    
+    
+            &--circle {
+                height: 5rem;
+                width: 5rem;    
+    
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+    
+                background-color: $white;
+                color: $circle-icon-background;
+                
+                border-radius: 50%;
+            }
+    
+            &:before {
+                font-size: 1.6rem;
+            }
+    
+            &--hodnota:before {
+                content: fa-content($fa-var-cloud-upload-alt);            
+            }
+    
+            &--time:before {
+                content: fa-content($fa-var-hourglass-half);
+            }
+        }  
 
-        &--time:before {
-            content: fa-content($fa-var-hourglass-half);
+        &--light {
+            background-color: rgba(#B3C2D3, .2);
+        }
+        &--dark {
+            background-color: #0F1839;
+
+            h6 {
+                color: $white;
+            }
+
+            .icon {
+                &--circle {
+                    background-color: rgba($white, .15);
+                    color: $white;
+                }
+            }
         }
     }
+    
 }
