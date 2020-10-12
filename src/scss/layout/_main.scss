@@ -1,0 +1,44 @@
+// --------------------------------
+// Main settings
+// -------------------------------- 
+
+$circle-icon-background: $color-light-grey-200;
+
+.dashboard {
+
+    padding-left: $sidebar-width;
+
+
+    .icon {
+        margin: 0 0 2rem;
+
+        @extend %fa-icon;
+        @extend .fas;    
+
+        &--circle {
+            height: 8rem;
+            width: 8rem;    
+
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+
+            background-color: rgba($circle-icon-background,.2);
+            color: $circle-icon-background;
+            
+            border-radius: 50%;
+        }
+
+        &:before {
+            font-size: 1.8rem;
+        }
+
+        &--upload:before {
+            content: fa-content($fa-var-cloud-upload-alt);            
+        }
+
+        &--time:before {
+            content: fa-content($fa-var-hourglass-half);
+        }
+    }
+}

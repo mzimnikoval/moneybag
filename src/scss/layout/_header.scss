@@ -1,0 +1,66 @@
+// --------------------------------
+// Hero banner settings
+// -------------------------------- 
+
+$notification-icon-color: $color-light-grey-300;
+
+header {
+
+    &.landing {
+
+        position: absolute;
+        top: 0;
+        left: 0;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        width: 100%;
+        height: 10rem;   
+        
+        
+        z-index: 2;
+    }
+
+    &.main-content-header {
+
+        height: 15rem;
+
+        .alerts-icon {
+            @extend %fa-icon;
+            @extend .fas;    
+            
+            margin-right: 3rem;
+            position: relative;
+
+            .unread-alert {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: .8rem;
+                height: .8rem;
+                background-color: $color-primary;
+                border: .15rem solid $white;
+                border-radius: 50%;
+            }
+
+            &:after {
+                content: fa-content($fa-var-bell);
+                font-size: 2rem;
+                color: $notification-icon-color;
+                display: inline-block;
+            }
+        }
+
+        .user-profile-toggle {
+            border-radius: 50%;
+            background-color: rgba(#CAD6E4, .5);
+            overflow: hidden;
+        }
+
+
+    }
+
+    
+}

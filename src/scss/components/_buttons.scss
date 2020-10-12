@@ -2,9 +2,18 @@
 // Buttons settings
 // --------------------------------
 
+$btn-height: 6rem;
+$btn-sm-height: 5.2rem;
+
+$btn-outline-primary-border-color: $color-light-grey-300;
+$btn-outline-primary-color: $color-dark-blue-200;
+
+$btn-primary-disabled-background: $color-light-grey-200;
+$btn-primary-disabled-color: $white;
+
 .btn {
-	height: 6rem;
-	line-height: 6rem;
+	height: $btn-height;
+	line-height: $btn-height;
 	border-radius: .4rem;
 	padding: 0 4rem;
 
@@ -13,9 +22,30 @@
 	&-primary {
 		border-color: $color-primary;
 		background-color: $color-primary;
+
+		&.disabled,
+		&:disabled {
+			background-color: $btn-primary-disabled-background;
+			border-color: $btn-primary-disabled-background;
+			color: $btn-primary-disabled-color;
+		}
 	}
 	&-outline-secondary {
 		color: $white;
 		border-color: rgba($white, .15);
+	}
+	&-outline-primary {
+		color: $btn-outline-primary-color;
+		border-color: $btn-outline-primary-border-color;
+
+		&:hover {
+			color: $btn-outline-primary-color;
+			background-color: $btn-outline-primary-border-color;
+			border-color: $btn-outline-primary-border-color;
+		}
+	}
+	&-sm {
+		height: $btn-sm-height;
+		line-height: $btn-sm-height;
 	}
 }
