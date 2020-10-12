@@ -21,12 +21,17 @@ Importing all vendors for application
 	'base/fonts',
 	'base/typography';
 
-@import 'layout/header';
+@import 
+
+	'layout/header',
+	'layout/sidebar',
+	'layout/main';
 
 @import 
 	'components/alerts',
 	'components/blocks',
 	'components/buttons',
+	'components/dropdowns',
 	'components/forms',
 	'components/hero-banner',
 	'components/tabs';

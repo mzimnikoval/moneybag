@@ -1,0 +1,116 @@
+// --------------------------------
+// Sidebar settings
+// -------------------------------- 
+
+$sidebar-width: 32rem;
+
+$navigiation-item-color: $color-dark-blue;
+$navigiation-item-color-icon: $color-light-grey-100;
+$navigiation-item-color--disabled: $color-light-grey-100;
+$navigiation-item-bg--active: rgba($color-light-grey-200, .2);
+$navigiation-item-color--active: $color-dark-blue;
+$navigiation-item-color-icon--active: $color-primary;
+
+
+.left-sidebar {
+
+    position: fixed;
+    background-color: $white;
+    width: 32rem;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    padding: 4rem;
+
+    box-shadow: -3rem 6rem 10rem 0 rgba($color-light-grey-200, .08) ;
+
+    nav {
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin-bottom: 0;
+
+            li {
+                margin: 0 0 2rem;
+
+                &:last-child {
+                    margin: 0 0 4rem;
+                }
+
+                a {
+                    height: 5.2rem;
+                    line-height: 5.2rem;
+                    padding: 0 2rem;
+                    display: block;
+                    border-radius: .4rem;
+
+                    color: $navigiation-item-color;
+
+                    transition: all .3s ease-in-out;
+
+                    .icon {
+                        color: $navigiation-item-color-icon;
+                    }
+
+                    &:hover, &.active {
+                        text-decoration: none;
+                        background-color: $navigiation-item-bg--active;
+                        color: $navigiation-item-color--active;
+
+                        transition: all .3s ease-in-out;
+
+                        .icon {
+                            color: $navigiation-item-color-icon--active;
+                        }
+                    }
+
+                    &.disabled {
+                        color: $navigiation-item-color--disabled;
+                        pointer-events: none;
+
+                        .icon {
+                            color: $navigiation-item-color--disabled;
+                        }
+                    }
+
+                    .icon {
+                        @extend %fa-icon;
+                        @extend .fas;       
+                        
+                        transition: all .3s ease-in-out;
+                        
+                        &--domov:before {
+                            content: fa-content($fa-var-star);
+                            margin-right: 1.5rem;
+                        }
+                        &--aukcie:before {
+                            content: fa-content($fa-var-landmark);
+                            margin-right: 1.5rem;
+                        }
+                        &--investicie:before {
+                            content: fa-content($fa-var-star);
+                            margin-right: 1.5rem;
+                        }
+                        &--financie:before {
+                            content: fa-content($fa-var-money-bill);
+                            margin-right: 1.5rem;
+                        }
+                        &--moj-profil:before {
+                            content: fa-content($fa-var-user);
+                            margin-right: 1.5rem;
+                        }
+                        &--dokumenty:before {
+                            content: fa-content($fa-var-folder);
+                            margin-right: 1.5rem;
+                        }
+                    }
+                }
+
+            }
+        }
+
+
+    }
+
+}

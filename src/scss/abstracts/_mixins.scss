@@ -34,3 +34,15 @@ $custom-control-indicator-size: 	2rem;
 $custom-range-track-height: 		.3rem;
 $custom-range-track-bg:				$color-light-grey;
 $custom-range-thumb-width:			1.5rem;
+
+$primary: $color-primary;
+
+// Dropdowns
+//
+// Dropdown menu container and contents.
+
+$dropdown-min-width:                32rem;
+$dropdown-padding-y:                0;
+$dropdown-font-size:                1.6rem !default;
+$dropdown-border-color:             transparent;
+$dropdown-border-radius:            .8rem !default;

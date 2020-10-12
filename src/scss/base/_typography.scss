@@ -18,6 +18,10 @@ h2 {
 h3 {
    font-size: 4rem;
    margin-bottom: 2.5rem;
+
+   &.light {
+       font-weight: 300;
+   }
 }
 
 h4 {
@@ -38,6 +42,7 @@ p, ul li, .btn {
 
 p {
     line-height: 3.2rem;
+    color: $color-grey;
 }
 
 .text {
