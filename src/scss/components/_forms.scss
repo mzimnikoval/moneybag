@@ -30,6 +30,13 @@
         padding: 0 2rem;
         font-size: 1.6rem;
     }
+    .input-group-append {
+        .input-group-text {
+            background-color: #D8DEE6;
+            padding: 0 2.5rem;
+            border-radius: 0 .4rem .4rem 0;
+        }
+    }
 }
 
 .form-control, .custom-select {
@@ -57,9 +64,22 @@
 .range-slider {
     width: 100%;
     margin: 0 4rem 0 0;
-    
+
     label {
         font-size: 1.6rem;
     }
 
+}
+
+.info-icon {
+    @extend %fa-icon;
+    @extend .fas;
+
+    color: rgba(#7A8EA6, .7);
+    font-size: 1.4rem;
+    margin: 0 0 0 1rem;
+
+    &:before {
+        content: fa-content($fa-var-info-circle);
+    }
 }
