@@ -17,3 +17,34 @@
     }
 
 }
+
+.icon {
+    @extend %fa-icon;
+    @extend .fas;
+
+    &--rounded {
+        width: 5.2rem;
+        height: 5.2rem;
+        border-radius: 50%;
+
+        line-height: 5.2rem;
+        text-align: center;
+    }
+
+    &--info {
+        color: $color-light-grey-200;
+        background-color: rgba( $color-light-grey-200, .2);
+
+        &:before {
+            content: fa-content($fa-var-info);
+        }
+    }
+    &--investicie {
+        font-size: 2.8rem;
+        color: $color-light-grey-300;
+
+        &:before {
+            content: fa-content($fa-var-chart-line);
+        }
+    }
+}
