@@ -39,12 +39,28 @@
             content: fa-content($fa-var-info);
         }
     }
-    &--investicie {
+    &--investicie-main {
         font-size: 2.8rem;
         color: $color-light-grey-300;
 
         &:before {
             content: fa-content($fa-var-chart-line);
+        }
+    }
+    &--aukcie-main {
+        font-size: 2.8rem;
+        color: $color-light-grey-300;
+
+        &:before {
+            content: fa-content($fa-var-landmark);
+        }
+    }
+    &--check {
+        font-size: 1.2rem;
+        color: $color-light-grey-300;
+
+        &:before {
+            content: fa-content($fa-var-check);
         }
     }
 }

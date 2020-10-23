@@ -11,13 +11,13 @@
         <nav>
             <ul>
                 <li>
-                    <a href="dashboard-prazdny.html" class="active"><span class="icon icon--domov"></span>Domov</a>
+                    <a href="dashboard-prazdny.html"><span class="icon icon--domov"></span>Domov</a>
                 </li>
                 <li>
                     <a href="dashboard-aukcie.html"><span class="icon icon--aukcie"></span>Aukcie</a>
                 </li>
                 <li>
-                    <a href="dashboard-investicie.html"><span class="icon icon--investicie"></span>Investície</a>
+                    <a href="dashboard-investicie.html" class="active"><span class="icon icon--investicie"></span>Investície</a>
                 </li>
                 <li>
                     <a href="dashboard-financie.html"><span class="icon icon--financie"></span>Financie</a>
@@ -35,7 +35,14 @@
     <main class="dashboard">
         <header class="main-content-header d-flex justify-content-between align-items-center px-11">
             <nav class="main-content-header__subpages-nav">
-
+                <ul>
+                    <li>
+                        <a href="dashboard-investicie.html">Prebiehajúce<span class="count">5</span></a>
+                    </li>
+                    <li>
+                        <a href="#" class="active">Ukončené<span class="count">3</span></a>
+                    </li>
+                </ul>
             </nav>
             <aside class="main-content-header__user-area d-flex align-items-center">
                 <div class="btn-group alerts-dropdown">
@@ -88,23 +95,13 @@
             </aside>
         </header>
         <section class="moje-financie mb-11">
-            <div class="container-fluid">
-                <div class="row row-header mb-5">
-                    <div class="col-6 d-flex align-items-center">
-                        <span class="icon icon--financie"></span>
-                        <h3 class="mb-0">Moje financie</h3>
-                    </div>
-                    <div class="col-6 text-md-right">
-                        <a href="" class="btn btn-sm btn-primary mr-4">Vklad</a>
-                        <a href="" class="btn btn-sm btn-outline-primary">Výber</a>
-                    </div>
-                </div>      
+            <div class="container-fluid">  
                 <div class="row">
                     <div class="col-4">
                         <article class="dashboard__box dashboard__box--light">
                             <span class="icon icon--circle icon--hodnota"></span>
                             <div>
-                                <h6>0 €</h6>
+                                <h6>59 400 €</h6>
                                 <p>Hodnota účtu</p>
                             </div>
                         </article>
@@ -113,7 +110,7 @@
                         <article class="dashboard__box dashboard__box--light">
                             <span class="icon icon--circle icon--hodnota"></span>
                             <div>
-                                <h6>0 €</h6>
+                                <h6>16 200 €</h6>
                                 <p>Investované financie</p>
                             </div>
                         </article>
@@ -130,12 +127,11 @@
                 </div>          
             </div>
         </section>
-        <section class="moje-investicie mb-11">
+        <section class="najnovsie-aukcie mb-11">
             <div class="container-fluid">
                 <div class="row row-header mb-5">
                     <div class="col-6 d-flex align-items-center">
-                        <span class="icon icon--investicie-main"></span>
-                        <h3 class="mb-0">Moje Investície</h3>
+                        <h3 class="mb-0">Ukončené</h3>
                     </div>
                 </div>      
                 <div class="row">
@@ -155,97 +151,84 @@
                                     <span>Stav aukcie</span>
                                 </div>
                             </div>
-                            <div class="grid-listing__item grid-listing__item--empty">
-                                <span class="icon icon--info icon--rounded"></span>
-                                <span>Zatiaľ nemáte žiadne aktívne investície</span>
-                                <a href="#" class="btn btn-sm btn-outline-primary">Chcem investovať</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>          
-            </div>
-        </section>
-        <section class="najnovsie-aukcie mb-11">
-            <div class="container-fluid">
-                <div class="row row-header mb-5">
-                    <div class="col-6 d-flex align-items-center">
-                        <span class="icon icon--aukcie"></span>
-                        <h3 class="mb-0">Najnovšie aukcie</h3>
-                    </div>
-                </div>      
-                <div class="row">
-                    <div class="col-12">
-                        <div class="grid-listing grid-listing--cols3">
-                            <div class="grid-listing__header">
-                                <div class="grid-listing__header__ziadatel">
-                                    <span>Žiadateľ</span>
-                                </div>
-                                <div class="grid-listing__header__suma">
-                                    <span>Celková suma</span>
-                                </div>
-                                <div class="grid-listing__header__stav">
-                                    <span>Stav aukcie</span>
-                                </div>
-                            </div>
-                            <div class="grid-listing__item">
-                                <div class="d-flex">
-                                    <img src="assets/img/avatar_48.png" alt="" class="img-fluid mr-4">
+                            <div class="grid-listing__items">
+                                <div class="grid-listing__item">
+                                    <div class="d-flex">
+                                        <img src="assets/img/avatar_48.png" alt="" class="img-fluid mr-4">
+                                        <div>
+                                            <p class="text--dark"><span class="profile-info__group">A</span>Jose Tyler</p>
+                                            <p>Vyplatenie debetu</p>
+                                        </div>
+                                    </div>
                                     <div>
-                                        <p class="text--dark"><span class="profile-info__group">A</span>Jose Tyler</p>
-                                        <p>Vyplatenie debetu</p>
+                                        <p class="value text--dark">21 000 €</p>
+                                        <p>9,30% p.a. 24 mesiacov</p>
                                     </div>
-                                </div>
-                                <div>
-                                    <p class="value text--dark">21 000 €</p>
-                                    <p>9,30% p.a. 24 mesiacov</p>
-                                </div>
-                                <div class="d-flex justify-content-between">
-                                    <div class="grid-listing__item__progress d-flex flex-column justify-content-center">
-                                        <div class="d-flex justify-content-between mb-1"><p>13 dní</p><p class="text--dark">84%</p></div>
-                                        <div class="grid-listing__item__progress-bar"><span style="width:30%"></span></div>
-                                    </div>
-                                    <a href="#" class="btn btn-outline-primary">Investovať</a>
-                                </div>
-                            </div>
-                            <div class="grid-listing__item">
-                                <div class="d-flex">
-                                    <img src="assets/img/avatar_48.png" alt="" class="img-fluid mr-4">
                                     <div>
-                                        <p class="text--dark"><span class="profile-info__group">A</span>Jose Tyler</p>
-                                        <p>Vyplatenie debetu</p>
+                                        <p class="value text--dark">3 500 €</p>
+                                        <p>9,30% p.a.</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="grid-listing__item__progress d-flex flex-column justify-content-center">
+                                            <div class="d-flex justify-content-between mb-1"><p><span class="icon icon--check text-success mr-1"></span>Skončená</p><p class="text--dark">84%</p></div>
+                                            <div class="grid-listing__item__progress-bar"><span style="width:30%"></span></div>
+                                        </div>
+                                        <a href="#" class="btn btn-outline-primary">Detail aukcie</a>
                                     </div>
                                 </div>
-                                <div>
-                                    <p class="value text--dark">21 000 €</p>
-                                    <p>9,30% p.a. 24 mesiacov</p>
-                                </div>
-                                <div class="d-flex justify-content-between">
-                                    <div class="grid-listing__item__progress d-flex flex-column justify-content-center">
-                                        <div class="d-flex justify-content-between mb-1"><p>13 dní</p><p class="text--dark">84%</p></div>
-                                        <div class="grid-listing__item__progress-bar"><span style="width:60%"></span></div>
+                                <div class="grid-listing__item">
+                                    <div class="d-flex">
+                                        <img src="assets/img/avatar_48.png" alt="" class="img-fluid mr-4">
+                                        <div>
+                                            <p class="text--dark"><span class="profile-info__group">A</span>Jose Tyler</p>
+                                            <p>Vyplatenie debetu</p>
+                                        </div>
                                     </div>
-                                    <a href="#" class="btn btn-outline-primary">Investovať</a>
-                                </div>
-                            </div>
-                            <div class="grid-listing__item">
-                                <div class="d-flex">
-                                    <img src="assets/img/avatar_48.png" alt="" class="img-fluid mr-4">
                                     <div>
-                                        <p class="text--dark"><span class="profile-info__group">A</span>Jose Tyler</p>
-                                        <p>Vyplatenie debetu</p>
+                                        <p class="value text--dark">21 000 €</p>
+                                        <p>9,30% p.a. 24 mesiacov</p>
+                                    </div>
+                                    <div>
+                                        <p class="value text--dark">3 500 €</p>
+                                        <p>9,30% p.a.</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="grid-listing__item__progress d-flex flex-column justify-content-center">
+                                            <div class="d-flex justify-content-between mb-1"><p><span class="icon icon--check text-success mr-1"></span>Skončená</p><p class="text--dark">84%</p></div>
+                                            <div class="grid-listing__item__progress-bar"><span style="width:60%"></span></div>
+                                        </div>
+                                        <a href="#" class="btn btn-outline-primary">Detail aukcie</a>
                                     </div>
                                 </div>
-                                <div>
-                                    <p class="value text--dark">21 000 €</p>
-                                    <p>9,30% p.a. 24 mesiacov</p>
-                                </div>
-                                <div class="d-flex justify-content-between">
-                                    <div class="grid-listing__item__progress d-flex flex-column justify-content-center">
-                                        <div class="d-flex justify-content-between mb-1"><p>13 dní</p><p class="text--dark">84%</p></div>
-                                        <div class="grid-listing__item__progress-bar"><span style="width:30%"></span></div>
+                                <div class="grid-listing__item">
+                                    <div class="d-flex">
+                                        <img src="assets/img/avatar_48.png" alt="" class="img-fluid mr-4">
+                                        <div>
+                                            <p class="text--dark"><span class="profile-info__group">A</span>Jose Tyler</p>
+                                            <p>Vyplatenie debetu</p>
+                                        </div>
                                     </div>
-                                    <a href="#" class="btn btn-outline-primary">Investovať</a>
+                                    <div>
+                                        <p class="value text--dark">21 000 €</p>
+                                        <p>9,30% p.a. 24 mesiacov</p>
+                                    </div>
+                                    <div>
+                                        <p class="value text--dark">3 500 €</p>
+                                        <p>9,30% p.a.</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="grid-listing__item__progress d-flex flex-column justify-content-center">
+                                            <div class="d-flex justify-content-between mb-1"><p><span class="icon icon--check text-success mr-1"></span>Skončená</p><p class="text--dark">84%</p></div>
+                                            <div class="grid-listing__item__progress-bar"><span style="width:30%"></span></div>
+                                        </div>
+                                        <a href="#" class="btn btn-outline-primary">Detail aukcie</a>
+                                    </div>
                                 </div>
+                            </div>                            
+                            <div class="grid-listing__pagination">
+                                <ul>
+                                    <li class="active">1</li>
+                                </ul>
                             </div>
                         </div>
                     </div>

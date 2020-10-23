@@ -4,6 +4,14 @@
 
 $notification-icon-color: $color-light-grey-300;
 
+$subpages-nav-item-bg: $color-light-grey-200;
+$subpages-nav-item-color: $color-grey;
+$subpages-nav-item-bg--active: $color-light-grey-200;
+$subpages-nav-item-color--active: $color-dark-blue;
+$subpages-nav-item-count-bg: $color-light-grey-200;
+$subpages-nav-item-count-bg--active: $color-primary;
+$subpages-nav-item-count-color: $white;
+
 header {
 
     &.landing {
@@ -83,4 +91,56 @@ header {
 
     }
 
+}
+
+.main-content-header__subpages-nav {
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            display: inline-block;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            padding: 1.2rem 2.5rem;
+            border-radius: .4rem;
+            color: $subpages-nav-item-color;
+
+            &:hover {
+                text-decoration: none;
+            }
+
+            .count {
+                display: inline-block;
+
+                background-color: $subpages-nav-item-count-bg;
+                color: $subpages-nav-item-count-color;
+
+                border-radius: .4rem;
+
+                font-size: 1.4rem;
+                line-height: 2.4rem;
+                text-align: center;
+
+                width: 2.4rem;
+                height: 2.4rem;
+
+                margin: 0 0 0 1rem;
+            }
+            
+            &.active {
+                background-color: rgba($subpages-nav-item-bg--active,.2);
+                color: $subpages-nav-item-color--active;
+
+                .count {
+                    background-color: $subpages-nav-item-count-bg--active;
+                    color: $subpages-nav-item-count-color;
+                }
+            }
+        }
+    }
 }
