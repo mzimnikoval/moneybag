@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- @css : assets/css/screen.min.css -->
+	<!-- @title : Money Bag dashboard -->
+	<!-- @import "kit/_head.kit" -->
+</head>
+<body>
+    <aside class="left-sidebar">
+        <img src="assets/img/mini_logo.svg" alt="" class="img-fluid mt-3 mb-9 pl-3">
+        <nav>
+            <ul>
+                <li>
+                    <a href="dashboard-prazdny.html"><span class="icon icon--domov"></span>Domov</a>
+                </li>
+                <li>
+                    <a href="dashboard-aukcie.html"><span class="icon icon--aukcie"></span>Aukcie</a>
+                </li>
+                <li>
+                    <a href="dashboard-investicie.html"><span class="icon icon--investicie"></span>Investície</a>
+                </li>
+                <li>
+                    <a href="dashboard-financie.html"><span class="icon icon--financie"></span>Financie</a>
+                </li>
+                <li>
+                    <a href="dashboard-profil.html" class="active"><span class="icon icon--moj-profil"></span>Môj profil</a>
+                </li>
+                <li>
+                    <a href="dashboard-dokumenty.html"><span class="icon icon--dokumenty"></span>Dokumenty</a>
+                </li>
+            </ul>
+        </nav>
+        <a href="" class="btn btn-primary btn-block">Investujte teraz</a>
+    </aside>
+    <main class="dashboard pb-15">
+        <header class="main-content-header d-flex justify-content-between align-items-center px-11">
+            <nav class="main-content-header__subpages-nav">
+                <ul>
+                    <li>
+                        <a href="#" class="active">Môj profil</a>
+                    </li>
+                    <li>
+                        <a href="#">Príjmy a záväzky</a>
+                    </li>
+                    <li>
+                        <a href="#">Bankové spojenie</a>
+                    </li>
+                    <li>
+                        <a href="#">Prihlasovacie údaje</a>
+                    </li>
+                </ul>
+            </nav>
+            <aside class="main-content-header__user-area d-flex align-items-center">
+                <div class="btn-group alerts-dropdown">
+                    <span class="alerts-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">  
+                        <span class="unread-alert"></span>                      
+                    </span>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item aukcia-item" href="#">
+                            <div class="d-flex">
+                                <span class="icon"></span>
+                                <div>
+                                    <p>Aukcia číslo <strong>#1039139144</strong> bola <strong>ukončená</strong></p>
+                                    <time>14:32 hod.</time>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="dropdown-item aukcia-item" href="#">
+                            <div class="d-flex">
+                                <span class="icon"></span>
+                                <div>
+                                    <p>Aukcia číslo <strong>#1039139144</strong> bola <strong>ukončená</strong></p>
+                                    <time>14:32 hod.</time>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="dropdown-item aukcia-item" href="#">
+                            <div class="d-flex">
+                                <span class="icon"></span>
+                                <div>
+                                    <p>Aukcia číslo <strong>#1039139144</strong> bola <strong>ukončená</strong></p>
+                                    <time>14:32 hod.</time>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="btn-group profile-dropdown">
+                    <span class="user-profile-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="assets/img/avatar-icon.png" alt="">
+                    </span>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <span class="profile-info d-block text-center">
+                            <span class="profile-info__name d-block"><span class="profile-info__group">A</span>Francisco</span>
+                            <span class="profile-info__email">francisco@gmail.com</span>
+                        </span>
+                        <span class="profile-type">Overený užívateľ<span class="icon"></span></span>
+                        <a href="#" class="btn btn-sm btn-block btn-outline-primary">Odhlasiť sa</a>
+                    </div>
+                </div>
+            </aside>
+        </header>
+        <section>
+            <div class="container-fluid">
+                <div class="row justify-content-center mb-7">
+                    <div class="col-8">
+                        <img src="assets/img/avatar_100-100.png" class="img-fluid mr-5" alt="">
+                        <a href="" class="btn btn-primary btn-sm mr-5">Nahrať novú fotku</a>
+                        <a href="" class="btn btn-outline-primary btn-sm">Vymazať</a>
+                    </div>
+                </div>  
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                        <form>
+                            <div class="form-row">
+                                <div class="col-md-12">
+                                    <h3 class="mb-5 light">Osobné údaje</h3>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="meno">Meno</label>
+                                    <input type="email" class="form-control" id="meno">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="cislo-op">Priezvisko</label>
+                                    <input type="password" class="form-control" id="inputPassword4">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="custom-control custom-radio custom-control-inline mr-11">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Muž</label>
+                                </div>
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline2">Žena</label>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="cislo-op">Dátum narodenia</label>
+                                    <div class="d-flex">
+                                        <input type="text" class="form-control mr-3" id="den">
+                                        <input type="text" class="form-control mr-3" id="mesiac">
+                                        <input type="text" class="form-control flex-grow-1" id="rok">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row mb-15">
+                                <div class="form-group col-md-6">
+                                    <label for="meno">Národnosť</label>
+                                    <select class="form-control">
+                                        <option selected>Slovenská</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="cislo-op">Číslo OP</label>
+                                    <input type="text" class="form-control" id="cislo-op">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="vzdelanie">Vzdelanie</label>
+                                    <select class="form-control">
+                                        <option selected>Vaše vzdelanie</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="rodinny-stav">Rodinný stav</label>
+                                    <select class="form-control">
+                                        <option selected>Váš stav</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="pocet-vyzivovanych-deti">Počet vyživovaných detí</label>
+                                    <input type="text" class="form-control" id="pocet-vyzivovanych-deti">
+                                </div>
+                            </div>
+                            <div class="form-row mb-15">
+                                <div class="form-group col-md-6">
+                                    <label for="typ-byvania">Typ bývania</label>
+                                    <input type="text" class="form-control" id="typ-byvania">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="zamestnanecky-pomer">Zamestnanecký pomer</label>
+                                    <input type="text" class="form-control" id="zamestnanecky-pomer">
+                                </div>
+                            </div>
+                            <div class="form-row mb-9">
+                                <div class="form-group col-md-6">
+                                    <label for="pracovne-odvetvie">Pracovné odvetvie</label>
+                                    <input type="text" class="form-control" id="pracovne-odvetvie">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="pracovna-pozicia">Pracovná pozícia</label>
+                                    <input type="text" class="form-control" id="pracovna-pozicia">
+                                </div>
+                            </div>
+                            <h3 class="light">Kontaktné údaje</h3>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="ulica">Ulica</label>
+                                    <input type="text" class="form-control" id="ulica">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label for="cislo-domu">Číslo domu</label>
+                                    <input type="password" class="form-control" id="cislo-domu">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="mesto">Mesto</label>
+                                    <input type="text" class="form-control" id="mesto">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label for="psc">PSČ</label>
+                                    <input type="password" class="form-control" id="psc">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="kraj">Kraj</label>
+                                    <input type="text" class="form-control" id="kraj">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="tel-cislo">Tel. číslo</label>
+                                    <div class="input-group mb-2 mr-sm-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">+421</div>
+                                        </div>
+                                        <input type="text" class="form-control" id="tel-cislo">
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Uložiť zmeny</button>
+                        </form>    
+                    </div>
+                </div>    
+            </div>
+        </section>
+    </main>
+
+    <!-- @import "kit/_footer.kit" -->
+</body>
+</html>

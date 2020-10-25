@@ -8,7 +8,7 @@
 
     label {
         font-size: 1.6rem;
-        font-weight: 700;
+        font-weight: 500;
         margin-bottom: 1rem;
     }
     .custom-control {
@@ -52,6 +52,11 @@
         border: .1rem solid #CAD6E4;
         height: 5.2rem;
     }
+}
+
+textarea.form-control {
+    min-height: 16rem;
+    padding-top: 2rem;
 }
 
 .sliders-input {

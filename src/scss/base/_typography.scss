@@ -16,17 +16,21 @@ h2 {
 }
 
 h3 {
-   font-size: 4rem;
-   margin-bottom: 2.5rem;
-   font-weight: 400;
+    font-size: 4rem;
+    margin-bottom: 2.5rem;
+    font-weight: 400;
 
-   &.light {
-       font-weight: 300;
-   }
+    &.light {
+        font-weight: 300;
+    }
 }
 
 h4 {
     font-size: 3.2rem; 
+
+    &.light {
+        font-weight: 300;
+    }
 }
 
 h5 {
@@ -56,10 +60,29 @@ p {
         color: $color-dark-blue;
     }
 
+    &--white {
+        color: $white;
+    }
+
+    &--primary {
+        color: $color-primary;
+    }
+
     &-success {
         color: $color-success !important;
     }
 
+    &-warning {
+        color: $color-yellow !important;
+    }
+
+}
+
+.line {
+
+    &-28 {
+        line-height: 2.8rem !important;
+    }
 }
 
 ul {

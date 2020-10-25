@@ -46,13 +46,15 @@ $circle-icon-background: $color-light-grey-200;
     }
 
     &__box {
-        height: 11.5rem;
-
         display: flex;
         align-items: center;
 
         padding: 0 3rem;
         border-radius: .8rem;
+
+        &--small {
+            height: 11.5rem;
+        }
 
         h6 {
             font-size: 2.4rem;
@@ -103,6 +105,9 @@ $circle-icon-background: $color-light-grey-200;
         &--light {
             background-color: rgba(#B3C2D3, .2);
         }
+        &--white {
+            background-color: $white;
+        }
         &--dark {
             background-color: #0F1839;
 
@@ -115,6 +120,10 @@ $circle-icon-background: $color-light-grey-200;
                     background-color: rgba($white, .15);
                     color: $white;
                 }
+            }
+
+            .grid-listing__item__progress-bar {
+                background-color: rgba($white, .15);
             }
         }
     }
