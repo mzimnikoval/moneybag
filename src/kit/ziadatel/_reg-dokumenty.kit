@@ -11,12 +11,85 @@
         <h3>Dokumenty</h3>
         <p>Pre overenie užívateľa a dokončenie registrácie prosím nahrajte potrebné dokumenty.</p>
         <div class="alert alert-info"><span class="icon"></span>Tieto dokumenty je tiež možné nahrať dodatočne pri prvom prihlásení do aplikácie</div>
-        <form>
-            <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="customCheck1">
-                <label class="custom-control-label" for="customCheck1">Potrebné dokumenty nahrám neskôr</label>
+        <!-- <form> -->
+            <div class="form-group mb-9">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Potrebné dokumenty nahrám neskôr</label>
+                </div>
+            </div>
+            <div class="important-documents mb-7">
+                <div class="row">
+                    <div class="col-2 text-center">
+                        <span class="icon icon--check icon--rounded-lg icon--light-grey icon--success"></span>
+                        <span class="vertical-line"></span>
+                    </div>
+                    <div class="col-10">
+                        <p class="text--dark pt-3">Nahrajte prosím fotku vášho občianskeho preukazu</p>
+                        <form action="/file-upload" class="dropzone mb-7" id="my-awesome-dropzone">
+                            <div class="dz-message" data-dz-message><span class="text--primary"><span class="icon icon--upload mr-1"></span>Vyberte súbor</span> ktorý chcete nahrať</div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2 text-center">
+                        <span class="icon icon--upload icon--rounded-lg icon--light-grey"></span>
+                        <span class="vertical-line"></span>
+                    </div>
+                    <div class="col-10">
+                        <p class="text--dark pt-3">Nahrajte prosím fotku druhého ľubovolného dokladu totožnosti</p>
+                        <form action="/file-upload" class="dropzone mb-7" id="my-awesome-dropzone">
+                            <div class="dz-message" data-dz-message><span class="text--primary"><span class="icon icon--upload mr-1"></span>Vyberte súbor</span> ktorý chcete nahrať</div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2 text-center">
+                        <span class="icon icon--upload icon--rounded-lg icon--light-grey"></span>
+                    </div>
+                    <div class="col-10">
+                        <p class="text--dark pt-3">Nahrajte prosím aktuálnu pracovnú zmluvu</p>
+                        <form action="/file-upload" class="dropzone mb-7" id="my-awesome-dropzone">
+                            <div class="dz-message" data-dz-message><span class="text--primary"><span class="icon icon--upload mr-1"></span>Vyberte súbor</span> ktorý chcete nahrať</div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="alert alert-info"><span class="icon"></span>Pre zlepšenie rankingu môžete nahrať výpis z úverového registra alebo výpis z banky za posledné 3 mesiace</div>
+            <div class="d-flex justify-content-between">
+                <p class="text--dark">Nahrajte prosím výpis z úverového registra</p>
+                <p>Nepovinné</p>
+            </div>
+            <form action="/file-upload" class="dropzone mb-7" id="my-awesome-dropzone">
+                <div class="dz-message" data-dz-message><span class="text--primary"><span class="icon icon--upload mr-1"></span>Vyberte súbor</span> ktorý chcete nahrať</div>
+            </form>
+            <div class="d-flex justify-content-between">
+                <p class="text--dark">Nahrajte prosím výpis z banky za posledne 3 mesiace</p>
+                <p>Nepovinné</p>
+            </div>
+            <form action="/file-upload" class="dropzone mb-7" id="my-awesome-dropzone">
+                <div class="dz-message" data-dz-message><span class="text--primary"><span class="icon icon--upload mr-1"></span>Vyberte súbor</span> ktorý chcete nahrať</div>
+            </form>
+            <div class="d-flex justify-content-between">
+                <p class="text--dark">Nahrajte predschválený úver</p>
+                <p>Nepovinné</p>
+            </div>
+            <form action="/file-upload" class="dropzone mb-7" id="my-awesome-dropzone">
+                <div class="dz-message" data-dz-message><span class="text--primary"><span class="icon icon--upload mr-1"></span>Vyberte súbor</span> ktorý chcete nahrať</div>
+            </form>
+            <div class="form-group mb-5">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Súhlasím so <a href="#">Všeobecnými zmluvnými podmienkami</a> internetového portálu www.moneybag.sk </label>
+                </div>
+            </div>
+            <div class="form-group mb-7">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Súhlasím so <a href="#">Spracovaním osobných údajov</a></label>
+                </div>
             </div>
             <button type="submit" class="btn btn-primary btn-block">Pokračovať</button>
-        </form>          
+        <!-- </form>           -->
     </div>
 </div>

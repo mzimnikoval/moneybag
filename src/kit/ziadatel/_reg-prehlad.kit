@@ -8,33 +8,45 @@
         <div class="steps">
             <span class="steps__name">Krok </span><span class="steps__current">1</span><span class="steps__separator">/</span><span class="steps__count">7</span>
         </div>
-        <h3>Prehľad</h3>
+        <h3 class="light">Prehľad</h3>
         <form>
             <div class="content-block bg-color--light-grey position-relative mb-7 mt-15 pt-7">
                 <div class="inner-block bg-color--white p-9">
-                    <h5 class="mb-7">Požadovaná suma</h5>
-                    <div class="d-flex sliders-input mb-11">
-                        <div class="range-slider">
-                            <label for="kolko-pozicat" class="mb-1">Koľko si chcete požičať</label>
-                            <input type="range" class="custom-range" id="kolko-pozicat">
+                    <h5 class="mb-7 light">Požadovaná suma</h5>
+                    <div class="form-row">
+                        <div class="form-group col-md-8">
+                            <label for="pozicanie-value" class="mb-3">Koľko si chcete požičať</label>
+                            <div id="suma-pozicanie"></div>
                         </div>
-                        <div>
-                            <input type="number" class="form-control outline">
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" id="pozicanie-value">
                         </div>
                     </div>
-                    <div class="d-flex sliders-input">
-                        <div class="range-slider">
-                            <label for="kolko-splacat" class="mb-1">Koľko chcete mesačne splácať</label>
-                            <input type="range" class="custom-range" id="kolko-splacat">
+                    <div class="form-row">
+                        <div class="form-group col-md-8">
+                            <label for="splatka-value" class="mb-3">Koľko chcete mesačne splácať</label>
+                            <div id="suma-splatka"></div>
                         </div>
-                        <div>
-                            <input type="number" class="form-control outline">
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" id="splatka-value">
                         </div>
                     </div>
                 </div>
                 <div class="p-7">
                     <div class="alert alert-info"><span class="icon"></span>Môžete ušetriť až 131 EUR oproti štandardnej bankovej pôžičke.</div>
                     <p>Pri tejto splátke by ste pôžičku splácali 33 mesiacov. Mesačná splátka bude presne určená po ukončení aukcie.</p>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <label for="vyuzitie-prostriedkov">Využitie prostriedkov</label>
+                    <input type="text" class="form-control" id="vyuzitie-prostriedkov">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <label for="preco-pozicat">Prečo si chcem požičať</label>
+                    <textarea type="text" class="form-control" id="preco-pozicat"></textarea>
                 </div>
             </div>
             <button type="submit" class="btn btn-primary btn-block">Pokračovať</button>

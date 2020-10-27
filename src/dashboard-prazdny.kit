@@ -95,7 +95,7 @@
                         <h3 class="mb-0">Moje financie</h3>
                     </div>
                     <div class="col-6 text-md-right">
-                        <a href="" class="btn btn-sm btn-primary mr-4">Vklad</a>
+                        <a href="" class="btn btn-sm btn-primary mr-4" data-toggle="modal" data-target="#overenie-uspesne">Vklad</a>
                         <a href="" class="btn btn-sm btn-outline-primary">Výber</a>
                     </div>
                 </div>      
@@ -306,6 +306,23 @@
                             </div>
                         </div>
                     </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="overenie-uspesne" tabindex="-1" aria-labelledby="overenie-uspesne-title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span class="icon icon--close"></span>
+                    </button>
+                    <span class="icon icon--rounded-lg icon--success icon--check mb-2"></span>
+                    <h4 class="modal-title light mb-3 text-center" id="overenie-uspesne-title">Overenie prebehlo úspešne</h4>
+                    <p class="text-center mb-4">Odteraz sú vám sprístupnené všetky funkcionality portálu Money Bag. Vytvorte si vašu prvú žiadosť o pôžičku</p>                    
+                    <a href="" class="btn btn-block btn-primary">Pokračovať</a>
                 </div>
             </div>
         </div>

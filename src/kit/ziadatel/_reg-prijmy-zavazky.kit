@@ -8,7 +8,7 @@
         <div class="steps">
             <span class="steps__name">Krok </span><span class="steps__current">4</span><span class="steps__separator">/</span><span class="steps__count">7</span>
         </div>
-        <h3>Príjmy a záväzky</h3>
+        <h3 class="light">Príjmy a náklady</h3>
         <form>
             <div class="form-row">
                 <div class="form-group col-md-6">
@@ -40,8 +40,20 @@
                         </div>
                     </div>                      
                 </div>
+            </div>
+            <h3 class="light">Záväzky</h3>
+            <div class="form-row">
                 <div class="form-group col-md-6">
-                    <label for="ine-mesacne-prijmy">Mesačné splátky záväzkov spolu<span class="info-icon" data-toggle="tooltip" data-placement="top" title="Tooltip on top"></span></label>
+                    <label for="hlavny-mesacny-prijem">Typ záväzku</label>
+                    <select class="form-control">
+                        <option selected>Hypotéka na bývanie</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>                     
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="ine-mesacne-prijmy">Mesačná splátka</label>
                     <div class="input-group">
                         <input type="text" class="form-control" aria-label="ine-mesacne-prijmy" aria-describedby="mena">
                         <div class="input-group-append">
@@ -49,26 +61,8 @@
                         </div>
                     </div>  
                 </div>
-            </div>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="kraj">Kraj</label>
-                    <input type="text" class="form-control" id="kraj">
-                </div>
-            </div>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email">
-                </div>
-                <div class="form-group col-md-6">
-                    <label for="tel-cislo">Tel. číslo</label>
-                    <div class="input-group mb-2 mr-sm-2">
-                        <div class="input-group-prepend">
-                            <div class="input-group-text">+421</div>
-                        </div>
-                        <input type="text" class="form-control" id="tel-cislo">
-                    </div>
+                <div class="form-group col-md-12">
+                    <a href="" class="btn btn-block btn-outline-primary"><span class="icon icon--plus mr-1"></span>Pridať záväzok</a>
                 </div>
             </div>
             <button type="submit" class="btn btn-primary btn-block">Pokračovať</button>

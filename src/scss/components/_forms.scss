@@ -17,13 +17,13 @@
     .custom-control-label {
         font-weight: 400;
         margin-bottom: 0;
+        font-size: 1.6rem;
 
         &:before, &:after {
             top: 0;
             left: -3rem;
         }
-    }
-    
+    }    
     .input-group-text {
         background-color: $color-bg-light;
         border-color: $color-bg-light;
