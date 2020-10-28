@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1187" viewBox="0 0 1600 1187">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Mask" d="M0,339.252a100,100,0,0,1,84.329-98.765L1600,0V1187l-1500.022-.326A100,100,0,0,1,0,1086.674Z" transform="translate(0 0)" fill="#0f1839"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.537" y1="0.608" x2="0.345" y2="0.134" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#eef2f8" stop-opacity="0.039"/>
+    </linearGradient>
+  </defs>
+  <g id="tabs_bg" transform="translate(0)">
+    <g id="Rectangle" transform="translate(0 0)">
+      <path id="Mask-2" data-name="Mask" d="M0,339.252a100,100,0,0,1,84.329-98.765L1600,0V1187l-1500.022-.326A100,100,0,0,1,0,1086.674Z" transform="translate(0 0)" fill="#0f1839"/>
+      <g id="Rectangle-2" data-name="Rectangle" clip-path="url(#clip-path)">
+        <path id="Rectangle_2" data-name="Rectangle 2" d="M762,425.228A100,100,0,0,0,704.913,334.9L0,0V1547.931l700.624-293.377A100,100,0,0,0,762,1162.314Z" transform="translate(0 -53)" fill="url(#linear-gradient)"/>
+        <path id="Rectangle_Copy_4" data-name="Rectangle Copy 4" d="M0,351.6a100,100,0,0,1,53.691-88.631L557,0V1346.906L60.983,1136.718A100,100,0,0,1,0,1044.643Z" transform="translate(1043 -121)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

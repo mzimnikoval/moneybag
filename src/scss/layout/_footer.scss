@@ -1,0 +1,42 @@
+// --------------------------------
+// Footer settings
+// -------------------------------- 
+
+footer {
+
+    background-image: url('../img/footer-bg.jpg');
+    background-size: cover;
+
+    border-radius: 0 10rem 0 0;
+
+    color: $white;
+
+    .cta {
+        padding: 10rem 0;
+
+        h2 {
+            margin-bottom: 0;
+        }
+    }
+
+    .about {
+        padding: 10rem 0;
+
+        a {
+            width: 20rem;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+
+            li {
+                margin: 0 0 3rem;
+
+                a {
+                    color: $white;
+                }
+            }
+        }
+    }
+}

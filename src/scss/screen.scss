@@ -12,7 +12,9 @@ Importing all vendors for application
 	'../vendor/fontawesome/scss/solid.scss',
 	'../vendor/fontawesome/scss/regular.scss',
 	'../vendor/fontawesome/scss/light.scss',
-	'../vendor/fontawesome/scss/brands.scss';
+	'../vendor/fontawesome/scss/brands.scss',
+	'../vendor/owl-carousel/assets/scss/owl.carousel.scss',
+	'../vendor/owl-carousel/assets/scss/owl.theme.default.scss';
 
 
 @import 
@@ -22,8 +24,8 @@ Importing all vendors for application
 	'base/typography';
 
 @import 
-
 	'layout/header',
+	'layout/footer',
 	'layout/sidebar',
 	'layout/main';
 
@@ -40,4 +42,5 @@ Importing all vendors for application
 	'components/slider',
 	'components/tabs';
 
-@import 'pages/register-steps';
+@import 'pages/register-steps',
+		'pages/landing-page';

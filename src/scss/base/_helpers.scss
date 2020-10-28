@@ -215,3 +215,20 @@
     left: 50%;
     z-index: 1;
 }
+
+.separator {
+
+    &-white-light {
+        border-bottom: .1rem solid rgba($white,.15);
+    }
+
+}
+
+.pt {
+    &-100 {
+        padding-top: 10rem;
+    }
+    &-200 {
+        padding-top: 20rem;
+    }
+}

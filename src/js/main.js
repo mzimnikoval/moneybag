@@ -2,6 +2,7 @@
 //=include ../vendor/jquery-ui/jquery-ui.js
 //=include ../vendor/bootstrap/js/bootstrap.bundle.min.js
 //=include ../vendor/dropzone/dropzone.js
+//=include ../vendor/owl-carousel/owl.carousel.min.js
 
 
 $(function () {
@@ -32,5 +33,24 @@ $( function() {
         $( "#splatka-value" ).val( ui.value + " €" );
       }
     });
-    $( "#splatka-value" ).val( $( "#suma-splatka" ).slider( "value" ) + " €" );
+	$( "#splatka-value" ).val( $( "#suma-splatka" ).slider( "value" ) + " €" );
+	
+	$('.owl-carousel').owlCarousel({
+		stagePadding: 50,
+		loop:false,
+		margin:60,
+		nav:true,
+		dots: false,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+				items:3
+			},
+			1000:{
+				items:3
+			}
+		}
+	});
 });
