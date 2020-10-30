@@ -7,7 +7,10 @@
 </head>
 <body>
     <aside class="left-sidebar">
-        <img src="assets/img/mini_logo.svg" alt="" class="img-fluid mt-3 mb-9 pl-3">
+        <div class="d-flex mt-3 mb-9 pl-3 align-items-center justify-content-between">
+            <img src="assets/img/mini_logo.svg" alt="" class="img-fluid">
+            <span id="menu-close" class="icon icon--close d-lg-none"></span>
+        </div>
         <nav>
             <ul>
                 <li>
@@ -30,12 +33,13 @@
                 </li>
             </ul>
         </nav>
-        <a href="" class="btn btn-primary btn-block" data-toggle="modal" data-target="#ziadost-o-pozicku">Investujte teraz</a>
+        <a href="" class="btn btn-primary btn-block" data-toggle="modal" data-target="#investujte">Investujte teraz</a>
+        <a href="" class="btn btn-primary btn-block" data-toggle="modal" data-target="#ziadost-o-pozicku">Ziadost</a>
     </aside>
     <main class="dashboard">
         <header class="main-content-header d-flex justify-content-between align-items-center px-11">
             <nav class="main-content-header__subpages-nav">
-
+                <span id="menu-trigger" class="icon icon--hamburger"></span>
             </nav>
             <aside class="main-content-header__user-area d-flex align-items-center">
                 <div class="btn-group alerts-dropdown">
@@ -90,18 +94,18 @@
         <section class="moje-financie mb-11">
             <div class="container-fluid">
                 <div class="row row-header mb-5">
-                    <div class="col-6 d-flex align-items-center">
+                    <div class="col-12 col-md-6 d-flex align-items-center mb-3 mb-md-0">
                         <span class="icon icon--financie"></span>
                         <h3 class="mb-0">Moje financie</h3>
                     </div>
-                    <div class="col-6 text-md-right">
+                    <div class="col-12 col-md-6 text-left text-md-right">
                         <a href="" class="btn btn-sm btn-primary mr-4" data-toggle="modal" data-target="#overenie-uspesne">Vklad</a>
                         <a href="" class="btn btn-sm btn-outline-primary">Výber</a>
                     </div>
                 </div>      
                 <div class="row">
-                    <div class="col-4">
-                        <article class="dashboard__box dashboard__box--small dashboard__box--light">
+                    <div class="col-12 col-md-4">
+                        <article class="dashboard__box dashboard__box--small dashboard__box--light mb-3 mb-md-0">
                             <span class="icon icon--circle icon--hodnota"></span>
                             <div>
                                 <h6>0 €</h6>
@@ -109,8 +113,8 @@
                             </div>
                         </article>
                     </div>
-                    <div class="col-4">
-                        <article class="dashboard__box dashboard__box--small dashboard__box--light">
+                    <div class="col-12 col-md-4">
+                        <article class="dashboard__box dashboard__box--small dashboard__box--light mb-3 mb-md-0">
                             <span class="icon icon--circle icon--hodnota"></span>
                             <div>
                                 <h6>0 €</h6>
@@ -118,8 +122,8 @@
                             </div>
                         </article>
                     </div>
-                    <div class="col-4">
-                        <article class="dashboard__box dashboard__box--small dashboard__box--dark">
+                    <div class="col-12 col-md-4">
+                        <article class="dashboard__box dashboard__box--small dashboard__box--dark mb-3 mb-md-0">
                             <span class="icon icon--circle icon--hodnota"></span>
                             <div>
                                 <h6>0 €</h6>
@@ -133,7 +137,7 @@
         <section class="moje-investicie mb-11">
             <div class="container-fluid">
                 <div class="row row-header mb-5">
-                    <div class="col-6 d-flex align-items-center">
+                    <div class="col-12 d-flex align-items-center">
                         <span class="icon icon--investicie-main"></span>
                         <h3 class="mb-0">Moje Investície</h3>
                     </div>
@@ -157,7 +161,7 @@
                             </div>
                             <div class="grid-listing__item grid-listing__item--empty">
                                 <span class="icon icon--info icon--rounded"></span>
-                                <span>Zatiaľ nemáte žiadne aktívne investície</span>
+                                <span class="text-center">Zatiaľ nemáte žiadne aktívne investície</span>
                                 <a href="#" class="btn btn-sm btn-outline-primary">Chcem investovať</a>
                             </div>
                         </div>
@@ -168,8 +172,8 @@
         <section class="najnovsie-aukcie mb-11">
             <div class="container-fluid">
                 <div class="row row-header mb-5">
-                    <div class="col-6 d-flex align-items-center">
-                        <span class="icon icon--aukcie"></span>
+                    <div class="col-12 d-flex align-items-center">
+                        <span class="icon icon--aukcie-main"></span>
                         <h3 class="mb-0">Najnovšie aukcie</h3>
                     </div>
                 </div>      
@@ -188,19 +192,19 @@
                                 </div>
                             </div>
                             <div class="grid-listing__item">
-                                <div class="d-flex">
+                                <div class="d-flex mb-3 mb-md-0">
                                     <img src="assets/img/avatar_48.png" alt="" class="img-fluid mr-4">
                                     <div>
                                         <p class="text--dark"><span class="profile-info__group">A</span>Jose Tyler</p>
                                         <p>Vyplatenie debetu</p>
                                     </div>
                                 </div>
-                                <div>
+                                <div class="mb-3 mb-md-0">
                                     <p class="value text--dark">21 000 €</p>
                                     <p>9,30% p.a. 24 mesiacov</p>
                                 </div>
-                                <div class="d-flex justify-content-between">
-                                    <div class="grid-listing__item__progress d-flex flex-column justify-content-center">
+                                <div class="d-flex flex-column flex-md-row justify-content-between">
+                                    <div class="grid-listing__item__progress d-flex flex-column justify-content-center mb-3 mb-md-0">
                                         <div class="d-flex justify-content-between mb-1"><p>13 dní</p><p class="text--dark">84%</p></div>
                                         <div class="grid-listing__item__progress-bar"><span style="width:30%"></span></div>
                                     </div>
@@ -208,39 +212,39 @@
                                 </div>
                             </div>
                             <div class="grid-listing__item">
-                                <div class="d-flex">
+                                <div class="d-flex mb-3 mb-md-0">
                                     <img src="assets/img/avatar_48.png" alt="" class="img-fluid mr-4">
                                     <div>
                                         <p class="text--dark"><span class="profile-info__group">A</span>Jose Tyler</p>
                                         <p>Vyplatenie debetu</p>
                                     </div>
                                 </div>
-                                <div>
+                                <div class="mb-3 mb-md-0">
                                     <p class="value text--dark">21 000 €</p>
                                     <p>9,30% p.a. 24 mesiacov</p>
                                 </div>
-                                <div class="d-flex justify-content-between">
-                                    <div class="grid-listing__item__progress d-flex flex-column justify-content-center">
+                                <div class="d-flex flex-column flex-md-row justify-content-between">
+                                    <div class="grid-listing__item__progress d-flex flex-column justify-content-center mb-3 mb-md-0">
                                         <div class="d-flex justify-content-between mb-1"><p>13 dní</p><p class="text--dark">84%</p></div>
-                                        <div class="grid-listing__item__progress-bar"><span style="width:60%"></span></div>
+                                        <div class="grid-listing__item__progress-bar"><span style="width:30%"></span></div>
                                     </div>
                                     <a href="#" class="btn btn-outline-primary">Investovať</a>
                                 </div>
                             </div>
                             <div class="grid-listing__item">
-                                <div class="d-flex">
+                                <div class="d-flex mb-3 mb-md-0">
                                     <img src="assets/img/avatar_48.png" alt="" class="img-fluid mr-4">
                                     <div>
                                         <p class="text--dark"><span class="profile-info__group">A</span>Jose Tyler</p>
                                         <p>Vyplatenie debetu</p>
                                     </div>
                                 </div>
-                                <div>
+                                <div class="mb-3 mb-md-0">
                                     <p class="value text--dark">21 000 €</p>
                                     <p>9,30% p.a. 24 mesiacov</p>
                                 </div>
-                                <div class="d-flex justify-content-between">
-                                    <div class="grid-listing__item__progress d-flex flex-column justify-content-center">
+                                <div class="d-flex flex-column flex-md-row justify-content-between">
+                                    <div class="grid-listing__item__progress d-flex flex-column justify-content-center mb-3 mb-md-0">
                                         <div class="d-flex justify-content-between mb-1"><p>13 dní</p><p class="text--dark">84%</p></div>
                                         <div class="grid-listing__item__progress-bar"><span style="width:30%"></span></div>
                                     </div>
@@ -312,8 +316,80 @@
     </div>
 
     <!-- Modal -->
-    <div class="modal fade" id="overenie-uspesne" tabindex="-1" aria-labelledby="overenie-uspesne-title" aria-hidden="true">
+    <div class="modal fade" id="investujte" tabindex="-1" aria-labelledby="investujte-title" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-side">
+                <h4 class="light">Informácie</h4>
+                <div class="d-flex justify-content-between border-bottom-light py-3">
+                    <p class="mb-0">Voľné prostriedky</p>
+                    <p class="text--dark mb-0">24 Mesiacov</p>
+                </div>
+                <div class="d-flex justify-content-between border-bottom-light py-3">
+                    <p class="mb-0">Odporúčaná sadzba</p>
+                    <p class="text--dark mb-0">12,40% p.a.</p>
+                </div>
+                <div class="d-flex justify-content-between border-bottom-light py-3">
+                    <p class="mb-0">Priemerná sadzba</p>
+                    <p class="text--dark mb-0">15,40% p.a.</p>
+                </div>
+                <div class="d-flex justify-content-between border-bottom-light py-3">
+                    <p class="mb-0">Minimálna investícia</p>
+                    <p class="text--dark mb-0">15,40% p.a.</p>
+                </div>
+                <div class="d-flex justify-content-between pt-4">
+                    <p class="mb-0">Maximálna investícia</p>
+                    <p class="text--dark mb-0">15,40% p.a.</p>
+                </div>
+            </div>
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span class="icon icon--close"></span>
+                    </button>
+                    <h4 class="modal-title light mb-5" id="investujte-title">Žiadosť o pôžičku</h4> 
+                    <form action="">
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="hlavny-mesacny-prijem">Výška investície</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" aria-label="hlavny-mesacny-prijem" aria-describedby="mena">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="mena">EUR</span>
+                                    </div>
+                                </div>                      
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <div class="d-flex justify-content-between">
+                                    <a href="" class="btn btn-sm btn-outline-primary">50 €</a>
+                                    <a href="" class="btn btn-sm btn-outline-primary">100 €</a>
+                                    <a href="" class="btn btn-sm btn-outline-primary">200 €</a>
+                                    <a href="" class="btn btn-sm btn-outline-primary">500 €</a>
+                                </div>                  
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="hlavny-mesacny-prijem">Úroková sadzba</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" aria-label="hlavny-mesacny-prijem" aria-describedby="mena">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="mena">% p.a.</span>
+                                    </div>
+                                </div>                      
+                            </div>
+                        </div>
+                        <button class="btn btn-block btn-primary">Investovať čiastku</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="overenie-uspesne" tabindex="-1" aria-labelledby="overenie-uspesne-title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">            
             <div class="modal-content">
                 <div class="modal-body text-center">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">

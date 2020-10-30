@@ -18,11 +18,20 @@ $navigiation-item-color-icon--active: $color-primary;
     background-color: $white;
     width: 32rem;
     top: 0;
-    left: 0;
+    left: -32rem;
     height: 100vh;
     padding: 4rem;
 
     box-shadow: -3rem 6rem 10rem 0 rgba($color-light-grey-200, .08) ;
+
+    @include media-breakpoint-up(xl) {
+        left: 0;
+    }
+
+    &.active {
+        left: 0;
+        z-index: 99;
+    }
 
     nav {
 

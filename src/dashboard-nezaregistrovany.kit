@@ -7,7 +7,10 @@
 </head>
 <body>
     <aside class="left-sidebar">
-        <img src="assets/img/mini_logo.svg" alt="" class="img-fluid mt-3 mb-9 pl-3">
+        <div class="d-flex mt-3 mb-9 pl-3 align-items-center justify-content-between">
+            <img src="assets/img/mini_logo.svg" alt="" class="img-fluid">
+            <span id="menu-close" class="icon icon--close d-lg-none"></span>
+        </div>
         <nav>
             <ul>
                 <li>
@@ -35,7 +38,7 @@
     <main class="dashboard no-register">
         <header class="main-content-header d-flex justify-content-between align-items-center px-11">
             <nav class="main-content-header__subpages-nav">
-
+                <span id="menu-trigger" class="icon icon--hamburger d-xl-none"></span>
             </nav>
             <aside class="main-content-header__user-area d-flex align-items-center">
                 <div class="btn-group alerts-dropdown">
@@ -89,7 +92,7 @@
         </header>
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-8 text-center">
+                <div class="col-12 col-md-8 text-center">
                     <span class="icon icon--circle icon--upload"></span>
                     <h3 class="light">Dokončite prosím registráciu</h3>
                     <p class="mb-7">Pre dokončenie registrácie je potrebné nahrať dokumenty pre overenie užívatela. Po overení vám budú sprístupnené všetky funkcionality portálu moneybag.</p>

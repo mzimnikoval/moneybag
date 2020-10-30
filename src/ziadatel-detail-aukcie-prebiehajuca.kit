@@ -7,7 +7,10 @@
 </head>
 <body>
     <aside class="left-sidebar">
-        <img src="assets/img/mini_logo.svg" alt="" class="img-fluid mt-3 mb-9 pl-3">
+        <div class="d-flex mt-3 mb-9 pl-3 align-items-center justify-content-between">
+            <img src="assets/img/mini_logo.svg" alt="" class="img-fluid">
+            <span id="menu-close" class="icon icon--close d-xl-none"></span>
+        </div>
         <nav>
             <ul>
                 <li>
@@ -35,6 +38,7 @@
     <main class="dashboard">
         <header class="main-content-header d-flex justify-content-between align-items-center px-11">
             <nav class="main-content-header__subpages-nav">
+                <span id="menu-trigger" class="icon icon--hamburger d-xl-none"></span>
                 <ul>
                     <li>
                         <a href="#" class="active"><span class="icon icon--back"></span></a>
@@ -102,45 +106,45 @@
         <section class="moje-financie mb-11">
             <div class="container-fluid">  
                 <div class="row">
-                    <div class="col-7">
-                        <article class="dashboard__box dashboard__box--white d-block p-11">
+                    <div class="col-12 col-xl-7">
+                        <article class="dashboard__box dashboard__box--white d-block p-5 p-md-11 mb-5 mb-md-0">
                             <h3 class="light">Informácie</h3>
-                            <div class="d-flex justify-content-between border-bottom-light py-4">
-                                <p>Požadovaná výška pôžičky</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-light py-4">
+                                <p class="mb-1 mb-md-0">Požadovaná výška pôžičky</p>
                                 <p class="text--dark">14 500 €</p>
                             </div>
-                            <div class="d-flex justify-content-between border-bottom-light py-4">
-                                <p>Splatnosť</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-light py-4">
+                                <p class="mb-1 mb-md-0">Splatnosť</p>
                                 <p class="text--dark">24 Mesiacov</p>
                             </div>
-                            <div class="d-flex justify-content-between border-bottom-light py-4">
-                                <p>Úroková sadzba</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-light py-4">
+                                <p class="mb-1 mb-md-0">Úroková sadzba</p>
                                 <p class="text--dark">15,40% p.a.</p>
                             </div>
-                            <div class="d-flex justify-content-between border-bottom-light py-4">
-                                <p>Využitie prostriedkov</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-light py-4">
+                                <p class="mb-1 mb-md-0">Využitie prostriedkov</p>
                                 <p class="text--dark">Pôžička na čokoľvek</p>
                             </div>
-                            <div class="d-flex justify-content-between pt-4">
-                                <p>Aukcia končí</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between pt-4">
+                                <p class="mb-1 mb-md-0">Aukcia končí</p>
                                 <p class="text--dark">14.09.2020, 16:30 hod.</p>
                             </div>
                         </article>
                     </div>
-                    <div class="col-5 pl-11">
-                        <article class="dashboard__box dashboard__box--dark d-block p-11 position-sticky">
+                    <div class="col-12 col-xl-5 pl-2 pl-md-11">
+                        <article class="dashboard__box dashboard__box--dark d-block p-5 p-md-11 position-sticky">
                             <h3 class="text--light"><span class="text--white">6 400 €</span> / 14 500 €</h3>
                             <div class="grid-listing__item__progress-bar w-100"><span style="width:40%"></span></div>
-                            <div class="d-flex justify-content-between border-bottom-white-15 py-4">
-                                <p>Ostáva</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-white-15 py-4">
+                                <p class="mb-1 mb-md-0">Ostáva</p>
                                 <p class="text--white">8 100 €</p>
                             </div>
-                            <div class="d-flex justify-content-between border-bottom-white-15 py-4">
-                                <p><span class="icon icon--cas mr-1"></span> Aukcia končí</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-white-15 py-4">
+                                <p class="mb-1 mb-md-0"><span class="icon icon--cas mr-1"></span> Aukcia končí</p>
                                 <p class="text--white">31 dní</p>
                             </div>
-                            <div class="d-flex justify-content-between py-4">
-                                <p>Aktuálna úroková sadzba</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between py-4">
+                                <p class="mb-1 mb-md-0">Aktuálna úroková sadzba</p>
                                 <p class="text--white">12,40% p.a.</p>
                             </div>
                             <a href="" class="btn btn-block btn-outline-secondary">Zrušiť aukciu</a>
@@ -152,7 +156,7 @@
         <section class="najnovsie-aukcie mb-11">
             <div class="container-fluid">
                 <div class="row row-header mb-5">
-                    <div class="col-6 d-flex align-items-center">
+                    <div class="col-12 d-flex align-items-center">
                         <h3 class="light mb-0">Ponuky investorov</h3>
                     </div>
                 </div>      
@@ -178,17 +182,17 @@
                             </div>
                             <div class="grid-listing__items">
                                 <div class="grid-listing__item grid-listing__item--small">
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-1 mb-md-0">
                                         <img src="assets/img/avatar_48.png" alt="" class="img-fluid mr-4">
                                         <p class="text--dark">Jose Tyler</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-1 mb-md-0">
                                         <p class="value text--dark">9 800 €</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-1 mb-md-0">
                                         <p class="value">10.05% p.a.</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-1 mb-md-0">
                                         <p class="text-success">Vyhrávajúca</p>
                                     </div>
                                     <div class="d-flex align-items-center">
@@ -196,17 +200,17 @@
                                     </div>
                                 </div>
                                 <div class="grid-listing__item grid-listing__item--small">
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-1 mb-md-0">
                                         <img src="assets/img/avatar_48.png" alt="" class="img-fluid mr-4">
                                         <p class="text--dark">Jose Tyler</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-1 mb-md-0">
                                         <p class="value text--dark">9 800 €</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-1 mb-md-0">
                                         <p class="value">10.05% p.a.</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-1 mb-md-0">
                                         <p class="text-success">Vyhrávajúca</p>
                                     </div>
                                     <div class="d-flex align-items-center">
@@ -214,17 +218,17 @@
                                     </div>
                                 </div>
                                 <div class="grid-listing__item grid-listing__item--small">
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-1 mb-md-0">
                                         <img src="assets/img/avatar_48.png" alt="" class="img-fluid mr-4">
                                         <p class="text--dark">Jose Tyler</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-1 mb-md-0">
                                         <p class="value text--dark">9 800 €</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-1 mb-md-0">
                                         <p class="value">10.05% p.a.</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-1 mb-md-0">
                                         <p class="text-success">Vyhrávajúca</p>
                                     </div>
                                     <div class="d-flex align-items-center">
@@ -232,17 +236,17 @@
                                     </div>
                                 </div>
                                 <div class="grid-listing__item grid-listing__item--small">
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-1 mb-md-0">
                                         <img src="assets/img/avatar_48.png" alt="" class="img-fluid mr-4">
                                         <p class="text--dark">Jose Tyler</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-1 mb-md-0">
                                         <p class="value text--dark">9 800 €</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-1 mb-md-0">
                                         <p class="value">10.05% p.a.</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-1 mb-md-0">
                                         <p class="text-success">Vyhrávajúca</p>
                                     </div>
                                     <div class="d-flex align-items-center">
@@ -250,17 +254,17 @@
                                     </div>
                                 </div>
                                 <div class="grid-listing__item grid-listing__item--small">
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-1 mb-md-0">
                                         <img src="assets/img/avatar_48.png" alt="" class="img-fluid mr-4">
                                         <p class="text--dark">Jose Tyler</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-1 mb-md-0">
                                         <p class="value text--dark">9 800 €</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-1 mb-md-0">
                                         <p class="value">10.05% p.a.</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-1 mb-md-0">
                                         <p class="text-success">Vyhrávajúca</p>
                                     </div>
                                     <div class="d-flex align-items-center">
@@ -268,17 +272,17 @@
                                     </div>
                                 </div>
                                 <div class="grid-listing__item grid-listing__item--small">
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-1 mb-md-0">
                                         <img src="assets/img/avatar_48.png" alt="" class="img-fluid mr-4">
                                         <p class="text--dark">Jose Tyler</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-1 mb-md-0">
                                         <p class="value text--dark">9 800 €</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-1 mb-md-0">
                                         <p class="value">10.05% p.a.</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-1 mb-md-0">
                                         <p class="text-success">Vyhrávajúca</p>
                                     </div>
                                     <div class="d-flex align-items-center">

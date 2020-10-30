@@ -146,6 +146,12 @@
             content: fa-content($fa-var-cloud-upload);
         }
     }
+    &--hamburger {
+        font-size: 2.1rem;
+        &:before {
+            content: fa-content($fa-var-bars);
+        }
+    }
     &--details {
         font-size: 2.4rem;
         color: $color-light-grey-200;

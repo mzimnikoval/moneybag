@@ -7,7 +7,10 @@
 </head>
 <body>
     <aside class="left-sidebar">
-        <img src="assets/img/mini_logo.svg" alt="" class="img-fluid mt-3 mb-9 pl-3">
+        <div class="d-flex mt-3 mb-9 pl-3 align-items-center justify-content-between">
+            <img src="assets/img/mini_logo.svg" alt="" class="img-fluid">
+            <span id="menu-close" class="icon icon--close d-xl-none"></span>
+        </div>
         <nav>
             <ul>
                 <li>
@@ -35,6 +38,7 @@
     <main class="dashboard">
         <header class="main-content-header d-flex justify-content-between align-items-center px-11">
             <nav class="main-content-header__subpages-nav">
+                <span id="menu-trigger" class="icon icon--hamburger d-xl-none"></span>
                 <ul>
                     <li>
                         <a href="#" class="active"><span class="icon icon--back"></span></a>
@@ -102,35 +106,35 @@
         <section class="moje-financie mb-11">
             <div class="container-fluid">  
                 <div class="row">
-                    <div class="col-7">
-                        <article class="dashboard__box dashboard__box--white d-block p-11 mb-5">
+                    <div class="col-12 col-md-7">
+                        <article class="dashboard__box dashboard__box--white d-block p-5 p-md-11 mb-5">
                             <h3 class="light">Informácie</h3>
-                            <div class="d-flex justify-content-between border-bottom-light py-4">
-                                <p>Požadovaná výška pôžičky</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-light py-4">
+                                <p class="mb-1 mb-md-0">Požadovaná výška pôžičky</p>
                                 <p class="text--dark">14 500 €</p>
                             </div>
-                            <div class="d-flex justify-content-between border-bottom-light py-4">
-                                <p>Splatnosť</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-light py-4">
+                                <p class="mb-1 mb-md-0">Splatnosť</p>
                                 <p class="text--dark">24 Mesiacov</p>
                             </div>
-                            <div class="d-flex justify-content-between border-bottom-light py-4">
-                                <p>Odporúčaná uroková sadzba</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-light py-4">
+                                <p class="mb-1 mb-md-0">Odporúčaná uroková sadzba</p>
                                 <p class="text--dark">12,40% p.a.</p>
                             </div>
-                            <div class="d-flex justify-content-between border-bottom-light py-4">
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-light py-4">
                                 <p>Priemerná úroková sadzba</p>
                                 <p class="text--dark">15,40% p.a.</p>
                             </div>
-                            <div class="d-flex justify-content-between border-bottom-light py-4">
-                                <p>Využitie prostriedkov</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-light py-4">
+                                <p class="mb-1 mb-md-0">Využitie prostriedkov</p>
                                 <p class="text--dark">Pôžička na čokoľvek</p>
                             </div>
-                            <div class="d-flex justify-content-between pt-4">
-                                <p>Aukcia končí</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between pt-4">
+                                <p class="mb-1 mb-md-0">Aukcia končí</p>
                                 <p class="text--dark">14.09.2020, 16:30 hod.</p>
                             </div>
                         </article>
-                        <article class="dashboard__box dashboard__box--white d-block p-11">
+                        <article class="dashboard__box dashboard__box--white d-block p-5 p-md-11 mb-5 mb-md-0">
                             <h3 class="light mb-7">Žiadateľ</h3>
                             <div class="d-flex">
                                 <img src="assets/img/avatar_60-60.png" class="img-fluid mr-4" alt="">
@@ -139,44 +143,44 @@
                                     <p class="profile-info__email">Muž 31 rokov Banskobystrický kraj</p>
                                 </div>
                             </div>
-                            <div class="d-flex content-block justify-content-between bg-color--light-20 p-4 mt-5 mb-2">
-                                <p>Stav overenia</p>
+                            <div class="d-flex flex-column flex-md-row content-block justify-content-between bg-color--light-20 p-4 mt-5 mb-2">
+                                <p class="mb-1 mb-md-0">Stav overenia</p>
                                 <p class="text--dark">Overený užívateľ <span class="icon icon--approved text-success m-0 ml-1"></span></p>
                             </div>
-                            <div class="d-flex justify-content-between border-bottom-light py-4">
-                                <p>Národnosť</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-light py-4">
+                                <p class="mb-1 mb-md-0">Národnosť</p>
                                 <p class="text--dark">Slovenská</p>
                             </div>
-                            <div class="d-flex justify-content-between border-bottom-light py-4">
-                                <p>Rating klienta</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-light py-4">
+                                <p class="mb-1 mb-md-0">Rating klienta</p>
                                 <p class="text--dark"><span class="profile-info__group">A</span></p>
                             </div>
-                            <div class="d-flex justify-content-between border-bottom-light py-4">
-                                <p>Vzdelanie</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-light py-4">
+                                <p class="mb-1 mb-md-0">Vzdelanie</p>
                                 <p class="text--dark">Stredoškolské s maturitou</p>
                             </div>
-                            <div class="d-flex justify-content-between border-bottom-light py-4">
-                                <p>Rodinný stav</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-light py-4">
+                                <p class="mb-1 mb-md-0">Rodinný stav</p>
                                 <p class="text--dark">Slobodný</p>
                             </div>
-                            <div class="d-flex justify-content-between border-bottom-light py-4">
-                                <p>Počet vyživovaných detí</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-light py-4">
+                                <p class="mb-1 mb-md-0">Počet vyživovaných detí</p>
                                 <p class="text--dark">2</p>
                             </div>
-                            <div class="d-flex justify-content-between border-bottom-light py-4">
-                                <p>Typ bývania</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-light py-4">
+                                <p class="mb-1 mb-md-0">Typ bývania</p>
                                 <p class="text--dark">Vlastný dom</p>
                             </div>
-                            <div class="d-flex justify-content-between border-bottom-light py-4">
-                                <p>Zamestnanecký pomer</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-light py-4">
+                                <p class="mb-1 mb-md-0">Zamestnanecký pomer</p>
                                 <p class="text--dark">TPP</p>
                             </div>
-                            <div class="d-flex justify-content-between border-bottom-light py-4">
-                                <p>Pracovné odvetvie</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-light py-4">
+                                <p class="mb-1 mb-md-0">Pracovné odvetvie</p>
                                 <p class="text--dark">Potravinársky priemysel</p>
                             </div>
-                            <div class="d-flex justify-content-between border-bottom-light py-4">
-                                <p>Pracovná pozícia</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-light py-4">
+                                <p class="mb-1 mb-md-0">Pracovná pozícia</p>
                                 <p class="text--dark">Pekár</p>
                             </div>
                             <div class="pt-4">
@@ -186,24 +190,24 @@
                             </div>
                         </article>
                     </div>
-                    <div class="col-5 pl-11">
-                        <article class="dashboard__box dashboard__box--dark d-block p-11 position-sticky">
+                    <div class="col-12 col-lg-5 pl-2 pl-md-11">
+                        <article class="dashboard__box dashboard__box--dark d-block p-5 p-md-11 position-sticky">
                             <p class="mb-1">Moja investícia</p>
                             <h3 class="text--white">6 400 €</h3>
-                            <div class="d-flex justify-content-between border-bottom-white-15 py-4">
-                                <p>Úroková sadzba</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-white-15 py-4">
+                                <p class="mb-1 mb-md-0">Úroková sadzba</p>
                                 <p class="text--white">12,40% p.a.</p>
                             </div>
-                            <div class="d-flex justify-content-between border-bottom-white-15 py-4">
-                                <p>Mesačná splátka</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-white-15 py-4">
+                                <p class="mb-1 mb-md-0">Mesačná splátka</p>
                                 <p class="text--white">150 €</p>
                             </div>
-                            <div class="d-flex justify-content-between border-bottom-white-15 py-4">
-                                <p>Stav aukcie</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-white-15 py-4">
+                                <p class="mb-1 mb-md-0">Stav aukcie</p>
                                 <p class="text--white"><span class="icon icon--check text-success mr-1"></span>Skončená</p>
                             </div>
-                            <div class="d-flex justify-content-between py-4">
-                                <p>Stav čerpania</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between py-4">
+                                <p class="mb-1 mb-md-0">Stav čerpania</p>
                                 <p class="text--white"><span class="icon icon--check text-success mr-1"></span>Načerpaná</p>
                             </div>
                         </article>

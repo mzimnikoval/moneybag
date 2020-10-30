@@ -8,20 +8,28 @@ h1 {
 }
 
 h2 {
-   font-size: 6rem; 
+   font-size: 4rem; 
 
-   &.light {
+    @include media-breakpoint-up(xl) {
+        font-size: 6rem;
+    }
+
+    &.light {
        font-weight: 300;
-   }
+    }
 }
 
 h3 {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 2.5rem;
     font-weight: 400;
 
     &.light {
         font-weight: 300;
+    }
+
+    @include media-breakpoint-up(xl) {
+        font-size: 4rem;
     }
 }
 
@@ -110,13 +118,17 @@ ul.custom-icon {
     }
 
     li {
-        padding-left: 1.3rem;
-        line-height: 1.6rem;
-        margin-bottom: 2rem;
+        padding-left: 3rem;
+        line-height: 2.6rem;
+        margin-bottom: 1rem;
 
         &:last-child {
             margin-bottom: 0;
         }
+    }
+
+    &.light li {
+        color: $white;
     }
 
     &__check {
@@ -127,6 +139,18 @@ ul.custom-icon {
             content: fa-content($fa-var-check);
             font-size: 1.3rem;
             color: $color-primary;
+            display: inline-block;
+            margin-left: -3rem; /* same as padding-left set on li */
+            width: 3rem; /* same as padding-left set on li */
+        }
+    }
+    &__check-circle {
+        li:before {
+            @extend %fa-icon;
+            @extend .fas;
+
+            content: url('../img/icon-check.png');
+            vertical-align: middle;
             display: inline-block;
             margin-left: -1.3rem; /* same as padding-left set on li */
             width: 3rem; /* same as padding-left set on li */

@@ -7,7 +7,10 @@
 </head>
 <body>
     <aside class="left-sidebar">
-        <img src="assets/img/mini_logo.svg" alt="" class="img-fluid mt-3 mb-9 pl-3">
+        <div class="d-flex mt-3 mb-9 pl-3 align-items-center justify-content-between">
+            <img src="assets/img/mini_logo.svg" alt="" class="img-fluid">
+            <span id="menu-close" class="icon icon--close d-xl-none"></span>
+        </div>
         <nav>
             <ul>
                 <li>
@@ -35,6 +38,7 @@
     <main class="dashboard pb-15">
         <header class="main-content-header d-flex justify-content-between align-items-center px-11">
             <nav class="main-content-header__subpages-nav">
+                <span id="menu-trigger" class="icon icon--hamburger d-xl-none"></span>
                 <ul>
                     <li>
                         <a href="#" class="active">Môj profil</a>
@@ -103,14 +107,14 @@
         <section>
             <div class="container-fluid">
                 <div class="row justify-content-center mb-7">
-                    <div class="col-8">
-                        <img src="assets/img/avatar_100-100.png" class="img-fluid mr-5" alt="">
-                        <a href="" class="btn btn-primary btn-sm mr-5">Nahrať novú fotku</a>
+                    <div class="col-12 col-md-8">
+                        <img src="assets/img/avatar_100-100.png" class="img-fluid mr-5 mb-3 mb-md-0" alt="">
+                        <a href="" class="btn btn-primary btn-sm mr-5 mb-3 mb-md-0">Nahrať novú fotku</a>
                         <a href="" class="btn btn-outline-primary btn-sm">Vymazať</a>
                     </div>
                 </div>  
                 <div class="row justify-content-center">
-                    <div class="col-8">
+                    <div class="col-12 col-md-8">
                         <form>
                             <div class="form-row">
                                 <div class="col-md-12">
@@ -147,7 +151,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-row mb-15">
+                            <div class="form-row mb-7 mb-md-15">
                                 <div class="form-group col-md-6">
                                     <label for="meno">Národnosť</label>
                                     <select class="form-control">
@@ -188,7 +192,7 @@
                                     <input type="text" class="form-control" id="pocet-vyzivovanych-deti">
                                 </div>
                             </div>
-                            <div class="form-row mb-15">
+                            <div class="form-row mb-7 mb-md-15">
                                 <div class="form-group col-md-6">
                                     <label for="typ-byvania">Typ bývania</label>
                                     <input type="text" class="form-control" id="typ-byvania">
