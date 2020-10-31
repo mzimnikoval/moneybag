@@ -43,7 +43,9 @@ $( function() {
 		dots: false,
 		responsive:{
 			0:{
-				items:1
+				items:1,
+				margin:15,
+				stagePadding: 0,
 			},
 			600:{
 				items:3

@@ -13,34 +13,55 @@
 }
 
 
-.jednoduche-investovanie {
-    background-image: url('../img/jednoduche-investovanie.png');
+.jednoduche-investovanie {   
 
     margin: 10rem 0 0;
-    padding: 20rem 0 30rem;
+    padding: 10rem 0 10rem;
+
+    @include media-breakpoint-up(xl) {
+        margin: 10rem 0 0;
+        padding: 20rem 0 30rem;
+
+        background-image: url('../img/jednoduche-investovanie.png');
+    }
 
 }
 
 .transparentne-investovanie {
-    background-image: url('../img/transparentne-investovanie.png');
-    padding: 35rem 0 30rem;
+    padding: 10rem 0;
+
+    @include media-breakpoint-up(xl) {
+        background-image: url('../img/transparentne-investovanie.png');
+        padding: 35rem 0 30rem;
+    }
 
 }
 
 .recenzie {
-    padding: 0 0 24rem;
+    padding: 0 0 10rem;
+
+    @include media-breakpoint-up(xl) {
+        padding: 0 0 24rem;
+    }   
 
     .left-grid {
-        margin-left: 32rem;
+
+        @include media-breakpoint-up(xl) {
+            margin-left: 32rem;
+        }
     }
     
     .owl-item {
         .item {
             background-color: $white;
-            padding: 6rem 6rem 6rem 7rem;
+            padding: 3rem;
             border-radius: 1rem;
 
             box-shadow: 0 4rem 15rem 0 rgba(#1A3966, .08);
+            
+            @include media-breakpoint-up(xl) {
+                padding: 6rem 6rem 6rem 7rem;
+            }
 
             img {
                 width: 6rem;
@@ -57,8 +78,12 @@
 
     .owl-theme .owl-nav {
         margin-top: 6rem;
-        padding-left: 6rem;
+        padding-left: 0rem;
         text-align: left;
+
+        @include media-breakpoint-up(xl) {
+            padding-left: 6rem;
+        } 
 
         button {
             width: 6rem;
@@ -106,12 +131,16 @@
 
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 60rem 0 20rem;
+    padding: 30rem 0 10rem;
 
     border-radius: 0 0 0 10rem;
 
-    margin: 0 0 20rem;
-    
+    margin: 0 0 10rem;
+
+    @include media-breakpoint-up(xl) {
+        margin: 0 0 20rem;
+        padding: 60rem 0 20rem;
+    }   
 
     img {
         position: absolute;

@@ -7,7 +7,10 @@
 </head>
 <body>
     <aside class="left-sidebar">
-        <img src="assets/img/mini_logo.svg" alt="" class="img-fluid mt-3 mb-9 pl-3">
+        <div class="d-flex mt-3 mb-9 pl-3 align-items-center justify-content-between">
+            <img src="assets/img/mini_logo.svg" alt="" class="img-fluid">
+            <span id="menu-close" class="icon icon--close d-xl-none"></span>
+        </div>
         <nav>
             <ul>
                 <li>
@@ -33,7 +36,7 @@
         <a href="" class="btn btn-primary btn-block">Investujte teraz</a>
     </aside>
     <main class="dashboard">
-        <header class="main-content-header d-flex justify-content-between align-items-center px-11">
+        <header class="main-content-header d-flex flex-column-reverse flex-xl-row justify-content-center justify-content-xl-between align-items-xl-center px-11">
             <nav class="main-content-header__subpages-nav">
                 <ul>
                     <li>
@@ -48,59 +51,62 @@
                 </ul>
             </nav>
             <aside class="main-content-header__user-area d-flex align-items-center">
-                <div class="btn-group alerts-dropdown">
-                    <span class="alerts-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">  
-                        <span class="unread-alert"></span>                      
-                    </span>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item aukcia-item" href="#">
-                            <div class="d-flex">
-                                <span class="icon"></span>
-                                <div>
-                                    <p>Aukcia číslo <strong>#1039139144</strong> bola <strong>ukončená</strong></p>
-                                    <time>14:32 hod.</time>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="dropdown-item aukcia-item" href="#">
-                            <div class="d-flex">
-                                <span class="icon"></span>
-                                <div>
-                                    <p>Aukcia číslo <strong>#1039139144</strong> bola <strong>ukončená</strong></p>
-                                    <time>14:32 hod.</time>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="dropdown-item aukcia-item" href="#">
-                            <div class="d-flex">
-                                <span class="icon"></span>
-                                <div>
-                                    <p>Aukcia číslo <strong>#1039139144</strong> bola <strong>ukončená</strong></p>
-                                    <time>14:32 hod.</time>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="btn-group profile-dropdown">
-                    <span class="user-profile-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img src="assets/img/avatar-icon.png" alt="">
-                    </span>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <span class="profile-info d-block text-center">
-                            <span class="profile-info__name d-block"><span class="profile-info__group">A</span>Francisco</span>
-                            <span class="profile-info__email">francisco@gmail.com</span>
+                <span id="menu-trigger" class="icon icon--hamburger d-xl-none"></span>
+                <div>
+                    <div class="btn-group alerts-dropdown">
+                        <span class="alerts-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">  
+                            <span class="unread-alert"></span>                      
                         </span>
-                        <span class="profile-type">Overený užívateľ<span class="icon"></span></span>
-                        <a href="#" class="btn btn-sm btn-block btn-outline-primary">Odhlasiť sa</a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item aukcia-item" href="#">
+                                <div class="d-flex">
+                                    <span class="icon"></span>
+                                    <div>
+                                        <p>Aukcia číslo <strong>#1039139144</strong> bola <strong>ukončená</strong></p>
+                                        <time>14:32 hod.</time>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item aukcia-item" href="#">
+                                <div class="d-flex">
+                                    <span class="icon"></span>
+                                    <div>
+                                        <p>Aukcia číslo <strong>#1039139144</strong> bola <strong>ukončená</strong></p>
+                                        <time>14:32 hod.</time>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item aukcia-item" href="#">
+                                <div class="d-flex">
+                                    <span class="icon"></span>
+                                    <div>
+                                        <p>Aukcia číslo <strong>#1039139144</strong> bola <strong>ukončená</strong></p>
+                                        <time>14:32 hod.</time>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="btn-group profile-dropdown">
+                        <span class="user-profile-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="assets/img/avatar-icon.png" alt="">
+                        </span>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <span class="profile-info d-block text-center">
+                                <span class="profile-info__name d-block"><span class="profile-info__group">A</span>Francisco</span>
+                                <span class="profile-info__email">francisco@gmail.com</span>
+                            </span>
+                            <span class="profile-type">Overený užívateľ<span class="icon"></span></span>
+                            <a href="#" class="btn btn-sm btn-block btn-outline-primary">Odhlasiť sa</a>
+                        </div>
                     </div>
                 </div>
             </aside>
         </header>
         <section class="moje-financie mb-11">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 col-md-4">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-5 col-lg-4">
                         <article class="dashboard__box dashboard__box--small dashboard__box--light mb-3 mb-md-0">
                             <span class="icon icon--circle icon--hodnota"></span>
                             <div>
@@ -109,8 +115,8 @@
                             </div>
                         </article>
                     </div>
-                    <div class="col-12 col-md-4">
-                        <article class="dashboard__box dashboard__box--small dashboard__box--light mb-3 mb-md-0">
+                    <div class="col-12 col-md-5 col-lg-4">
+                        <article class="dashboard__box dashboard__box--small dashboard__box--light mb-3 mb-md-5 mb-lg-0">
                             <span class="icon icon--circle icon--hodnota"></span>
                             <div>
                                 <h6>0 €</h6>
@@ -118,7 +124,7 @@
                             </div>
                         </article>
                     </div>
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-5 col-lg-4">
                         <article class="dashboard__box dashboard__box--small dashboard__box--dark mb-3 mb-md-0">
                             <span class="icon icon--circle icon--hodnota"></span>
                             <div>
@@ -145,28 +151,28 @@
                     <div class="col-lg-6 pr-xl-5">
                         <article class="dashboard__box dashboard__box--white d-block p-5 p-lg-11 mb-5 mb-md-15">
                             <h3 class="light">Investičná výnosnosť</h3>
-                            <div class="d-flex justify-content-between border-bottom-light py-4">
-                                <p>Investované celkom</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-light py-4">
+                                <p class="mb-1 mb-md-0">Investované celkom</p>
                                 <p class="text--dark">16 200 €</p>
                             </div>
-                            <div class="d-flex justify-content-between border-bottom-light py-4">
-                                <p>Investičný výnos (p.a.)</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-light py-4">
+                                <p class="mb-1 mb-md-0">Investičný výnos (p.a.)</p>
                                 <p class="text--dark">15%</p>
                             </div>
-                            <div class="d-flex justify-content-between border-bottom-light py-4">
-                                <p>Inkasované splátky</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-light py-4">
+                                <p class="mb-1 mb-md-0">Inkasované splátky</p>
                                 <p class="text--dark">800 €</p>
                             </div>
-                            <div class="d-flex justify-content-between border-bottom-light py-4">
-                                <p>Inkasované úroky</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-light py-4">
+                                <p class="mb-1 mb-md-0">Inkasované úroky</p>
                                 <p class="text--dark">120 €</p>
                             </div>
-                            <div class="d-flex justify-content-between border-bottom-light py-4">
-                                <p>Inkasované sankčné poplatky</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-light py-4">
+                                <p class="mb-1 mb-md-0">Inkasované sankčné poplatky</p>
                                 <p class="text--dark">0 €</p>
                             </div>
-                            <div class="d-flex justify-content-between pt-4">
-                                <p>Očakávané zo splácaných</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between pt-4">
+                                <p class="mb-1 mb-md-0">Očakávané zo splácaných</p>
                                 <p class="text--dark">240 €</p>
                             </div>                            
                         </article>
@@ -174,20 +180,20 @@
                     <div class="col-lg-6 pl-xl-5">
                         <article class="dashboard__box dashboard__box--white d-block p-5 p-lg-11 mb-15">
                             <h3 class="light">Moje portfólio</h3>
-                            <div class="d-flex justify-content-between border-bottom-light py-4">
-                                <p>Aktívne investície</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-light py-4">
+                                <p class="mb-1 mb-md-0">Aktívne investície</p>
                                 <p class="text--dark">16 200 €</p>
                             </div>
-                            <div class="d-flex justify-content-between border-bottom-light py-4">
-                                <p>Ukončené investície</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-light py-4">
+                                <p class="mb-1 mb-md-0">Ukončené investície</p>
                                 <p class="text--dark">4 200 €</p>
                             </div>
-                            <div class="d-flex justify-content-between border-bottom-light py-4">
-                                <p>Inkasované splátky</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between border-bottom-light py-4">
+                                <p class="mb-1 mb-md-0">Inkasované splátky</p>
                                 <p class="text--dark">800 €<span class="ml-3">9%</span></p>
                             </div>
-                            <div class="d-flex justify-content-between pt-4">
-                                <p>Splácané</p>
+                            <div class="d-flex flex-column flex-md-row justify-content-between pt-4">
+                                <p class="mb-1 mb-md-0">Splácané</p>
                                 <p class="text--dark">120 €<span class="ml-3">12%</span></p>
                             </div>
                         </article>

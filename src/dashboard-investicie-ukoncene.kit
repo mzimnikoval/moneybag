@@ -7,7 +7,10 @@
 </head>
 <body>
     <aside class="left-sidebar">
-        <img src="assets/img/mini_logo.svg" alt="" class="img-fluid mt-3 mb-9 pl-3">
+        <div class="d-flex mt-3 mb-9 pl-3 align-items-center justify-content-between">
+            <img src="assets/img/mini_logo.svg" alt="" class="img-fluid">
+            <span id="menu-close" class="icon icon--close d-xl-none"></span>
+        </div>
         <nav>
             <ul>
                 <li>
@@ -33,7 +36,7 @@
         <a href="" class="btn btn-primary btn-block">Investujte teraz</a>
     </aside>
     <main class="dashboard">
-        <header class="main-content-header d-flex justify-content-between align-items-center px-11">
+        <header class="main-content-header d-flex flex-column-reverse flex-xl-row justify-content-xl-between align-items-xl-center px-11">
             <nav class="main-content-header__subpages-nav">
                 <ul>
                     <li>
@@ -45,51 +48,54 @@
                 </ul>
             </nav>
             <aside class="main-content-header__user-area d-flex align-items-center">
-                <div class="btn-group alerts-dropdown">
-                    <span class="alerts-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">  
-                        <span class="unread-alert"></span>                      
-                    </span>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item aukcia-item" href="#">
-                            <div class="d-flex">
-                                <span class="icon"></span>
-                                <div>
-                                    <p>Aukcia číslo <strong>#1039139144</strong> bola <strong>ukončená</strong></p>
-                                    <time>14:32 hod.</time>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="dropdown-item aukcia-item" href="#">
-                            <div class="d-flex">
-                                <span class="icon"></span>
-                                <div>
-                                    <p>Aukcia číslo <strong>#1039139144</strong> bola <strong>ukončená</strong></p>
-                                    <time>14:32 hod.</time>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="dropdown-item aukcia-item" href="#">
-                            <div class="d-flex">
-                                <span class="icon"></span>
-                                <div>
-                                    <p>Aukcia číslo <strong>#1039139144</strong> bola <strong>ukončená</strong></p>
-                                    <time>14:32 hod.</time>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="btn-group profile-dropdown">
-                    <span class="user-profile-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img src="assets/img/avatar-icon.png" alt="">
-                    </span>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <span class="profile-info d-block text-center">
-                            <span class="profile-info__name d-block"><span class="profile-info__group">A</span>Francisco</span>
-                            <span class="profile-info__email">francisco@gmail.com</span>
+                <span id="menu-trigger" class="icon icon--hamburger d-xl-none"></span>
+                <div>
+                    <div class="btn-group alerts-dropdown">
+                        <span class="alerts-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">  
+                            <span class="unread-alert"></span>                      
                         </span>
-                        <span class="profile-type">Overený užívateľ<span class="icon"></span></span>
-                        <a href="#" class="btn btn-sm btn-block btn-outline-primary">Odhlasiť sa</a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item aukcia-item" href="#">
+                                <div class="d-flex">
+                                    <span class="icon"></span>
+                                    <div>
+                                        <p>Aukcia číslo <strong>#1039139144</strong> bola <strong>ukončená</strong></p>
+                                        <time>14:32 hod.</time>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item aukcia-item" href="#">
+                                <div class="d-flex">
+                                    <span class="icon"></span>
+                                    <div>
+                                        <p>Aukcia číslo <strong>#1039139144</strong> bola <strong>ukončená</strong></p>
+                                        <time>14:32 hod.</time>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item aukcia-item" href="#">
+                                <div class="d-flex">
+                                    <span class="icon"></span>
+                                    <div>
+                                        <p>Aukcia číslo <strong>#1039139144</strong> bola <strong>ukončená</strong></p>
+                                        <time>14:32 hod.</time>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="btn-group profile-dropdown">
+                        <span class="user-profile-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="assets/img/avatar-icon.png" alt="">
+                        </span>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <span class="profile-info d-block text-center">
+                                <span class="profile-info__name d-block"><span class="profile-info__group">A</span>Francisco</span>
+                                <span class="profile-info__email">francisco@gmail.com</span>
+                            </span>
+                            <span class="profile-type">Overený užívateľ<span class="icon"></span></span>
+                            <a href="#" class="btn btn-sm btn-block btn-outline-primary">Odhlasiť sa</a>
+                        </div>
                     </div>
                 </div>
             </aside>
@@ -97,7 +103,7 @@
         <section class="moje-financie mb-11">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <article class="dashboard__box dashboard__box--small dashboard__box--light mb-3 mb-md-0">
                             <span class="icon icon--circle icon--hodnota"></span>
                             <div>
@@ -106,8 +112,8 @@
                             </div>
                         </article>
                     </div>
-                    <div class="col-12 col-md-4">
-                        <article class="dashboard__box dashboard__box--small dashboard__box--light mb-3 mb-md-0">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="dashboard__box dashboard__box--small dashboard__box--light mb-3 mb-md-5 mb-lg-0">
                             <span class="icon icon--circle icon--hodnota"></span>
                             <div>
                                 <h6>0 €</h6>
@@ -115,7 +121,7 @@
                             </div>
                         </article>
                     </div>
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <article class="dashboard__box dashboard__box--small dashboard__box--dark mb-3 mb-md-0">
                             <span class="icon icon--circle icon--hodnota"></span>
                             <div>
@@ -153,23 +159,23 @@
                             </div>
                             <div class="grid-listing__items">
                                 <div class="grid-listing__item">
-                                    <div class="d-flex mb-2 mb-md-0">
+                                    <div class="d-flex mb-2 mb-md-0 align-items-center">
                                         <img src="assets/img/avatar_48.png" alt="" class="img-fluid mr-4">
                                         <div>
                                             <p class="text--dark"><span class="profile-info__group">A</span>Jose Tyler</p>
                                             <p>Vyplatenie debetu</p>
                                         </div>
                                     </div>
-                                    <div class="mb-2 mb-md-0">
+                                    <div class="mb-2 mb-md-0 d-flex flex-column justify-content-center">
                                         <p class="value text--dark">21 000 €</p>
                                         <p>9,30% p.a. 24 mesiacov</p>
                                     </div>
-                                    <div class="mb-2 mb-md-0">
+                                    <div class="mb-2 mb-md-0 d-flex flex-column justify-content-center px-md-4 px-lg-2 px-xl-0">
                                         <p class="value text--dark">3 500 €</p>
                                         <p>9,30% p.a.</p>
                                     </div>
-                                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                                        <div class="grid-listing__item__progress d-flex flex-column justify-content-center mb-2 mb-md-0">
+                                    <div class="d-flex flex-column flex-lg-row justify-content-between">
+                                        <div class="grid-listing__item__progress d-flex flex-column justify-content-center mb-2 mb-lg-0">
                                             <div class="d-flex justify-content-between mb-1"><p><span class="icon icon--check text-success mr-1"></span>Skončená</p><p class="text--dark">84%</p></div>
                                             <div class="grid-listing__item__progress-bar"><span style="width:30%"></span></div>
                                         </div>
@@ -177,23 +183,23 @@
                                     </div>
                                 </div>
                                 <div class="grid-listing__item">
-                                    <div class="d-flex mb-2 mb-md-0">
+                                    <div class="d-flex mb-2 mb-md-0 align-items-center">
                                         <img src="assets/img/avatar_48.png" alt="" class="img-fluid mr-4">
                                         <div>
                                             <p class="text--dark"><span class="profile-info__group">A</span>Jose Tyler</p>
                                             <p>Vyplatenie debetu</p>
                                         </div>
                                     </div>
-                                    <div class="mb-2 mb-md-0">
+                                    <div class="mb-2 mb-md-0 d-flex flex-column justify-content-center">
                                         <p class="value text--dark">21 000 €</p>
                                         <p>9,30% p.a. 24 mesiacov</p>
                                     </div>
-                                    <div class="mb-2 mb-md-0">
+                                    <div class="mb-2 mb-md-0 d-flex flex-column justify-content-center px-md-4 px-lg-2 px-xl-0">
                                         <p class="value text--dark">3 500 €</p>
                                         <p>9,30% p.a.</p>
                                     </div>
-                                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                                        <div class="grid-listing__item__progress d-flex flex-column justify-content-center mb-2 mb-md-0">
+                                    <div class="d-flex flex-column flex-lg-row justify-content-between">
+                                        <div class="grid-listing__item__progress d-flex flex-column justify-content-center mb-2 mb-lg-0">
                                             <div class="d-flex justify-content-between mb-1"><p><span class="icon icon--check text-success mr-1"></span>Skončená</p><p class="text--dark">84%</p></div>
                                             <div class="grid-listing__item__progress-bar"><span style="width:30%"></span></div>
                                         </div>
@@ -201,23 +207,23 @@
                                     </div>
                                 </div>
                                 <div class="grid-listing__item">
-                                    <div class="d-flex mb-2 mb-md-0">
+                                    <div class="d-flex mb-2 mb-md-0 align-items-center">
                                         <img src="assets/img/avatar_48.png" alt="" class="img-fluid mr-4">
                                         <div>
                                             <p class="text--dark"><span class="profile-info__group">A</span>Jose Tyler</p>
                                             <p>Vyplatenie debetu</p>
                                         </div>
                                     </div>
-                                    <div class="mb-2 mb-md-0">
+                                    <div class="mb-2 mb-md-0 d-flex flex-column justify-content-center">
                                         <p class="value text--dark">21 000 €</p>
                                         <p>9,30% p.a. 24 mesiacov</p>
                                     </div>
-                                    <div class="mb-2 mb-md-0">
+                                    <div class="mb-2 mb-md-0 d-flex flex-column justify-content-center px-md-4 px-lg-2 px-xl-0">
                                         <p class="value text--dark">3 500 €</p>
                                         <p>9,30% p.a.</p>
                                     </div>
-                                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                                        <div class="grid-listing__item__progress d-flex flex-column justify-content-center mb-2 mb-md-0">
+                                    <div class="d-flex flex-column flex-lg-row justify-content-between">
+                                        <div class="grid-listing__item__progress d-flex flex-column justify-content-center mb-2 mb-lg-0">
                                             <div class="d-flex justify-content-between mb-1"><p><span class="icon icon--check text-success mr-1"></span>Skončená</p><p class="text--dark">84%</p></div>
                                             <div class="grid-listing__item__progress-bar"><span style="width:30%"></span></div>
                                         </div>

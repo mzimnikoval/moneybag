@@ -10,7 +10,11 @@
     background-position: left bottom;
     background-repeat: no-repeat;
 
-    padding: 30rem 0 50rem;
+    padding: 10rem 0 30rem;
+
+    @include media-breakpoint-up(xl) {
+        padding: 30rem 0 50rem;
+    }
 
     h1 {
         color: $white;

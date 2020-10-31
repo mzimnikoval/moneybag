@@ -7,7 +7,10 @@
 </head>
 <body>
     <aside class="left-sidebar">
-        <img src="assets/img/mini_logo.svg" alt="" class="img-fluid mt-3 mb-9 pl-3">
+        <div class="d-flex mt-3 mb-9 pl-3 align-items-center justify-content-between">
+            <img src="assets/img/mini_logo.svg" alt="" class="img-fluid">
+            <span id="menu-close" class="icon icon--close d-xl-none"></span>
+        </div>
         <nav>
             <ul>
                 <li>
@@ -35,54 +38,57 @@
     <main class="dashboard pb-15">
         <header class="main-content-header d-flex justify-content-between align-items-center px-11">
             <nav class="main-content-header__subpages-nav">
-                <span id="menu-trigger" class="icon icon--hamburger d-xl-none"></span>
+                
             </nav>
             <aside class="main-content-header__user-area d-flex align-items-center">
-                <div class="btn-group alerts-dropdown">
-                    <span class="alerts-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">  
-                        <span class="unread-alert"></span>                      
-                    </span>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item aukcia-item" href="#">
-                            <div class="d-flex">
-                                <span class="icon"></span>
-                                <div>
-                                    <p>Aukcia číslo <strong>#1039139144</strong> bola <strong>ukončená</strong></p>
-                                    <time>14:32 hod.</time>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="dropdown-item aukcia-item" href="#">
-                            <div class="d-flex">
-                                <span class="icon"></span>
-                                <div>
-                                    <p>Aukcia číslo <strong>#1039139144</strong> bola <strong>ukončená</strong></p>
-                                    <time>14:32 hod.</time>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="dropdown-item aukcia-item" href="#">
-                            <div class="d-flex">
-                                <span class="icon"></span>
-                                <div>
-                                    <p>Aukcia číslo <strong>#1039139144</strong> bola <strong>ukončená</strong></p>
-                                    <time>14:32 hod.</time>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="btn-group profile-dropdown">
-                    <span class="user-profile-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img src="assets/img/avatar-icon.png" alt="">
-                    </span>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <span class="profile-info d-block text-center">
-                            <span class="profile-info__name d-block"><span class="profile-info__group">A</span>Francisco</span>
-                            <span class="profile-info__email">francisco@gmail.com</span>
+                <span id="menu-trigger" class="icon icon--hamburger d-xl-none"></span>
+                <div>
+                    <div class="btn-group alerts-dropdown">
+                        <span class="alerts-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">  
+                            <span class="unread-alert"></span>                      
                         </span>
-                        <span class="profile-type">Overený užívateľ<span class="icon"></span></span>
-                        <a href="#" class="btn btn-sm btn-block btn-outline-primary">Odhlasiť sa</a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item aukcia-item" href="#">
+                                <div class="d-flex">
+                                    <span class="icon"></span>
+                                    <div>
+                                        <p>Aukcia číslo <strong>#1039139144</strong> bola <strong>ukončená</strong></p>
+                                        <time>14:32 hod.</time>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item aukcia-item" href="#">
+                                <div class="d-flex">
+                                    <span class="icon"></span>
+                                    <div>
+                                        <p>Aukcia číslo <strong>#1039139144</strong> bola <strong>ukončená</strong></p>
+                                        <time>14:32 hod.</time>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item aukcia-item" href="#">
+                                <div class="d-flex">
+                                    <span class="icon"></span>
+                                    <div>
+                                        <p>Aukcia číslo <strong>#1039139144</strong> bola <strong>ukončená</strong></p>
+                                        <time>14:32 hod.</time>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="btn-group profile-dropdown">
+                        <span class="user-profile-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="assets/img/avatar-icon.png" alt="">
+                        </span>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <span class="profile-info d-block text-center">
+                                <span class="profile-info__name d-block"><span class="profile-info__group">A</span>Francisco</span>
+                                <span class="profile-info__email">francisco@gmail.com</span>
+                            </span>
+                            <span class="profile-type">Overený užívateľ<span class="icon"></span></span>
+                            <a href="#" class="btn btn-sm btn-block btn-outline-primary">Odhlasiť sa</a>
+                        </div>
                     </div>
                 </div>
             </aside>
@@ -97,11 +103,11 @@
                    
                         <div class="important-documents mb-7">
                             <div class="row">
-                                <div class="col-1 text-center">
+                                <div class="col-2 col-xl-1 text-center d-none d-md-block">
                                     <span class="icon icon--check icon--rounded-lg icon--light-grey icon--success"></span>
                                     <span class="vertical-line"></span>
                                 </div>
-                                <div class="col-11">
+                                <div class="col-12 col-md-10 col-xl-11">
                                     <p class="text--dark pt-3">Nahrajte prosím fotku vášho občianskeho preukazu</p>
                                     <form action="/file-upload" class="dropzone mb-7" id="my-awesome-dropzone">
                                         <div class="dz-message" data-dz-message><span class="text--primary"><span class="icon icon--upload mr-1"></span>Vyberte súbor</span> ktorý chcete nahrať</div>
@@ -109,11 +115,11 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-1 text-center">
+                                <div class="col-2 col-xl-1 text-center d-none d-md-block">
                                     <span class="icon icon--upload icon--rounded-lg icon--light-grey"></span>
                                     <span class="vertical-line"></span>
                                 </div>
-                                <div class="col-11">
+                                <div class="col-12 col-md-10 col-xl-11">
                                     <p class="text--dark pt-3">Nahrajte prosím fotku druhého ľubovolného dokladu totožnosti</p>
                                     <form action="/file-upload" class="dropzone mb-7" id="my-awesome-dropzone">
                                         <div class="dz-message" data-dz-message><span class="text--primary"><span class="icon icon--upload mr-1"></span>Vyberte súbor</span> ktorý chcete nahrať</div>
@@ -121,10 +127,10 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-1 text-center">
+                                <div class="col-2 col-xl-1 text-center d-none d-md-block">
                                     <span class="icon icon--upload icon--rounded-lg icon--light-grey"></span>
                                 </div>
-                                <div class="col-11">
+                                <div class="col-12 col-md-10 col-xl-11">
                                     <p class="text--dark pt-3">Nahrajte prosím aktuálnu pracovnú zmluvu</p>
                                     <form action="/file-upload" class="dropzone mb-7" id="my-awesome-dropzone">
                                         <div class="dz-message" data-dz-message><span class="text--primary"><span class="icon icon--upload mr-1"></span>Vyberte súbor</span> ktorý chcete nahrať</div>
@@ -166,7 +172,7 @@
         <section class="najnovsie-aukcie mb-11">
             <div class="container-fluid">
                 <div class="row row-header mb-5">
-                    <div class="col-6 d-flex align-items-center">
+                    <div class="col-12 d-flex align-items-center">
                         <h3 class="mb-0">Nahraté dokumenty</h3>
                     </div>
                 </div>      
@@ -191,74 +197,74 @@
                             </div>
                             <div class="grid-listing__items">
                                 <div class="grid-listing__item">
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-2 mb-md-0">
                                         <img src="assets/img/file.png" alt="" class="img-fluid mr-4">
                                         <p>Vodičsky_preukaz.jpg</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-2 mb-md-0 px-md-3 px-xl-0">
                                         <p>JPG</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-2 mb-md-0 px-md-3 px-xl-0">
                                         <p>107 kb</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-2 mb-md-0 px-md-3 px-xl-0">
                                         <p>24.7.2020</p>
                                     </div>
-                                    <div class="text-right">
+                                    <div class="text-left text-md-right pl-md-3 pl-xl-0">
                                         <span class="icon icon--details"></span>
                                     </div>
                                 </div>
                                 <div class="grid-listing__item">
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-2 mb-md-0">
                                         <img src="assets/img/file.png" alt="" class="img-fluid mr-4">
                                         <p>Vodičsky_preukaz.jpg</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-2 mb-md-0 px-md-3 px-xl-0">
                                         <p>JPG</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-2 mb-md-0 px-md-3 px-xl-0">
                                         <p>107 kb</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-2 mb-md-0 px-md-3 px-xl-0">
                                         <p>24.7.2020</p>
                                     </div>
-                                    <div class="text-right">
+                                    <div class="text-left text-md-right pl-md-3 pl-xl-0">
                                         <span class="icon icon--details"></span>
                                     </div>
                                 </div>
                                 <div class="grid-listing__item">
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-2 mb-md-0">
                                         <img src="assets/img/file.png" alt="" class="img-fluid mr-4">
                                         <p>Vodičsky_preukaz.jpg</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-2 mb-md-0 px-md-3 px-xl-0">
                                         <p>JPG</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-2 mb-md-0 px-md-3 px-xl-0">
                                         <p>107 kb</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-2 mb-md-0 px-md-3 px-xl-0">
                                         <p>24.7.2020</p>
                                     </div>
-                                    <div class="text-right">
+                                    <div class="text-left text-md-right pl-md-3 pl-xl-0">
                                         <span class="icon icon--details"></span>
                                     </div>
                                 </div>
                                 <div class="grid-listing__item">
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-2 mb-md-0">
                                         <img src="assets/img/file.png" alt="" class="img-fluid mr-4">
                                         <p>Vodičsky_preukaz.jpg</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-2 mb-md-0 px-md-3 px-xl-0">
                                         <p>JPG</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-2 mb-md-0 px-md-3 px-xl-0">
                                         <p>107 kb</p>
                                     </div>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center mb-2 mb-md-0 px-md-3 px-xl-0">
                                         <p>24.7.2020</p>
                                     </div>
-                                    <div class="text-right">
+                                    <div class="text-left text-md-right pl-md-3 pl-xl-0">
                                         <span class="icon icon--details"></span>
                                     </div>
                                 </div>

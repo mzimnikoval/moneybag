@@ -232,9 +232,17 @@
 
 .pt {
     &-100 {
-        padding-top: 10rem;
+        padding-top: 5rem;
+        
+        @include media-breakpoint-up(xl) {
+            padding-top: 10rem;
+        }
     }
     &-200 {
-        padding-top: 20rem;
+        padding-top: 5rem;
+
+        @include media-breakpoint-up(xl) {
+            padding-top: 5rem;
+        }
     }
 }
