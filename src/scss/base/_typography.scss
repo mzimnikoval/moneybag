@@ -2,6 +2,10 @@
 // Typography settings
 // --------------------------------
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300 !important;
+}
+
 h1 {
     font-size: 5rem;
     margin-bottom: 4rem;
@@ -16,22 +20,14 @@ h2 {
    font-size: 4rem; 
 
     @include media-breakpoint-up(xl) {
-        font-size: 6rem;
-    }
-
-    &.light {
-       font-weight: 300;
+        font-size: 5.2rem;
+        line-height: 6.4rem;
     }
 }
 
 h3 {
     font-size: 3rem;
     margin-bottom: 2.5rem;
-    font-weight: 400;
-
-    &.light {
-        font-weight: 300;
-    }
 
     @include media-breakpoint-up(xl) {
         font-size: 4rem;
@@ -40,18 +36,10 @@ h3 {
 
 h4 {
     font-size: 3.2rem; 
-
-    &.light {
-        font-weight: 300;
-    }
 }
 
 h5 {
     font-size: 2.8rem;
-
-    &.light {
-        font-weight: 300;
-    }
 }
 
 a {

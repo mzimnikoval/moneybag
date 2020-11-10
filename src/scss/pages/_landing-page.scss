@@ -156,9 +156,12 @@
     }
 
     .nav {
-        align-items: flex-end;
+        align-items: flex-start;
         justify-content: center;
-        margin-right: 7rem;
+        
+        @include media-breakpoint-up(xl) {
+            margin-left: 7rem;
+        }
     }
 
     .tab-content {
