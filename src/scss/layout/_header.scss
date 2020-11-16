@@ -137,6 +137,8 @@ header {
             border-radius: .4rem;
             color: $subpages-nav-item-color;
 
+            transition: all .3s ease-in-out;
+
             @include media-breakpoint-up(md) {
                 padding: 0 2.5rem;
                 height: 5.2rem;
@@ -163,9 +165,11 @@ header {
                 height: 2.4rem;
 
                 margin: 0 0 0 1rem;
+
+                transition: all .3s ease-in-out;
             }
             
-            &.active {
+            &.active, &:hover {
                 background-color: rgba($subpages-nav-item-bg--active,.2);
                 color: $subpages-nav-item-color--active;
 

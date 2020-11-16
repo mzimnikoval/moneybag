@@ -19,7 +19,7 @@ $grid-listing-pagination-item-border-color: $grid-listing-pagination-item-bg-col
     }
 
     &--cols3 {
-        .grid-listing__header, .grid-listing__item {
+        .grid-listing__item {
             grid-template-rows: auto auto auto;
             
             @include media-breakpoint-up(md) {
@@ -31,13 +31,20 @@ $grid-listing-pagination-item-border-color: $grid-listing-pagination-item-bg-col
             }
 
             @include media-breakpoint-up(xl) {
-                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-columns: 30% 30% 40%;
+            }
+        }
+        .grid-listing__header {
+            grid-template-columns: auto auto auto;
+
+            @include media-breakpoint-up(xl) {
+                grid-template-columns: 30% 30% 40%;
             }
         }
     }
 
     &--cols4 {
-        .grid-listing__header, .grid-listing__item {
+        .grid-listing__item {
             grid-template-rows: auto auto auto auto;
 
             img {
@@ -61,10 +68,13 @@ $grid-listing-pagination-item-border-color: $grid-listing-pagination-item-bg-col
                 grid-template-columns: 1fr 1fr 1fr 1fr;
             }
         }
+        .grid-listing__header {
+            grid-template-columns: auto auto auto auto;
+        }
     }
 
     &--cols5 {
-        .grid-listing__header, .grid-listing__item {
+        .grid-listing__item {
             grid-template-rows: auto auto auto auto auto;
 
             @include media-breakpoint-up(md) {
@@ -74,6 +84,9 @@ $grid-listing-pagination-item-border-color: $grid-listing-pagination-item-bg-col
             @include media-breakpoint-up(xl) {
                 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
             }
+        }
+        .grid-listing__header {
+            grid-template-columns: auto auto auto auto auto;
         }
     }
 

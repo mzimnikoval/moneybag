@@ -6,7 +6,7 @@
 	<!-- @import "kit/_head.kit" -->
 </head>
 <body>
-    <aside class="left-sidebar">
+    <aside class="left-sidebar dark">
         <div class="d-flex mt-3 mb-9 pl-3 align-items-center justify-content-between">
             <img src="assets/img/mini_logo.svg" alt="" class="img-fluid">
             <span id="menu-close" class="icon icon--close d-xl-none"></span>
@@ -14,10 +14,10 @@
         <nav>
             <ul>
                 <li>
-                    <a href="dashboard-prazdny.html"><span class="icon icon--domov"></span>Domov</a>
+                    <a href="dashboard-prazdny.html" class="active"><span class="icon icon--domov"></span>Domov</a>
                 </li>
                 <li>
-                    <a href="dashboard-aukcie.html" class="active"><span class="icon icon--aukcie"></span>Aukcie</a>
+                    <a href="dashboard-aukcie.html"><span class="icon icon--aukcie"></span>Aukcie</a>
                 </li>
                 <li>
                     <a href="dashboard-investicie.html"><span class="icon icon--investicie"></span>Investície</a>
@@ -33,19 +33,15 @@
                 </li>
             </ul>
         </nav>
-        <a href="" class="btn btn-primary btn-block">Investujte teraz</a>
+        <a href="" class="btn btn-primary btn-block" data-toggle="modal" data-target="#investujte">Investujte teraz</a>
     </aside>
     <main class="dashboard">
-        <header class="main-content-header d-flex flex-column-reverse flex-xl-row justify-content-xl-between align-items-xl-center px-11">
-            <nav class="main-content-header__subpages-nav">                
-                <ul>
-                    <li>
-                        <a href="#" class="active">Všetky aukcie <span class="count">68</span></a>
-                    </li>
-                </ul>
+        <header class="main-content-header d-flex flex-column-reverse flex-xl-row justify-content-center justify-content-xl-between align-items-xl-center px-11">
+            <nav class="main-content-header__subpages-nav">
+                
             </nav>
             <aside class="main-content-header__user-area d-flex align-items-center">
-                <span id="menu-trigger" class="icon icon--hamburger d-xl-none"></span>
+                <span id="menu-trigger" class="icon icon--hamburger"></span>
                 <div>
                     <div class="btn-group alerts-dropdown">
                         <span class="alerts-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">  
@@ -139,13 +135,47 @@
                 </div>          
             </div>
         </section>
+        <section class="moje-investicie mb-11">
+            <div class="container-fluid">
+                <div class="row row-header mb-5">
+                    <div class="col-12 d-flex align-items-center">
+                        <h3 class="mb-0">Moje Investície</h3>
+                    </div>
+                </div>      
+                <div class="row">
+                    <div class="col-12">
+                        <div class="grid-listing grid-listing--cols4">
+                            <div class="grid-listing__header">
+                                <div class="grid-listing__header__ziadatel">
+                                    <span>Žiadateľ</span>
+                                </div>
+                                <div class="grid-listing__header__suma">
+                                    <span>Celková suma</span>
+                                </div>
+                                <div class="grid-listing__header__ponuka">
+                                    <span>Moja ponuka</span>
+                                </div>
+                                <div class="grid-listing__header__stav">
+                                    <span>Stav aukcie</span>
+                                </div>
+                            </div>
+                            <div class="grid-listing__item grid-listing__item--empty">
+                                <span class="icon icon--info icon--rounded"></span>
+                                <span class="text-center">Zatiaľ nemáte žiadne aktívne investície</span>
+                                <a href="#" class="btn btn-sm btn-outline-primary">Chcem investovať</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>          
+            </div>
+        </section>
         <section class="najnovsie-aukcie mb-11">
             <div class="container-fluid">
                 <div class="row row-header mb-5">
                     <div class="col-12 d-flex align-items-center">
-                        <h3 class="mb-0">Všetky aukcie</h3>
+                        <h3 class="mb-0">Najnovšie aukcie</h3>
                     </div>
-                </div>    
+                </div>      
                 <div class="row">
                     <div class="col-12">
                         <div class="grid-listing grid-listing--cols3">
@@ -221,15 +251,7 @@
                                         <a href="#" class="btn btn-outline-primary">Investovať</a>
                                     </div>
                                 </div>
-                            </div>                            
-                            <div class="grid-listing__pagination">
-                                <ul>
-                                    <li>1</li>
-                                    <li class="active">2</li>
-                                    <li>3</li>
-                                    <li class="separator">...</li>
-                                    <li>24</li>
-                                </ul>
+                            </div>     
                             </div>
                         </div>
                     </div>
@@ -237,6 +259,152 @@
             </div>
         </section>
     </main>
+
+    <!-- Modal -->
+    <div class="modal fade" id="ziadost-o-pozicku" tabindex="-1" aria-labelledby="ziadost-o-pozicku-title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span class="icon icon--close"></span>
+                    </button>
+                    <h4 class="modal-title light mb-11" id="ziadost-o-pozicku-title">Žiadosť o pôžičku</h4> 
+                    <form action="">
+                        <div class="form-row">
+                            <div class="form-group col-md-8">
+                                <label for="pozicanie-value" class="mb-3">Koľko si chcete požičať</label>
+                                <div id="suma-pozicanie"></div>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <input type="text" class="form-control" id="pozicanie-value">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-8">
+                                <label for="splatka-value" class="mb-3">Koľko chcete mesačne splácať</label>
+                                <div id="suma-splatka"></div>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <input type="text" class="form-control" id="splatka-value">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-12">
+                                <p class="text--dark mb-0">Pri tejto splátke by ste pôžičku splácali 33 mesiacov.</p>
+                                <p>Mesačná splátka bude presne určená po ukončení aukcie.</p>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="vyuzitie-prostriedkov">Využitie prostriedkov</label>
+                                <input type="text" class="form-control" placeholder="Napr. kúpa auta" id="vyuzitie-prostriedkov">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="dovod-pozicky">Prečo si chcem požičať</label>
+                                <textarea class="form-control" placeholder="Popíšte pár slovami prečo si chcete požičať" id="dovod-pozicky"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12 mb-0">
+                                <a href="" class="btn btn-primary btn-block">Požiadať o pôžičku</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="investujte" tabindex="-1" aria-labelledby="investujte-title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-side">
+                <h4 class="light">Informácie</h4>
+                <div class="d-flex justify-content-between border-bottom-light py-3">
+                    <p class="mb-0">Voľné prostriedky</p>
+                    <p class="text--dark mb-0">24 Mesiacov</p>
+                </div>
+                <div class="d-flex justify-content-between border-bottom-light py-3">
+                    <p class="mb-0">Odporúčaná sadzba</p>
+                    <p class="text--dark mb-0">12,40% p.a.</p>
+                </div>
+                <div class="d-flex justify-content-between border-bottom-light py-3">
+                    <p class="mb-0">Priemerná sadzba</p>
+                    <p class="text--dark mb-0">15,40% p.a.</p>
+                </div>
+                <div class="d-flex justify-content-between border-bottom-light py-3">
+                    <p class="mb-0">Minimálna investícia</p>
+                    <p class="text--dark mb-0">15,40% p.a.</p>
+                </div>
+                <div class="d-flex justify-content-between pt-4">
+                    <p class="mb-0">Maximálna investícia</p>
+                    <p class="text--dark mb-0">15,40% p.a.</p>
+                </div>
+            </div>
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span class="icon icon--close"></span>
+                    </button>
+                    <h4 class="modal-title light mb-5" id="investujte-title">Žiadosť o pôžičku</h4> 
+                    <form action="">
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="hlavny-mesacny-prijem">Výška investície</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" aria-label="hlavny-mesacny-prijem" aria-describedby="mena">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="mena">EUR</span>
+                                    </div>
+                                </div>                      
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <div class="d-flex justify-content-between">
+                                    <a href="" class="btn btn-sm btn-outline-primary">50 €</a>
+                                    <a href="" class="btn btn-sm btn-outline-primary">100 €</a>
+                                    <a href="" class="btn btn-sm btn-outline-primary">200 €</a>
+                                    <a href="" class="btn btn-sm btn-outline-primary">500 €</a>
+                                </div>                  
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="hlavny-mesacny-prijem">Úroková sadzba</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" aria-label="hlavny-mesacny-prijem" aria-describedby="mena">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="mena">% p.a.</span>
+                                    </div>
+                                </div>                      
+                            </div>
+                        </div>
+                        <button class="btn btn-block btn-primary">Investovať čiastku</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="overenie-uspesne" tabindex="-1" aria-labelledby="overenie-uspesne-title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">            
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span class="icon icon--close"></span>
+                    </button>
+                    <span class="icon icon--rounded-lg icon--success icon--check mb-2"></span>
+                    <h4 class="modal-title light mb-3 text-center" id="overenie-uspesne-title">Overenie prebehlo úspešne</h4>
+                    <p class="text-center mb-4">Odteraz sú vám sprístupnené všetky funkcionality portálu Money Bag. Vytvorte si vašu prvú žiadosť o pôžičku</p>                    
+                    <a href="" class="btn btn-block btn-primary">Pokračovať</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- @import "kit/_footer.kit" -->
 </body>

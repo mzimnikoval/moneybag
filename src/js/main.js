@@ -3,11 +3,16 @@
 //=include ../vendor/bootstrap/js/bootstrap.bundle.min.js
 //=include ../vendor/dropzone/dropzone.js
 //=include ../vendor/owl-carousel/owl.carousel.min.js
+//=include ../vendor/jquery-nice-select/js/nice-select.js
 
 
 $(function () {
     $('[data-toggle="tooltip"]').tooltip();
     
+});
+
+jQuery(document).ready(function() {
+	jQuery('select').niceSelect();
 });
 
 $( function() {
@@ -61,5 +66,5 @@ $( function() {
 	});
 	$("#menu-close").click(function() {  //use a class, since your ID gets mangled
 		$('.left-sidebar').removeClass("active");      //add the class to the clicked element
-	});
+	});	
 });

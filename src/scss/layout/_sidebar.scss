@@ -5,12 +5,14 @@
 $sidebar-width: 32rem;
 
 $navigiation-item-color: $color-dark-blue;
+$navigiation-item-color--dark: $white;
 $navigiation-item-color-icon: $color-light-grey-100;
+$navigiation-item-color-icon--dark: rgba($color-light-grey-200, .25);
 $navigiation-item-color--disabled: $color-light-grey-100;
 $navigiation-item-bg--active: rgba($color-light-grey-200, .2);
 $navigiation-item-color--active: $color-dark-blue;
 $navigiation-item-color-icon--active: $color-primary;
-
+$navigiation-item-color-icon--active--dark: $white;
 
 .left-sidebar {
 
@@ -137,4 +139,45 @@ $navigiation-item-color-icon--active: $color-primary;
 
     }
 
+    &.dark {
+        background-color: $color-secondary;
+
+        nav {
+            ul {
+                li {
+                    a {
+                        color: $navigiation-item-color--dark;
+
+                        .icon {
+                            color: $navigiation-item-color-icon--dark;
+                        }
+
+                        &:hover, &.active {
+                            .icon {
+                                color: $navigiation-item-color-icon--active--dark;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+$left-sidebar-reg-width: 31rem;
+
+.left-sidebar-reg {
+
+    width: $left-sidebar-reg-width;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+
+}
+
+.reg-container {
+    padding-left: $left-sidebar-reg-width;
+    width: 100%;
 }
