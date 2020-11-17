@@ -53,6 +53,7 @@ $progress-bar__progress-color:      $color-primary;
     right: 0;
     height: .4rem;
     background-color: #E7EBF1;
+    z-index: 99;
 
     &__progress {
         background-color: $progress-bar__progress-color;

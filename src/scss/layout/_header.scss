@@ -33,7 +33,12 @@ header {
 
     &.main-content-header {   
 
-        padding: 2rem !important;
+        padding: 1.5rem 3rem !important;
+
+        img.mini-logo {
+            width: 3.6rem;
+            height: 3.6rem;
+        }
 
         @include media-breakpoint-up(md) {
             padding: 3rem !important;
