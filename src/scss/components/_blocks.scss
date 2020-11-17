@@ -3,10 +3,23 @@
 // --------------------------------
 
 .image-block {
-  
+    
+    @include media-breakpoint-up(md) {
+        width: 47%;
+    }
 
-    @include media-breakpoint-up(lg) {
-        min-width: 50rem;
+    @include media-breakpoint-up(xl) {
+        width: 50rem;
+    }
+
+    img {
+        @include media-breakpoint-only(md) {
+            height: 22rem;
+        }
+
+        @include media-breakpoint-only(lg) {
+            height: 30rem;
+        }
     }
 
     &__box {

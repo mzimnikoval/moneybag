@@ -65,14 +65,14 @@ $grid-listing-pagination-item-border-color: $grid-listing-pagination-item-bg-col
             }
 
             @include media-breakpoint-up(xl) {
-                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-columns: 1fr 1fr 1fr minmax(38rem, 1fr);
             }
         }
         .grid-listing__header {
             grid-template-columns: auto auto auto auto;
 
             @include media-breakpoint-up(xl) {
-                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-columns: 1fr 1fr 1fr minmax(38rem, 1fr);
             }
         }
     }

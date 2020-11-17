@@ -47,6 +47,12 @@
     padding: 0 0 0 2.5rem;
     font-size: 1.6rem;
     line-height: 6rem;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        background-color: transparent;
+        border: .1rem solid $color-light-grey-300;
+    }
 
     &:focus {
         border: .1rem solid $color-primary;
