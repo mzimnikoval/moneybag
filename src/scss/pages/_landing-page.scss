@@ -15,14 +15,31 @@
 
 .jednoduche-investovanie {   
 
-    margin: 10rem 0 0;
     padding: 10rem 0 10rem;
 
     @include media-breakpoint-up(xl) {
-        margin: 10rem 0 0;
-        padding: 20rem 0 30rem;
+        padding: 10rem 0;
 
-        background-image: url('../img/jednoduche-investovanie.png');
+        // background-image: url('../img/jednoduche-investovanie.png');
+    }
+
+    .right-offset {
+        
+        position: relative;
+        width: 60vw;
+
+        @media only screen and (min-width: 1440px) {
+            right: 6rem;
+        }
+
+        @media only screen and (min-width: 1600px) {
+            right: -8rem;
+        }
+    
+
+        img {
+            max-width: 100%;
+        }
     }
 
 }
@@ -32,7 +49,7 @@
 
     @include media-breakpoint-up(xl) {
         background-image: url('../img/transparentne-investovanie.png');
-        padding: 35rem 0 30rem;
+        padding: 35rem 0 30rem; 
     }
 
 }
@@ -145,7 +162,7 @@
     img {
         position: absolute;
         right: 0;
-        top: -10rem;
+        top: -8rem;
         width: 96.1rem;
         height: 78.4rem;
         max-width: unset !important;

@@ -30,6 +30,9 @@ $btn-primary-disabled-color: $white;
 			border-color: $btn-primary-disabled-background;
 			color: $btn-primary-disabled-color;
 		}
+		&:hover {
+			background-color: $color-primary--hover;
+		}
 	}
 	&-outline-secondary {
 		color: $white;
@@ -40,9 +43,9 @@ $btn-primary-disabled-color: $white;
 		border-color: $btn-outline-primary-border-color;
 
 		&:hover {
-			color: $btn-outline-primary-color;
-			background-color: $btn-outline-primary-border-color;
-			border-color: $btn-outline-primary-border-color;
+			color: $white;
+			background-color: $color-primary;
+			border-color: $color-primary;
 		}
 	}
 	&-sm {
