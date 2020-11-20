@@ -47,12 +47,13 @@ $progress-bar__progress-color:      $color-primary;
 
 .progress-bar {
 
-    position: absolute;
+    position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
+    left: 31rem;
+    right: 0;
     height: .4rem;
     background-color: #E7EBF1;
+    z-index: 99;
 
     &__progress {
         background-color: $progress-bar__progress-color;

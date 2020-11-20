@@ -19,7 +19,7 @@ $grid-listing-pagination-item-border-color: $grid-listing-pagination-item-bg-col
     }
 
     &--cols3 {
-        .grid-listing__header, .grid-listing__item {
+        .grid-listing__item {
             grid-template-rows: auto auto auto;
             
             @include media-breakpoint-up(md) {
@@ -31,13 +31,20 @@ $grid-listing-pagination-item-border-color: $grid-listing-pagination-item-bg-col
             }
 
             @include media-breakpoint-up(xl) {
-                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-columns: 1fr 1fr minmax(37rem, 1fr);
+            }
+        }
+        .grid-listing__header {
+            grid-template-columns: auto auto auto;
+
+            @include media-breakpoint-up(xl) {
+                grid-template-columns: 1fr 1fr minmax(37rem, 1fr);
             }
         }
     }
 
     &--cols4 {
-        .grid-listing__header, .grid-listing__item {
+        .grid-listing__item {
             grid-template-rows: auto auto auto auto;
 
             img {
@@ -58,13 +65,20 @@ $grid-listing-pagination-item-border-color: $grid-listing-pagination-item-bg-col
             }
 
             @include media-breakpoint-up(xl) {
-                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-columns: 1fr 1fr 1fr minmax(38rem, 1fr);
+            }
+        }
+        .grid-listing__header {
+            grid-template-columns: auto auto auto auto;
+
+            @include media-breakpoint-up(xl) {
+                grid-template-columns: 1fr 1fr 1fr minmax(38rem, 1fr);
             }
         }
     }
 
     &--cols5 {
-        .grid-listing__header, .grid-listing__item {
+        .grid-listing__item {
             grid-template-rows: auto auto auto auto auto;
 
             @include media-breakpoint-up(md) {
@@ -74,6 +88,9 @@ $grid-listing-pagination-item-border-color: $grid-listing-pagination-item-bg-col
             @include media-breakpoint-up(xl) {
                 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
             }
+        }
+        .grid-listing__header {
+            grid-template-columns: auto auto auto auto auto;
         }
     }
 
@@ -104,6 +121,12 @@ $grid-listing-pagination-item-border-color: $grid-listing-pagination-item-bg-col
         padding: 3rem;
         margin: 0 0 1rem;
         display: grid;
+        position: relative;
+        transition: all .3s ease-in-out;
+
+        &:hover {
+            box-shadow: 0 1rem 2rem 0 rgba($black, .1);
+        }
 
         &--small {
             padding: 1.5rem 3rem;
@@ -114,6 +137,10 @@ $grid-listing-pagination-item-border-color: $grid-listing-pagination-item-bg-col
             align-items: center;
             justify-content: center;
             flex-direction: column;
+
+            &:hover {
+                box-shadow: none;
+            }
         }
 
         & > span {
@@ -215,5 +242,19 @@ $grid-listing-pagination-item-border-color: $grid-listing-pagination-item-bg-col
                 }
             }
         }
+    }
+}
+
+.streched-link {
+    &:after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        pointer-events: auto;
+        content: "";
+        background-color: rgba(0,0,0,0);
     }
 }
