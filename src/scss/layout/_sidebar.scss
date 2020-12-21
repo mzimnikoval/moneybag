@@ -68,15 +68,24 @@ $navigiation-item-color-icon--active--dark: $white;
                     height: 5.2rem;
                     line-height: 5.2rem;
                     padding: 0 2rem;
-                    display: block;
+                    display: flex;
+                    align-items: center;
                     border-radius: .4rem;
 
                     color: $navigiation-item-color;
 
                     transition: all .3s ease-in-out;
 
-                    .icon {
-                        color: $navigiation-item-color-icon;
+                    .icon-wrap {
+                        display: inline-grid;
+                        place-items: center;
+                        width: 2.4rem;
+                        margin: 0 1.5rem 0 0;
+                    }
+                    svg {
+                        fill: $navigiation-item-color-icon;
+                        
+                        transition: all .3s ease-in-out;
                     }
 
                     &:hover, &.active {
@@ -86,8 +95,8 @@ $navigiation-item-color-icon--active--dark: $white;
 
                         transition: all .3s ease-in-out;
 
-                        .icon {
-                            color: $navigiation-item-color-icon--active;
+                        svg {
+                            fill: $navigiation-item-color-icon--active;
                         }
                     }
 
@@ -95,40 +104,8 @@ $navigiation-item-color-icon--active--dark: $white;
                         color: $navigiation-item-color--disabled;
                         pointer-events: none;
 
-                        .icon {
-                            color: $navigiation-item-color--disabled;
-                        }
-                    }
-
-                    .icon {
-                        @extend %fa-icon;
-                        @extend .fas;       
-                        
-                        transition: all .3s ease-in-out;
-                        
-                        &--domov:before {
-                            content: fa-content($fa-var-star);
-                            margin-right: 1.5rem;
-                        }
-                        &--aukcie:before {
-                            content: fa-content($fa-var-landmark);
-                            margin-right: 1.5rem;
-                        }
-                        &--investicie:before {
-                            content: fa-content($fa-var-star);
-                            margin-right: 1.5rem;
-                        }
-                        &--financie:before {
-                            content: fa-content($fa-var-money-bill);
-                            margin-right: 1.5rem;
-                        }
-                        &--moj-profil:before {
-                            content: fa-content($fa-var-user);
-                            margin-right: 1.5rem;
-                        }
-                        &--dokumenty:before {
-                            content: fa-content($fa-var-folder);
-                            margin-right: 1.5rem;
+                        svg {
+                            fill: $navigiation-item-color--disabled;
                         }
                     }
                 }
@@ -148,13 +125,13 @@ $navigiation-item-color-icon--active--dark: $white;
                     a {
                         color: $navigiation-item-color--dark;
 
-                        .icon {
-                            color: $navigiation-item-color-icon--dark;
+                        svg {
+                            fill: $navigiation-item-color-icon--dark;
                         }
 
                         &:hover, &.active {
-                            .icon {
-                                color: $navigiation-item-color-icon--active--dark;
+                            svg {
+                                fill: $navigiation-item-color-icon--active--dark;
                             }
                         }
                     }

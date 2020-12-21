@@ -2,27 +2,23 @@
 <html lang="en">
 <head>
 	<!-- @css : assets/css/screen.min.css -->
-	<!-- @title : Admin investor prazdny -->
-    <!-- @import "kit/_head.kit" -->
+	<!-- @title : Money Bag dashboard -->
+	<!-- @import "kit/_head.kit" -->
 </head>
 <body>
-    
     <!-- @import "kit/components/_admin-sidebar-dark.kit" -->
     <main class="dashboard">
         <header class="main-content-header d-flex flex-column-reverse flex-xl-row justify-content-center justify-content-xl-between align-items-xl-center px-11">
             <nav class="main-content-header__subpages-nav">
                 <ul>
                     <li>
-                        <a href="ai-prazdny.html" class="active">Prázdny</a>
+                        <a href="ai-financie.html">Prehľad financií</a>
                     </li>
                     <li>
-                        <a href="ai-vyplneny.html">Vyplnený</a>
+                        <a href="ai-financie-vklady.html">Vklady na účet</a>
                     </li>
                     <li>
-                        <a href="ai-nezaregistrovany.html">Nezaregistrovaný</a>
-                    </li>
-                    <li>
-                        <a href="ai-overovanie.html">Overovanie</a>
+                        <a href="ai-financie-vybery.html" class="active">Výbery z účtu</a>
                     </li>
                 </ul>
             </nav>
@@ -33,19 +29,11 @@
                 </div>
             </aside>
         </header>
-        <!-- @import "kit/components/_admin-moje-financie.kit" -->
-        <!-- @import "kit/components/_admin-moje-investicie-prazdne.kit" -->
-        <!-- @import "kit/components/_admin-najnovsie-aukcie.kit" -->
-        
-        
+        <!-- @import "kit/components/_admin-moje-financie-slim.kit" -->
+        <!-- @import "kit/components/_admin-vyber-form.kit" -->
+        <!-- @import "kit/components/_admin-historia-vyberov.kit" -->
     </main>
 
-    <!-- Modals -->
-    <!-- @import "kit/modals/_ziadost-o-pozicku.kit" -->
-    <!-- @import "kit/modals/_investor-ponuka.kit" -->
-    <!-- @import "kit/modals/_overenie-uspesne.kit" -->
-
-    
     <!-- @import "kit/_footer.kit" -->
 </body>
 </html>
