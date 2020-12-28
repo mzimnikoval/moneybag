@@ -29,7 +29,7 @@ var googleWebFonts = require('gulp-google-webfonts');
 var imagemin = require('gulp-imagemin');
 
 // KIT
-var kit = require('gulp-kit');
+var kit = require('gulp-kit-2');
 
 // JS
 var codekit = require('gulp-codekit');
