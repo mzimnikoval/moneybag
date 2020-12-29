@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- @css : assets/css/screen.min.css -->
+	<!-- @title : Money Bag dashboard -->
+	<!-- @import "kit/_head.kit" -->
+</head>
+<body>
+    <!-- @active_profile : active -->
+    <!-- @import "kit/components/_admin-sidebar.kit" -->
+    <main class="dashboard pb-15">
+        <header class="main-content-header d-flex flex-column-reverse flex-xl-row justify-content-center justify-content-xl-between align-items-center px-11">
+            <nav class="main-content-header__subpages-nav">                
+                <ul>
+                    <li>
+                        <a href="az-profil.html">Môj profil</a>
+                    </li>
+                    <li>
+                        <a href="#" class="active">Príjmy a záväzky</a>
+                    </li>
+                    <li>
+                        <a href="az-profil-bankove.html">Bankové spojenie</a>
+                    </li>
+                    <li>
+                        <a href="az-profil-prihlasovacie.html">Prihlasovacie údaje</a>
+                    </li>
+                </ul>
+            </nav>
+            <aside class="main-content-header__user-area d-flex align-items-center">
+                <div>
+                    <!-- @import "kit/header/_alerts.kit" -->
+                    <!-- @import "kit/header/_profile.kit" -->
+                </div>
+            </aside>
+        </header>
+        <section>
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-8">
+                        <h3 class="mb-7">Príjmy a náklady</h3>
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="hlavny-mesacny-prijem">Hlavný mesačný príjem</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" aria-label="hlavny-mesacny-prijem" aria-describedby="mena">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text" id="mena">EUR</span>
+                                        </div>
+                                    </div>                      
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="ine-mesacne-prijmy">Iné mesačné príjmy spolu</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" aria-label="ine-mesacne-prijmy" aria-describedby="mena">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text" id="mena">EUR</span>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="hlavny-mesacny-prijem">Mesačné náklady</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" aria-label="hlavny-mesacny-prijem" aria-describedby="mena">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text" id="mena">EUR</span>
+                                        </div>
+                                    </div>                      
+                                </div>
+                            </div>
+                            <h3 class="mb-7">Záväzky</h3>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="hlavny-mesacny-prijem">Typ záväzku</label>
+                                    <select class="form-control wide">
+                                        <option selected>Hypotéka na bývanie</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>                     
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="ine-mesacne-prijmy">Mesačná splátka</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" aria-label="ine-mesacne-prijmy" aria-describedby="mena">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text" id="mena">EUR</span>
+                                        </div>
+                                    </div>  
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <a href="" class="btn btn-block btn-outline-primary"><span class="icon icon--plus mr-1"></span>Pridať záväzok</a>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Pokračovať</button>
+                        </form>       
+                    </div>
+                </div>    
+            </div>
+        </section>
+    </main>
+
+    <!-- @import "kit/_footer.kit" -->
+</body>
+</html>

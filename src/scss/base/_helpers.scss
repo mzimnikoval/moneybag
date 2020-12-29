@@ -79,6 +79,10 @@
         background-color: rgba($white,.15);
     }
 
+    &--white {
+        background-color: $white;
+    }
+
     &--primary {
         color: $primary;
     }
