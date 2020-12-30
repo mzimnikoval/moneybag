@@ -31,14 +31,14 @@ $grid-listing-pagination-item-border-color: $grid-listing-pagination-item-bg-col
             }
 
             @include media-breakpoint-up(xl) {
-                grid-template-columns: 1fr 1fr minmax(37rem, 1fr);
+                grid-template-columns: 1fr 2fr 1fr;
             }
         }
         .grid-listing__header {
             grid-template-columns: auto auto auto;
 
             @include media-breakpoint-up(xl) {
-                grid-template-columns: 1fr 1fr minmax(37rem, 1fr);
+                grid-template-columns: 1fr 2fr 1fr;
             }
         }
     }
@@ -56,23 +56,23 @@ $grid-listing-pagination-item-border-color: $grid-listing-pagination-item-bg-col
                 }
             }
 
+            // @include media-breakpoint-up(md) {
+            //     grid-template-columns: 1fr auto auto auto;
+            // }
+
+            // @include media-breakpoint-up(lg) {
+            //     grid-template-columns: 1fr auto auto 1fr;
+            // }
+
             @include media-breakpoint-up(md) {
-                grid-template-columns: 1fr auto auto auto;
-            }
-
-            @include media-breakpoint-up(lg) {
-                grid-template-columns: 1fr auto auto 1fr;
-            }
-
-            @include media-breakpoint-up(xl) {
-                grid-template-columns: 1fr 1fr 1fr minmax(38rem, 1fr);
+                grid-template-columns: 1fr 1fr 1fr 1fr;
             }
         }
         .grid-listing__header {
             grid-template-columns: auto auto auto auto;
 
             @include media-breakpoint-up(xl) {
-                grid-template-columns: 1fr 1fr 1fr minmax(38rem, 1fr);
+                grid-template-columns: 1fr 1fr 1fr 1fr;
             }
         }
     }
@@ -91,6 +91,10 @@ $grid-listing-pagination-item-border-color: $grid-listing-pagination-item-bg-col
         }
         .grid-listing__header {
             grid-template-columns: auto auto auto auto auto;
+
+            @include media-breakpoint-up(xl) {
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            }
         }
     }
 
@@ -166,13 +170,13 @@ $grid-listing-pagination-item-border-color: $grid-listing-pagination-item-bg-col
             position: relative;
             background-color: rgba($color-light-grey-300, .5);
 
-            @include media-breakpoint-up(md) {
-                width: 15rem;
-            }
+            // @include media-breakpoint-up(md) {
+            //     width: 15rem;
+            // }
 
-            @include media-breakpoint-up(xl) {
-                width: 20rem;
-            }
+            // @include media-breakpoint-up(xl) {
+            //     width: 20rem;
+            // }
 
             span {
                 background-color: $color-success;

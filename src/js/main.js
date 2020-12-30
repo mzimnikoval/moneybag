@@ -61,10 +61,8 @@ $( function() {
 		}
 	});
 
-	$("#menu-trigger").click(function() {  //use a class, since your ID gets mangled
-		$('.left-sidebar').addClass("active");      //add the class to the clicked element
+	$(".hamburger").click(function() {  //use a class, since your ID gets mangled
+		$('.left-sidebar').toggleClass("active");    
+		$(this).toggleClass('is-active');  //add the class to the clicked element
 	});
-	$("#menu-close").click(function() {  //use a class, since your ID gets mangled
-		$('.left-sidebar').removeClass("active");      //add the class to the clicked element
-	});	
 });

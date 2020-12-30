@@ -53,7 +53,7 @@ $circle-icon-background: $color-light-grey-200;
         display: flex;
         align-items: center;
 
-        padding: 0 3rem;
+        
         border-radius: .8rem;
 
         &--small {
@@ -130,6 +130,10 @@ $circle-icon-background: $color-light-grey-200;
                 background-color: rgba($white, .15);
             }
         }
+
+        @include media-breakpoint-up(xl) {
+            padding: 0 3rem;
+        }    
     }
     
 }

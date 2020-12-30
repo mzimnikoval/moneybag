@@ -15,42 +15,72 @@ $navigiation-item-color-icon--active: $color-primary;
 $navigiation-item-color-icon--active--dark: $white;
 
 .left-sidebar {
-
-    position: fixed;
+    
     background-color: $white;
-    width: 32rem;
     top: 0;
-    left: -32rem;
-    height: 100vh;
-    padding: 4rem;
-
+    left: 0;
+    width: 100%;
+    min-height: 7.2rem;
+    max-height: 7.2rem;
+    padding: 0 3rem;
+    z-index: 100;
     box-shadow: -3rem 6rem 10rem 0 rgba($color-light-grey-200, .08) ;
+    transition: all .3s ease-in-out;
 
+    & > div {
+        height: 7.2rem;
+
+        @include media-breakpoint-up(xl) {
+            height: auto;
+        }
+    
+    }
+    
     @include media-breakpoint-up(xl) {
+        position: fixed;
         left: 0;
+        width: 32rem;
+        min-height: 100vh;
+        max-height: 100vh;
+        padding: 4rem;
     }
 
     &.active {
-        left: 0;
+        min-height: 100vh;
+        max-height: 10000vh;
         z-index: 99;
+        position: fixed;
 
-        & + main {
-            &:before {
-                content: "";
-                display: block;
-                position: fixed;
-                z-index: 90;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                background-color: #0F1839;
-                opacity: .6;
-            }
+        nav {
+            max-height: 1000vh;
+            overflow: hidden;
+        }
+    }
+
+    .hamburger {
+        margin-left: 2.5rem;
+        vertical-align: middle;
+    }
+
+    .logo {
+        height: 3.6rem;
+
+        @include media-breakpoint-up(xl) {
+            height: auto;
         }
     }
 
     nav {
+
+        max-height: 0;
+        overflow: hidden;
+        transition: all .3s ease-in-out;
+
+        @include media-breakpoint-up(xl) {
+            left: 0;
+            min-height: 100vh;
+            max-height: 100vh;
+        }
 
         ul {
             list-style-type: none;
