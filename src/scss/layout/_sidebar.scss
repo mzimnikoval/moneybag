@@ -35,6 +35,11 @@ $navigiation-item-color-icon--active--dark: $white;
         }
     
     }
+
+    .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after,
+    .hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::before, .hamburger.is-active .hamburger-inner::after {
+        background-color: $navigiation-item-color;
+    }
     
     @include media-breakpoint-up(xl) {        
         left: 0;
@@ -147,6 +152,11 @@ $navigiation-item-color-icon--active--dark: $white;
 
     &.dark {
         background-color: $color-secondary;
+
+        .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after,
+        .hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::before, .hamburger.is-active .hamburger-inner::after {
+            background-color: $navigiation-item-color--dark;
+        }
 
         nav {
             ul {
