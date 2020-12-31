@@ -34,7 +34,11 @@ main.register {
     .container-fluid {
         padding: 0 3rem;
 
-        @include media-breakpoint-up(xl) {
+        // @include media-breakpoint-up(xl) {
+        //     padding: 0 6rem;
+        // }
+
+        @include media-breakpoint-up(xxxl) {
             padding: 0 6rem;
         }
     }

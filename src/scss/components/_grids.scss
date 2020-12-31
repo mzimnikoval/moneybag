@@ -21,24 +21,29 @@ $grid-listing-pagination-item-border-color: $grid-listing-pagination-item-bg-col
     &--cols3 {
         .grid-listing__item {
             grid-template-rows: auto auto auto;
+
+            img {
+                @include media-breakpoint-up(md) {
+                    display: none;
+                }
+                @include media-breakpoint-up(xxl) {
+                    display: block;
+                }
+            }
             
             @include media-breakpoint-up(md) {
-                grid-template-columns: 1fr 1fr auto;
+                grid-template-columns: 1fr 1fr 1fr;
             }
 
             @include media-breakpoint-up(lg) {
-                grid-template-columns: 1fr 1fr auto;
-            }
-
-            @include media-breakpoint-up(xl) {
-                grid-template-columns: 1fr 2fr 1fr;
+                grid-template-columns: 1fr 1fr 1fr;
             }
         }
         .grid-listing__header {
             grid-template-columns: auto auto auto;
 
-            @include media-breakpoint-up(xl) {
-                grid-template-columns: 1fr 2fr 1fr;
+            @include media-breakpoint-up(lg) {
+                grid-template-columns: 1fr 1fr 1fr;
             }
         }
     }
@@ -51,7 +56,7 @@ $grid-listing-pagination-item-border-color: $grid-listing-pagination-item-bg-col
                 @include media-breakpoint-up(md) {
                     display: none;
                 }
-                @include media-breakpoint-up(lg) {
+                @include media-breakpoint-up(xxl) {
                     display: block;
                 }
             }
@@ -60,19 +65,23 @@ $grid-listing-pagination-item-border-color: $grid-listing-pagination-item-bg-col
             //     grid-template-columns: 1fr auto auto auto;
             // }
 
-            // @include media-breakpoint-up(lg) {
-            //     grid-template-columns: 1fr auto auto 1fr;
-            // }
+            @include media-breakpoint-up(lg) {
+                grid-template-columns: 1fr 1fr 20% 1fr;
+            }
 
-            @include media-breakpoint-up(md) {
-                grid-template-columns: 1fr 1fr 1fr 1fr;
+            @include media-breakpoint-up(xxl) {
+                grid-template-columns: 1fr 1fr 15% 1fr;
             }
         }
         .grid-listing__header {
             grid-template-columns: auto auto auto auto;
 
-            @include media-breakpoint-up(xl) {
-                grid-template-columns: 1fr 1fr 1fr 1fr;
+            @include media-breakpoint-up(lg) {
+                grid-template-columns: 1fr 1fr 20% 1fr;
+            }
+
+            @include media-breakpoint-up(xxl) {
+                grid-template-columns: 1fr 1fr 15% 1fr;
             }
         }
     }
@@ -108,7 +117,7 @@ $grid-listing-pagination-item-border-color: $grid-listing-pagination-item-bg-col
         padding: 0 3.2rem;
         margin: 0 0 1rem;
 
-        @include media-breakpoint-up(xl) {
+        @include media-breakpoint-up(lg) {
             display: grid;
         }
 

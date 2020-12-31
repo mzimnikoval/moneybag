@@ -42,11 +42,13 @@ header {
         }
 
         @include media-breakpoint-up(xl) {
-            padding: 0 6rem !important;
+            padding: 0 3rem !important;
             height: 15rem;
         }      
 
-
+        @include media-breakpoint-up(xxl) {
+            padding: 0 6rem !important;
+        }
     }
 
     

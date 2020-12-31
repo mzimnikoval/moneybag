@@ -204,7 +204,9 @@
     &-bottom-white-15 {
         border-bottom: .1rem solid rgba($white,.15);
     }
-
+    &-right-light {
+        border-right: .1rem solid rgba($color-light-grey-300, .5);
+    }
 }
 
 .box {

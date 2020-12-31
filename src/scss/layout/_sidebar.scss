@@ -15,7 +15,7 @@ $navigiation-item-color-icon--active: $color-primary;
 $navigiation-item-color-icon--active--dark: $white;
 
 .left-sidebar {
-    
+    position: fixed;
     background-color: $white;
     top: 0;
     left: 0;
@@ -36,8 +36,7 @@ $navigiation-item-color-icon--active--dark: $white;
     
     }
     
-    @include media-breakpoint-up(xl) {
-        position: fixed;
+    @include media-breakpoint-up(xl) {        
         left: 0;
         width: 32rem;
         min-height: 100vh;
