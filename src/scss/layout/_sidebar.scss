@@ -49,6 +49,14 @@ $navigiation-item-color-icon--active--dark: $white;
         padding: 4rem;
     }
 
+    .alerts-icon .unread-alert {
+        border-color: $white;
+    }
+
+    .alerts-icon:after {
+        color: $color-light-grey-300;
+    }
+
     &.active {
         min-height: 100vh;
         max-height: 10000vh;
@@ -156,6 +164,14 @@ $navigiation-item-color-icon--active--dark: $white;
         .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after,
         .hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::before, .hamburger.is-active .hamburger-inner::after {
             background-color: $navigiation-item-color--dark;
+        }
+
+        .alerts-icon .unread-alert {
+            border-color: $color-secondary;
+        }
+    
+        .alerts-icon:after {
+            color: $notification-icon-color-xs;
         }
 
         nav {
