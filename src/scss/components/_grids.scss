@@ -12,6 +12,10 @@ $grid-listing-pagination-item-border-color: $grid-listing-pagination-item-bg-col
         .grid-listing__header, .grid-listing__item {
             grid-template-columns: auto auto;
 
+            @include media-breakpoint-up(lg) {
+                grid-template-columns: 1fr 1fr;
+            }
+
             @include media-breakpoint-up(xl) {
                 grid-template-columns: 1fr 1fr;
             }
@@ -61,9 +65,9 @@ $grid-listing-pagination-item-border-color: $grid-listing-pagination-item-bg-col
                 }
             }
 
-            // @include media-breakpoint-up(md) {
-            //     grid-template-columns: 1fr auto auto auto;
-            // }
+            @include media-breakpoint-up(md) {
+                grid-template-columns: auto auto auto auto;
+            }
 
             @include media-breakpoint-up(lg) {
                 grid-template-columns: 1fr 1fr 20% 1fr;
@@ -91,17 +95,33 @@ $grid-listing-pagination-item-border-color: $grid-listing-pagination-item-bg-col
             grid-template-rows: auto auto auto auto auto;
 
             @include media-breakpoint-up(md) {
-                grid-template-columns: 1fr auto auto auto auto;
+                grid-template-columns: auto auto auto auto auto;
+            }
+
+            @include media-breakpoint-up(lg) {
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
             }
 
             @include media-breakpoint-up(xl) {
+                grid-template-columns: 25% 1fr 1fr 1fr 1fr;
+            }
+
+            @include media-breakpoint-up(xxl) {
                 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
             }
         }
         .grid-listing__header {
             grid-template-columns: auto auto auto auto auto;
 
+            @include media-breakpoint-up(lg) {
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            }
+
             @include media-breakpoint-up(xl) {
+                grid-template-columns: 25% 1fr 1fr 1fr 1fr;
+            }
+
+            @include media-breakpoint-up(xxl) {
                 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
             }
         }

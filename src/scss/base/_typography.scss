@@ -26,7 +26,7 @@ h2 {
 }
 
 h3 {
-    font-size: 3rem;
+    font-size: 2.4rem;
     margin-bottom: 2.5rem;
     font-weight: 300;
 
@@ -38,7 +38,16 @@ h3 {
         font-size: 4rem;
     }
 
-    @include media-breakpoint-up(xl) {
+    @include media-breakpoint-up(md) {
+        font-size: 3rem;
+    }
+    
+    @include media-breakpoint-only(xl) {
+        font-size: 2.4rem;
+    }
+
+
+    @include media-breakpoint-up(xxl) {
         font-size: 3.6rem;
     }
 }

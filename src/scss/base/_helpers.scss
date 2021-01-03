@@ -205,7 +205,16 @@
         border-bottom: .1rem solid rgba($white,.15);
     }
     &-right-light {
-        border-right: .1rem solid rgba($color-light-grey-300, .5);
+        border-bottom: .1rem solid rgba($color-light-grey-300, .5);
+
+        @include media-breakpoint-only(md) {
+            border-right: none;
+            border-bottom: none;
+        }
+        @include media-breakpoint-up(lg) {
+            border-right: .1rem solid rgba($color-light-grey-300, .5);
+            border-bottom: none;
+        }
     }
 }
 

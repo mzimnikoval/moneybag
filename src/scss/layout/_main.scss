@@ -147,6 +147,13 @@ $circle-icon-background: $color-light-grey-200;
         @include media-breakpoint-up(xxl) {
             padding: 0 3rem;
         }    
+
+        &.position-sticky {           
+
+            @include media-breakpoint-only(lg) {
+                top: 12rem;
+            }    
+        }
     }
     
 }
