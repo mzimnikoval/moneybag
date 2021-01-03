@@ -142,6 +142,11 @@ $circle-icon-background: $color-light-grey-200;
             }
         }
 
+        &.--darker {
+            background-color: $color-dark-blue-300;
+            border-radius: 0;
+        }
+
         padding: 0 1.5rem;
 
         @include media-breakpoint-up(xxl) {

@@ -21,14 +21,14 @@ $navigiation-item-color-icon--active--dark: $white;
     left: 0;
     width: 100%;
     min-height: 7.2rem;
-    max-height: 7.2rem;
-    padding: 0 3rem;
+    max-height: 7.2rem;    
     z-index: 100;
     box-shadow: -3rem 6rem 10rem 0 rgba($color-light-grey-200, .08) ;
     transition: all .3s ease-in-out;
 
     & > div {
         height: 7.2rem;
+        padding: 0 3rem;
 
         @include media-breakpoint-up(xl) {
             height: auto;
@@ -96,7 +96,7 @@ $navigiation-item-color-icon--active--dark: $white;
 
         ul {
             list-style-type: none;
-            padding-left: 0;
+            padding: 0 3rem;
             margin-bottom: 0;
 
             li {
