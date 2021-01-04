@@ -6,9 +6,9 @@ $notification-icon-color: $color-light-grey-300;
 $notification-icon-color-xs: $white;
 
 $subpages-nav-item-bg: $color-light-grey-200;
-$subpages-nav-item-color: $color-grey;
-$subpages-nav-item-bg--active: $color-light-grey-200;
-$subpages-nav-item-color--active: $color-dark-blue;
+$subpages-nav-item-color: $color-dark-blue;
+$subpages-nav-item-bg--active: $color-secondary;
+$subpages-nav-item-color--active: $white;
 $subpages-nav-item-count-bg: $color-light-grey-200;
 $subpages-nav-item-count-bg--active: $color-primary;
 $subpages-nav-item-count-color: $white;
@@ -184,9 +184,12 @@ header {
             height: 5.2rem;
             font-size: 1.6rem;
             border-radius: .4rem;
-            color: $subpages-nav-item-color;
+            margin: 0 1rem 0 0;
 
             transition: all .3s ease-in-out;
+
+            background-color: rgba($subpages-nav-item-bg,.2);
+            color: $subpages-nav-item-color;
 
             &:hover {
                 text-decoration: none;
@@ -213,7 +216,7 @@ header {
             }
             
             &.active, &:hover {
-                background-color: rgba($subpages-nav-item-bg--active,.2);
+                background-color: $subpages-nav-item-bg--active;
                 color: $subpages-nav-item-color--active;
 
                 .count {

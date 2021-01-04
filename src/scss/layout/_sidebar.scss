@@ -211,9 +211,19 @@ $left-sidebar-reg-width: 31rem;
     top: 0;
     height: 100%;
 
+    display: none;
+
+    @include media-breakpoint-up(lg) {
+        display: block;
+    }
+
 }
 
 .reg-container {
-    padding-left: $left-sidebar-reg-width;
+    padding: 0 3rem;
     width: 100%;
+
+    @include media-breakpoint-up(lg) {
+        padding-left: $left-sidebar-reg-width;
+    }
 }
