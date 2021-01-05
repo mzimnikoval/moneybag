@@ -253,18 +253,18 @@
 }
 
 .pt {
-    &-100 {
+    &-130 {
         padding-top: 5rem;
         
         @include media-breakpoint-up(xl) {
-            padding-top: 10rem;
+            padding-top: 13rem;
         }
     }
-    &-200 {
+    &-230 {
         padding-top: 5rem;
 
         @include media-breakpoint-up(xl) {
-            padding-top: 20rem;
+            padding-top: 23rem;
         }
     }
 }

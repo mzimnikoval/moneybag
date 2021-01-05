@@ -13,15 +13,16 @@
     padding: 10rem 0 30rem;
 
     @media only screen and (min-width: 1440px) {
-        padding: 27rem 0 36rem;
+        padding: 20rem 0 30rem;
 
         h1 {
             font-size: 7.2rem;
         }
     }
 
-    @media only screen and (min-width: 1600px) {
-        padding: 30rem 0 50rem;
+    @media only screen and (min-width: 1920px) {
+        padding: 30rem 0 40rem;
+        background-position-y: -.2rem;
 
         h1 {
             font-size: 8rem;
@@ -45,7 +46,11 @@
 .review-wrap {
     position: absolute;
     bottom: -7rem;
-    margin-left: 1.5rem;
+    margin-left: 3.5rem;
+
+    @include media-breakpoint-up(xl) {
+        margin-left: 1.5rem;
+    }
 
     &__box {
         width: 30rem;
