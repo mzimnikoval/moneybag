@@ -72,6 +72,8 @@
     @include media-breakpoint-up(xxl) {
         background-position-x: -18rem;
         width: auto;
+        background-size: 73vw;
+        padding: 22rem 0 35rem;
     }
 
     @media only screen and (min-width: 1600px) and (max-width:1919px) {

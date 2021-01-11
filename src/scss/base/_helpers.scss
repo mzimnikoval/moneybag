@@ -94,6 +94,24 @@
         color: $primary;
     }
 
+    &--valid {
+        font-size: 1.8rem;
+        color: $color-success;
+
+        &:before {
+            content: fa-content($fa-var-check-circle);
+        }
+    }
+
+    &--invalid {
+        font-size: 1.8rem;
+        color: $color-danger;
+        
+        &:before {
+            content: fa-content($fa-var-times-circle);
+        }
+    }
+
     &--info {
         color: $color-light-grey-200;
         background-color: rgba( $color-light-grey-200, .2);

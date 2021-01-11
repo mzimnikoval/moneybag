@@ -100,3 +100,17 @@ textarea.form-control {
         content: fa-content($fa-var-info-circle);
     }
 }
+
+.form-group {
+    position: relative;
+
+    .icon {
+        position: absolute;
+        right: 1.5rem;
+    }
+    .invalid {
+        font-size: 1.6rem;
+        color: $color-danger;
+        margin-top: .5rem;
+    }
+}

@@ -11,13 +11,18 @@
         <h3>Osobné informácie</h3>
         <form>
             <div class="form-row">
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-6 is-valid">
                     <label for="meno">Meno</label>
+                    <span class="icon icon--valid"></span>
                     <input type="text" class="form-control" id="meno">
                 </div>
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-6 is-invalid">
                     <label for="lastname">Priezvisko</label>
+                    <span class="icon icon--invalid"></span>
                     <input type="text" class="form-control" id="lastname">
+                    <div class="invalid">
+                        Something went wrong
+                    </div>
                 </div>
             </div>
             <div class="form-group">

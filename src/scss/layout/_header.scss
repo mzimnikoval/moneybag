@@ -34,7 +34,7 @@ header {
 
     &.main-content-header {   
 
-        padding: 3rem !important;
+        padding: 3rem 0 !important;
 
         img.mini-logo {
             width: 3.6rem;
@@ -175,6 +175,19 @@ header {
 
         li {
             display: inline-block;
+
+            &:first-child {
+                margin-left: 3rem;
+                @include media-breakpoint-up(md) {
+                    margin-left: 0;
+                }
+            }
+            &:last-child {
+                margin-right: 3rem;
+                @include media-breakpoint-up(md) {
+                    margin-right: 0;
+                }
+            }
         }
 
         a {
@@ -190,6 +203,11 @@ header {
 
             background-color: rgba($subpages-nav-item-bg,.2);
             color: $subpages-nav-item-color;
+
+            @include media-breakpoint-up(md) {
+                background-color: #F9FAFB;
+                color: #7A8EA6;
+            }
 
             &:hover {
                 text-decoration: none;
@@ -218,6 +236,11 @@ header {
             &.active, &:hover {
                 background-color: $subpages-nav-item-bg--active;
                 color: $subpages-nav-item-color--active;
+
+                @include media-breakpoint-up(md) {
+                    background-color: #EAEEF2;
+                    color: $subpages-nav-item-color;
+                }
 
                 .count {
                     background-color: $subpages-nav-item-count-bg--active;
