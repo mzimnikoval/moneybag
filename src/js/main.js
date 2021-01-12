@@ -4,6 +4,7 @@
 //=include ../vendor/dropzone/dropzone.js
 //=include ../vendor/owl-carousel/owl.carousel.min.js
 //=include ../vendor/jquery-nice-select/js/nice-select.js
+//=include ../vendor/jquery-mask/jquery.mask.min.js
 
 
 $(function () {
@@ -13,6 +14,7 @@ $(function () {
 
 jQuery(document).ready(function() {
 	jQuery('select').niceSelect();
+	jQuery('.js-date--europe').mask('00.00.0000');
 });
 
 $( function() {
@@ -87,6 +89,6 @@ $( function() {
 		scrollbar: {
 		  el: '.swiper-scrollbar',
 		},
-	  });
+	  });	
 });
 

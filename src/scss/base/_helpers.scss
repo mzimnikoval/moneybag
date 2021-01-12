@@ -223,6 +223,13 @@
 
 .border {
 
+    &-bottom-mobile {
+        border-bottom: .1rem solid rgba($color-light-grey-300, .5);
+        @include media-breakpoint-up(md) {
+            border-bottom: none;
+        }
+    }
+
     &-bottom-light {
         border-bottom: .1rem solid rgba($color-light-grey-300, .5);
     }
@@ -293,4 +300,19 @@
 
 .coskoro-img {
     width: 47vw;
+}
+
+.close-btn {
+
+
+    &.--absolute {
+        position: absolute;
+        right: 3rem;
+        top: 3rem;
+
+        @include media-breakpoint-up(md) {
+            right: 6rem;
+            top: 6rem;
+        }
+    }
 }
