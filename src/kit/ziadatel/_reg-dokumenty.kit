@@ -46,6 +46,7 @@
                 <div class="row">
                     <div class="col-2 text-center d-none d-md-block">
                         <span class="icon icon--upload icon--rounded-lg icon--light-grey"></span>
+                        <span class="vertical-line"></span>
                     </div>
                     <div class="col-12 col-lg-10">
                         <p class="text--dark pt-3">Nahrajte prosím aktuálnu pracovnú zmluvu</p>
@@ -54,15 +55,19 @@
                         </form>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-2 text-center d-none d-md-block">
+                        <span class="icon icon--upload icon--rounded-lg icon--light-grey"></span>
+                    </div>
+                    <div class="col-12 col-lg-10">
+                        <p class="text--dark pt-3">Nahrajte prosím výpis z úverového registra</p>
+                        <form action="/file-upload" class="dropzone mb-3 mb-md-7" id="my-awesome-dropzone">
+                            <div class="dz-message" data-dz-message><span class="text--primary"><span class="icon icon--upload mr-1"></span>Vyberte súbor</span> ktorý chcete nahrať</div>
+                        </form>
+                    </div>
+                </div>
             </div>
-            <div class="alert alert-info"><span class="icon"></span>Pre zlepšenie rankingu môžete nahrať výpis z úverového registra alebo výpis z banky za posledné 3 mesiace</div>
-            <div class="d-flex justify-content-between">
-                <p class="text--dark">Nahrajte prosím výpis z úverového registra</p>
-                <p>Nepovinné</p>
-            </div>
-            <form action="/file-upload" class="dropzone mb-7" id="my-awesome-dropzone">
-                <div class="dz-message" data-dz-message><span class="text--primary"><span class="icon icon--upload mr-1"></span>Vyberte súbor</span> ktorý chcete nahrať</div>
-            </form>
+            <div class="alert alert-info"><span class="icon"></span>Pre zlepšenie rankingu môžete nahrať výpis z banky za posledné 3 mesiace</div>
             <div class="d-flex justify-content-between">
                 <p class="text--dark">Nahrajte prosím výpis z banky za posledne 3 mesiace</p>
                 <p>Nepovinné</p>
@@ -79,14 +84,14 @@
             </form>
             <div class="form-group mb-5">
                 <div class="custom-control custom-checkbox">
-                    <input type="checkbox" class="custom-control-input" id="customCheck1">
-                    <label class="custom-control-label" for="customCheck1">Súhlasím so <a href="#">Všeobecnými zmluvnými podmienkami</a> internetového portálu www.moneybag.sk </label>
+                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                    <label class="custom-control-label" for="customCheck2">Súhlasím so <a href="#">Všeobecnými zmluvnými podmienkami</a> internetového portálu www.moneybag.sk </label>
                 </div>
             </div>
             <div class="form-group mb-7">
                 <div class="custom-control custom-checkbox">
-                    <input type="checkbox" class="custom-control-input" id="customCheck1">
-                    <label class="custom-control-label" for="customCheck1">Súhlasím so <a href="#">Spracovaním osobných údajov</a></label>
+                    <input type="checkbox" class="custom-control-input" id="customCheck3">
+                    <label class="custom-control-label" for="customCheck3">Súhlasím so <a href="#">Spracovaním osobných údajov</a></label>
                 </div>
             </div>
             <button type="submit" class="btn btn-primary btn-block mb-2 mb-lg-0">Pokračovať</button>
