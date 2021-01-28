@@ -47,3 +47,20 @@ footer {
         }
     }
 }
+
+.fixed-help-btns {
+
+    bottom: 4rem;
+    right: 4rem;
+
+    z-index: 99;
+
+    .btn-primary {
+        padding: 0 2.5rem;
+    }
+
+    .btn-icon {
+        padding: 0;
+        width: 6rem;
+    }
+}

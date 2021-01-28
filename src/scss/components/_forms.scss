@@ -40,13 +40,13 @@
 }
 
 .form-control, .custom-select {
-    height: 6rem;
+    height: 5.2rem;
     border-radius: .4rem;
     background-color: $color-bg-light;
     border: .1rem solid $color-bg-light;
     padding: 0 0 0 2.5rem;
     font-size: 1.6rem;
-    line-height: 6rem;
+    line-height: 5.2rem;
     transition: all .3s ease-in-out;
 
     &:hover {
@@ -68,7 +68,7 @@
 
 textarea.form-control {
     min-height: 16rem;
-    padding-top: 2rem;
+    padding-top: .5rem;
 }
 
 .sliders-input {
