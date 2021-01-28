@@ -68,6 +68,11 @@ $( function() {
 		$(this).toggleClass('is-active');  //add the class to the clicked element
 	});
 
+	$(".open-dok-modal").click(function() {  //use a class, since your ID gets mangled
+		$('#nahrajte-dokument').modal('hide');		
+	});
+
+
 	var mySwiper = new Swiper('.swiper-container', {
 		// Optional parameters
 		slidesPerView: 'auto',
