@@ -25,12 +25,140 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"/dist/ai-aukcia-prebiehajuca.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/ai-aukcia-prebiehajuca.html",
+		"oF": 0
+		},
+	"/dist/ai-aukcia-ukoncena.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/ai-aukcia-ukoncena.html",
+		"oF": 0
+		},
+	"/dist/ai-aukcie.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/ai-aukcie.html",
+		"oF": 0
+		},
+	"/dist/ai-dokumenty.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/ai-dokumenty.html",
+		"oF": 0
+		},
+	"/dist/ai-financie-vklady.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/ai-financie-vklady.html",
+		"oF": 0
+		},
+	"/dist/ai-financie-vybery.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/ai-financie-vybery.html",
+		"oF": 0
+		},
+	"/dist/ai-financie.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/ai-financie.html",
+		"oF": 0
+		},
+	"/dist/ai-investicie-ukoncene.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/ai-investicie-ukoncene.html",
+		"oF": 0
+		},
+	"/dist/ai-investicie.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/ai-investicie.html",
+		"oF": 0
+		},
+	"/dist/ai-nezaregistrovany.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/ai-nezaregistrovany.html",
+		"oF": 0
+		},
+	"/dist/ai-overovanie copy.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/ai-overovanie copy.html",
+		"oF": 0
+		},
+	"/dist/ai-overovanie.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/ai-overovanie.html",
+		"oF": 0
+		},
 	"/dist/ai-prazdny.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dist/ai-prazdny.html",
+		"oF": 0
+		},
+	"/dist/ai-profil-bankove.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/ai-profil-bankove.html",
+		"oF": 0
+		},
+	"/dist/ai-profil-prihlasovacie.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/ai-profil-prihlasovacie.html",
+		"oF": 0
+		},
+	"/dist/ai-profil.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/ai-profil.html",
+		"oF": 0
+		},
+	"/dist/ai-vyplneny.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/ai-vyplneny.html",
 		"oF": 0
 		},
 	"/dist/assets/css/screen.css.min.map": {
@@ -301,6 +429,16 @@
 		"oAP": "/dist/assets/fonts/Poppins/Poppins-normal-700.woff",
 		"oF": 0
 		},
+	"/dist/assets/img/auctions-24px.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/img/auctions-24px.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/dist/assets/img/avatar-icon.png": {
 		"ft": 32768,
 		"iS": 3672,
@@ -392,6 +530,16 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/dist/assets/img/close.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/img/close.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/dist/assets/img/coskoro-img.jpg": {
 		"ft": 16384,
 		"iS": 59299,
@@ -417,6 +565,16 @@
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
+		},
+	"/dist/assets/img/dashboard-24px.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/img/dashboard-24px.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/dist/assets/img/file.png": {
 		"ft": 32768,
@@ -554,6 +712,16 @@
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
+		},
+	"/dist/assets/img/investions-24px.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/img/investions-24px.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/dist/assets/img/jednoduche-investovanie.png": {
 		"ft": 32768,
@@ -780,6 +948,158 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dist/az-aukcia-naplnena.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/az-aukcia-naplnena.html",
+		"oF": 0
+		},
+	"/dist/az-aukcia-nenaplnena.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/az-aukcia-nenaplnena.html",
+		"oF": 0
+		},
+	"/dist/az-aukcia-prebiehajuca.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/az-aukcia-prebiehajuca.html",
+		"oF": 0
+		},
+	"/dist/az-aukcie-ukoncene.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/az-aukcie-ukoncene.html",
+		"oF": 0
+		},
+	"/dist/az-aukcie.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/az-aukcie.html",
+		"oF": 0
+		},
+	"/dist/az-detail-aukcie-prebiehajuca.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/az-detail-aukcie-prebiehajuca.html",
+		"oF": 0
+		},
+	"/dist/az-dokumenty.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/az-dokumenty.html",
+		"oF": 0
+		},
+	"/dist/az-financie-vklady.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/az-financie-vklady.html",
+		"oF": 0
+		},
+	"/dist/az-financie-vybery.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/az-financie-vybery.html",
+		"oF": 0
+		},
+	"/dist/az-financie.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/az-financie.html",
+		"oF": 0
+		},
+	"/dist/az-nezaregistrovany.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/az-nezaregistrovany.html",
+		"oF": 0
+		},
+	"/dist/az-overovanie.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/az-overovanie.html",
+		"oF": 0
+		},
+	"/dist/az-prazdny.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/az-prazdny.html",
+		"oF": 0
+		},
+	"/dist/az-profil-bankove.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/az-profil-bankove.html",
+		"oF": 0
+		},
+	"/dist/az-profil-prihlasovacie.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/az-profil-prihlasovacie.html",
+		"oF": 0
+		},
+	"/dist/az-profil-prijmy.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/az-profil-prijmy.html",
+		"oF": 0
+		},
+	"/dist/az-profil-primy.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/az-profil-primy.html",
+		"oF": 0
+		},
+	"/dist/az-profil.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/az-profil.html",
+		"oF": 0
+		},
+	"/dist/az-vyplneny.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/az-vyplneny.html",
+		"oF": 0
+		},
 	"/dist/coskoro.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -980,12 +1300,20 @@
 		"oAP": "/dist/investor-detail-aukcie-ukoncena.html",
 		"oF": 0
 		},
-	"/dist/landing-page-veritel.html": {
+	"/dist/investor-reg-steps.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dist/landing-page-veritel.html",
+		"oAP": "/dist/investor-reg-steps.html",
+		"oF": 0
+		},
+	"/dist/landing-page-investor.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/landing-page-investor.html",
 		"oF": 0
 		},
 	"/dist/landing-page-ziadatel.html": {
@@ -1012,12 +1340,12 @@
 		"oAP": "/dist/prihlasenie.html",
 		"oF": 0
 		},
-	"/dist/registracia-veritel.html": {
+	"/dist/registracia-investor.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dist/registracia-veritel.html",
+		"oAP": "/dist/registracia-investor.html",
 		"oF": 0
 		},
 	"/dist/registracia-ziadatel.html": {
@@ -1028,44 +1356,12 @@
 		"oAP": "/dist/registracia-ziadatel.html",
 		"oF": 0
 		},
-	"/dist/veritel-reg-steps.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dist/veritel-reg-steps.html",
-		"oF": 0
-		},
 	"/dist/zabudnute-heslo.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dist/zabudnute-heslo.html",
-		"oF": 0
-		},
-	"/dist/ziadatel-detail-aukcie-prebiehajuca.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dist/ziadatel-detail-aukcie-prebiehajuca.html",
-		"oF": 0
-		},
-	"/dist/ziadatel-detail-aukcie-ukoncena-naplnena.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dist/ziadatel-detail-aukcie-ukoncena-naplnena.html",
-		"oF": 0
-		},
-	"/dist/ziadatel-detail-aukcie-ukoncena-nenaplnena.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dist/ziadatel-detail-aukcie-ukoncena-nenaplnena.html",
 		"oF": 0
 		},
 	"/dist/ziadatel-reg-steps.html": {
@@ -1128,12 +1424,92 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/src/admin/investor/prazdny.kit": {
+	"/src/ai-aukcia-prebiehajuca.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/src/admin/investor/prazdny.html",
+		"oAP": "/src/ai-aukcia-prebiehajuca.html",
+		"oF": 0
+		},
+	"/src/ai-aukcia-ukoncena.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/ai-aukcia-ukoncena.html",
+		"oF": 0
+		},
+	"/src/ai-aukcie.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/ai-aukcie.html",
+		"oF": 0
+		},
+	"/src/ai-dokumenty.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/ai-dokumenty.html",
+		"oF": 0
+		},
+	"/src/ai-financie-vklady.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/ai-financie-vklady.html",
+		"oF": 0
+		},
+	"/src/ai-financie-vybery.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/ai-financie-vybery.html",
+		"oF": 0
+		},
+	"/src/ai-financie.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/ai-financie.html",
+		"oF": 0
+		},
+	"/src/ai-investicie-ukoncene.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/ai-investicie-ukoncene.html",
+		"oF": 0
+		},
+	"/src/ai-investicie.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/ai-investicie.html",
+		"oF": 0
+		},
+	"/src/ai-nezaregistrovany.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/ai-nezaregistrovany.html",
+		"oF": 0
+		},
+	"/src/ai-overovanie.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/ai-overovanie.html",
 		"oF": 0
 		},
 	"/src/ai-prazdny.kit": {
@@ -1142,6 +1518,174 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/src/ai-prazdny.html",
+		"oF": 0
+		},
+	"/src/ai-profil-bankove.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/ai-profil-bankove.html",
+		"oF": 0
+		},
+	"/src/ai-profil-prihlasovacie.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/ai-profil-prihlasovacie.html",
+		"oF": 0
+		},
+	"/src/ai-profil.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/ai-profil.html",
+		"oF": 0
+		},
+	"/src/ai-vyplneny.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/ai-vyplneny.html",
+		"oF": 0
+		},
+	"/src/az-aukcia-naplnena.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/az-aukcia-naplnena.html",
+		"oF": 0
+		},
+	"/src/az-aukcia-nenaplnena.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/az-aukcia-nenaplnena.html",
+		"oF": 0
+		},
+	"/src/az-aukcia-prebiehajuca.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/az-aukcia-prebiehajuca.html",
+		"oF": 0
+		},
+	"/src/az-aukcie-ukoncene.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/az-aukcie-ukoncene.html",
+		"oF": 0
+		},
+	"/src/az-aukcie.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/az-aukcie.html",
+		"oF": 0
+		},
+	"/src/az-dokumenty.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/az-dokumenty.html",
+		"oF": 0
+		},
+	"/src/az-financie-vklady.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/az-financie-vklady.html",
+		"oF": 0
+		},
+	"/src/az-financie-vybery.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/az-financie-vybery.html",
+		"oF": 0
+		},
+	"/src/az-financie.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/az-financie.html",
+		"oF": 0
+		},
+	"/src/az-nezaregistrovany.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/az-nezaregistrovany.html",
+		"oF": 0
+		},
+	"/src/az-overovanie.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/az-overovanie.html",
+		"oF": 0
+		},
+	"/src/az-prazdny.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/az-prazdny.html",
+		"oF": 0
+		},
+	"/src/az-profil-bankove.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/az-profil-bankove.html",
+		"oF": 0
+		},
+	"/src/az-profil-prihlasovacie.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/az-profil-prihlasovacie.html",
+		"oF": 0
+		},
+	"/src/az-profil-prijmy.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/az-profil-prijmy.html",
+		"oF": 0
+		},
+	"/src/az-profil.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/az-profil.html",
+		"oF": 0
+		},
+	"/src/az-vyplneny.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/az-vyplneny.html",
 		"oF": 0
 		},
 	"/src/coskoro.kit": {
@@ -1583,6 +2127,16 @@
 		"oAP": "/src/fonts/Poppins/Poppins-normal-700.woff",
 		"oF": 0
 		},
+	"/src/img/auctions-24px.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/src/img/auctions-24px.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/src/img/avatar-icon.png": {
 		"ft": 32768,
 		"iS": 4036,
@@ -1674,6 +2228,16 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/src/img/close.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/src/img/close.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/src/img/coskoro-img.jpg": {
 		"ft": 16384,
 		"iS": 59299,
@@ -1699,6 +2263,16 @@
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
+		},
+	"/src/img/dashboard-24px.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/src/img/dashboard-24px.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/src/img/file.png": {
 		"ft": 32768,
@@ -1837,6 +2411,16 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/src/img/investions-24px.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/src/img/investions-24px.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/src/img/jednoduche-investovanie.png": {
 		"ft": 32768,
 		"iS": 359545,
@@ -1849,6 +2433,14 @@
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
+		},
+	"/src/img/logo final fitline.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/img/logo final fitline.pdf",
+		"oF": 0
 		},
 	"/src/img/mini_logo.svg": {
 		"ft": 2097152,
@@ -2067,6 +2659,14 @@
 		"oAP": "/src/investor-detail-aukcie-ukoncena.html",
 		"oF": 0
 		},
+	"/src/investor-reg-steps.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/investor-reg-steps.html",
+		"oF": 0
+		},
 	"/src/js/main.js": {
 		"bF": 0,
 		"ft": 64,
@@ -2110,6 +2710,62 @@
 		"oAP": "/src/kit/_header.html",
 		"oF": 0
 		},
+	"/src/kit/components/_admin-bankove-form.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/_admin-bankove-form.html",
+		"oF": 0
+		},
+	"/src/kit/components/_admin-dokoncenie-registracie.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/_admin-dokoncenie-registracie.html",
+		"oF": 0
+		},
+	"/src/kit/components/_admin-historia-vkladov.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/_admin-historia-vkladov.html",
+		"oF": 0
+		},
+	"/src/kit/components/_admin-historia-vyberov.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/_admin-historia-vyberov.html",
+		"oF": 0
+		},
+	"/src/kit/components/_admin-moje-aukcie-prazdne.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/_admin-moje-aukcie-prazdne.html",
+		"oF": 0
+		},
+	"/src/kit/components/_admin-moje-financie-mini.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/_admin-moje-financie-mini.html",
+		"oF": 0
+		},
+	"/src/kit/components/_admin-moje-financie-slim.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/_admin-moje-financie-slim.html",
+		"oF": 0
+		},
 	"/src/kit/components/_admin-moje-financie.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -2126,12 +2782,92 @@
 		"oAP": "/src/kit/components/_admin-moje-investicie-prazdne.html",
 		"oF": 0
 		},
+	"/src/kit/components/_admin-moje-investicie.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/_admin-moje-investicie.html",
+		"oF": 0
+		},
+	"/src/kit/components/_admin-nahrate-dokumenty.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/_admin-nahrate-dokumenty.html",
+		"oF": 0
+		},
 	"/src/kit/components/_admin-najnovsie-aukcie.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/src/kit/components/_admin-najnovsie-aukcie.html",
+		"oF": 0
+		},
+	"/src/kit/components/_admin-osobneudaje-form.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/_admin-osobneudaje-form.html",
+		"oF": 0
+		},
+	"/src/kit/components/_admin-overovanie.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/_admin-overovanie.html",
+		"oF": 0
+		},
+	"/src/kit/components/_admin-ponuky-investorov.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/_admin-ponuky-investorov.html",
+		"oF": 0
+		},
+	"/src/kit/components/_admin-prebiehajuce-aukcie-moje.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/_admin-prebiehajuce-aukcie-moje.html",
+		"oF": 0
+		},
+	"/src/kit/components/_admin-prebiehajuce-aukcie.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/_admin-prebiehajuce-aukcie.html",
+		"oF": 0
+		},
+	"/src/kit/components/_admin-prihlasovacie-form.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/_admin-prihlasovacie-form.html",
+		"oF": 0
+		},
+	"/src/kit/components/_admin-sidebar--disabled.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/_admin-sidebar--disabled.html",
+		"oF": 0
+		},
+	"/src/kit/components/_admin-sidebar-dark--disabled.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/_admin-sidebar-dark--disabled.html",
 		"oF": 0
 		},
 	"/src/kit/components/_admin-sidebar-dark.kit": {
@@ -2150,6 +2886,94 @@
 		"oAP": "/src/kit/components/_admin-sidebar.html",
 		"oF": 0
 		},
+	"/src/kit/components/_admin-ukoncene-aukcie.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/_admin-ukoncene-aukcie.html",
+		"oF": 0
+		},
+	"/src/kit/components/_admin-ukoncene-investicie.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/_admin-ukoncene-investicie.html",
+		"oF": 0
+		},
+	"/src/kit/components/_admin-vklad-form.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/_admin-vklad-form.html",
+		"oF": 0
+		},
+	"/src/kit/components/_admin-vsetky-aukcie.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/_admin-vsetky-aukcie.html",
+		"oF": 0
+		},
+	"/src/kit/components/_admin-vsetky-investicie.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/_admin-vsetky-investicie.html",
+		"oF": 0
+		},
+	"/src/kit/components/_admin-vyber-form.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/_admin-vyber-form.html",
+		"oF": 0
+		},
+	"/src/kit/components/items/_aukcia.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/items/_aukcia.html",
+		"oF": 0
+		},
+	"/src/kit/components/items/_dokument.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/items/_dokument.html",
+		"oF": 0
+		},
+	"/src/kit/components/items/_investicia.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/items/_investicia.html",
+		"oF": 0
+		},
+	"/src/kit/components/items/_ponuka.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/items/_ponuka.html",
+		"oF": 0
+		},
+	"/src/kit/components/items/_vyber.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/components/items/_vyber.html",
+		"oF": 0
+		},
 	"/src/kit/header/_alerts.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -2166,6 +2990,14 @@
 		"oAP": "/src/kit/header/_profile.html",
 		"oF": 0
 		},
+	"/src/kit/modals/_dokument-uspesny.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/modals/_dokument-uspesny.html",
+		"oF": 0
+		},
 	"/src/kit/modals/_investor-ponuka.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -2174,12 +3006,36 @@
 		"oAP": "/src/kit/modals/_investor-ponuka.html",
 		"oF": 0
 		},
+	"/src/kit/modals/_nahrajte-dokument.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/modals/_nahrajte-dokument.html",
+		"oF": 0
+		},
+	"/src/kit/modals/_napiste-nam.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/modals/_napiste-nam.html",
+		"oF": 0
+		},
 	"/src/kit/modals/_overenie-uspesne.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/src/kit/modals/_overenie-uspesne.html",
+		"oF": 0
+		},
+	"/src/kit/modals/_ukoncena-aukcia.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/src/kit/modals/_ukoncena-aukcia.html",
 		"oF": 0
 		},
 	"/src/kit/modals/_ziadost-o-pozicku.kit": {
@@ -2278,12 +3134,12 @@
 		"oAP": "/src/kit/ziadatel/_reg-prijmy-zavazky.html",
 		"oF": 0
 		},
-	"/src/landing-page-veritel.kit": {
+	"/src/landing-page-investor.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/src/landing-page-veritel.html",
+		"oAP": "/src/landing-page-investor.html",
 		"oF": 0
 		},
 	"/src/landing-page-ziadatel.kit": {
@@ -2310,12 +3166,12 @@
 		"oAP": "/src/prihlasenie.html",
 		"oF": 0
 		},
-	"/src/registracia-veritel.kit": {
+	"/src/registracia-investor.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/src/registracia-veritel.html",
+		"oAP": "/src/registracia-investor.html",
 		"oF": 0
 		},
 	"/src/registracia-ziadatel.kit": {
@@ -4645,6 +5501,446 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/src/vendor/hamburgers/_base.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/_base.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/hamburgers.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/hamburgers.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_3dx-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_3dx-r.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_3dx.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_3dx.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_3dxy-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_3dxy-r.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_3dxy.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_3dxy.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_3dy-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_3dy-r.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_3dy.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_3dy.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_arrow-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_arrow-r.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_arrow.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_arrow.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_arrowalt-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_arrowalt-r.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_arrowalt.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_arrowalt.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_arrowturn-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_arrowturn-r.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_arrowturn.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_arrowturn.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_boring.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_boring.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_collapse-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_collapse-r.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_collapse.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_collapse.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_elastic-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_elastic-r.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_elastic.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_elastic.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_emphatic-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_emphatic-r.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_emphatic.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_emphatic.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_minus.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_minus.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_slider-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_slider-r.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_slider.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_slider.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_spin-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_spin-r.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_spin.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_spin.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_spring-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_spring-r.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_spring.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_spring.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_squeeze.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_squeeze.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_stand-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_stand-r.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_stand.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_stand.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_vortex-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_vortex-r.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/hamburgers/types/_vortex.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/vendor/hamburgers/types/_vortex.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/vendor/jquery-mask/jquery.mask.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/src/vendor/jquery-mask/jquery.mask.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/src/vendor/jquery-nice-select/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -5150,44 +6446,12 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/src/veritel-reg-steps.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/src/veritel-reg-steps.html",
-		"oF": 0
-		},
 	"/src/zabudnute-heslo.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/src/zabudnute-heslo.html",
-		"oF": 0
-		},
-	"/src/ziadatel-detail-aukcie-prebiehajuca.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/src/ziadatel-detail-aukcie-prebiehajuca.html",
-		"oF": 0
-		},
-	"/src/ziadatel-detail-aukcie-ukoncena-naplnena.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/src/ziadatel-detail-aukcie-ukoncena-naplnena.html",
-		"oF": 0
-		},
-	"/src/ziadatel-detail-aukcie-ukoncena-nenaplnena.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/src/ziadatel-detail-aukcie-ukoncena-nenaplnena.html",
 		"oF": 0
 		},
 	"/src/ziadatel-reg-steps.kit": {

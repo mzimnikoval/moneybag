@@ -78,6 +78,7 @@ $( function() {
 		slidesPerView: 'auto',
 		centeredSlides: false,
 		spaceBetween: 0,
+		loop: true,
 	  
 		// If we need pagination
 		pagination: {
