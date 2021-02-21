@@ -110,7 +110,7 @@
         width: 34.5rem;
 
         @include media-breakpoint-up(xl) {
-            width: 56rem !important;
+            width: 56rem !important;            
         }  
     
 
@@ -125,6 +125,7 @@
             
             @include media-breakpoint-up(xl) {
                 padding: 6rem 6rem 6rem 7rem;
+                height: 434px !important;
             }
     
             img {
